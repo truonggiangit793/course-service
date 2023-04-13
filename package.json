@@ -1,0 +1,42 @@
+{
+    "name": "course-service",
+    "version": "23.4.13",
+    "description": "Student System Course Service",
+    "main": "app.js",
+    "scripts": {
+        "start": "yarn build && node dist/app.js",
+        "dev": "nodemon --exec babel-node src/app.js",
+        "clean": "rm -rf dist && mkdir dist",
+        "commit": "git add . && git commit -m 'Update code'",
+        "push": "git add . && git commit -m 'Update code' && git push origin main",
+        "build": "yarn clean && babel ./src -d ./dist"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.1.0",
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "dotenv": "^16.0.3",
+        "express": "~4.16.1",
+        "ip": "^1.1.8",
+        "joi": "^17.8.3",
+        "morgan": "^1.10.0",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^6.10.0",
+        "mongoose-delete": "^0.5.4",
+        "multer": "^1.4.5-lts.1",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.21.0",
+        "@babel/core": "^7.21.4",
+        "@babel/node": "^7.20.7",
+        "@babel/plugin-transform-runtime": "^7.21.4",
+        "@babel/preset-env": "^7.21.4",
+        "babel-plugin-module-resolver": "^5.0.0",
+        "chai": "^4.3.7",
+        "mocha": "^10.2.0",
+        "nodemon": "^2.0.20",
+        "supertest": "^6.3.3"
+    }
+}
