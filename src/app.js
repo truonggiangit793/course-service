@@ -1,18 +1,18 @@
 import ip from "ip";
 import http from "http";
-import logger from "morgan";
 import express from "express";
 import createError from "http-errors";
 import cookieParser from "cookie-parser";
 import jsonResponse from "@/utils/json";
 import RouteInitializer from "@/routes/index";
 import MongoDBConnection from "@/configs/db";
+import logger from "@/services/logger";
 
 const app = express();
 const port = normalizePort(process.env.PORT || 3000);
 const debug = require("debug")("server");
 
-app.use(logger("dev"));
+app.use(logger);
 app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }));
