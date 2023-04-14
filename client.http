@@ -1,0 +1,26 @@
+###
+GET http://localhost:2023/api/course-service/v1/course/get/51900793?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+###
+DELETE  http://localhost:2023/api/course-service/v1/course/delete/51900793?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+###
+PUT  http://localhost:2023/api/course-service/v1/course/restore/702907154?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+###
+GET http://localhost:2023/api/course-service/v1/course/get-all?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+###
+GET http://localhost:2023/api/course-service/v1/course/get-all-deleted?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+###
+POST http://localhost:2023/api/course-service/v1/course/new?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+
+{
+    "code": 5190075325322,
+    "name":"Subject ABC",
+    "credits": 12,
+    "description": "This is a description of the subject ABC",
+    "prerequisite": ["64187a20104b0ba6a2b0c02e", "64187a8e7e2da13b46cb2d44"]
+}
