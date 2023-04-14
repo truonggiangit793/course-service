@@ -9,4 +9,10 @@ Router.get("/get-all", (req, res, next) => {
     jsonResponse({ req, res }).success({ statusCode: 200, message: "Testing from Academic controller" });
 });
 
+/* * * POST * * */
+
+/* * * DELETE * * */
+
+/* * * PUT * * */
+
 export default Router;
