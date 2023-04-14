@@ -2,3 +2,4 @@
 /dist
 .env
 .vs_code
+.DS_Store
