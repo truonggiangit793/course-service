@@ -1,0 +1,85 @@
+ERROR: Course code 51900793 cannot be found or has been removed.
+NotFound: Course code 51900793 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:33:39
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+ERROR: Course code 51900793 cannot be found or has been removed.
+NotFound: Course code 51900793 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:33:39
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>>>> 4/15/2023 - 8:26:46 AM GET[404]: /api/course-service/v1/course/get/51900793?api_key=wGlWnNDcrU0K4zOF8ywGl 3.752ms - vscode-restclient
+>>>>>> 4/15/2023 - 8:27:16 AM GET[404]: ERROR: Course code 51900793 cannot be found or has been removed. 
+ NotFound: Course code 51900793 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:33:39
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>>>> 4/15/2023 - 8:27:16 AM GET[404]: /api/course-service/v1/course/get/51900793?api_key=wGlWnNDcrU0K4zOF8ywGl 44.895ms - vscode-restclient
+>>>>>> 4/15/2023 - 8:27:34 AM DELETE[404]: ERROR: Course record with course code 51900793 cannot be found. 
+ NotFound: Course record with course code 51900793 cannot be found.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:52:52
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>>>> 4/15/2023 - 8:27:34 AM DELETE[404]: /api/course-service/v1/course/delete/51900793?api_key=wGlWnNDcrU0K4zOF8ywGl 7.175ms - vscode-restclient
+>>>>>> 4/15/2023 - 8:28:10 AM POST[200]: ERROR: Subject ABC course with course code 5190075325322 is already existed. 
+ DatabaseError: Subject ABC course with course code 5190075325322 is already existed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/utils/helper.js:3:17)
+    at call (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:87:51)
+    at tryCatch (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at Generator._invoke (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at Generator.next (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at asyncGeneratorStep (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at _next (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at callback (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:91:10)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:32:32
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>>>> 4/15/2023 - 8:28:10 AM POST[200]: /api/course-service/v1/course/new?api_key=wGlWnNDcrU0K4zOF8ywGl 20.709ms - vscode-restclient
+>>>>>> 4/15/2023 - 8:28:13 AM POST[200]: /api/course-service/v1/course/new?api_key=wGlWnNDcrU0K4zOF8ywGl 14.224ms - vscode-restclient
+>>>>>> 4/15/2023 - 8:28:13 AM POST[200]: ERROR: Subject ABC course with course code 5190075325322 is already existed. 
+ DatabaseError: Subject ABC course with course code 5190075325322 is already existed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/utils/helper.js:3:17)
+    at call (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:87:51)
+    at tryCatch (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at Generator._invoke (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at Generator.next (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at asyncGeneratorStep (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at _next (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at callback (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:91:10)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:32:32
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>>>> 4/15/2023 - 8:28:18 AM POST[200]: ERROR: Subject ABC course with course code 5190075325322 is already existed. 
+ DatabaseError: Subject ABC course with course code 5190075325322 is already existed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/utils/helper.js:3:17)
+    at call (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:87:51)
+    at tryCatch (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at Generator._invoke (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at Generator.next (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at asyncGeneratorStep (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at _next (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1
+    at new Promise (<anonymous>)
+    at apply (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:2:1)
+    at callback (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:91:10)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:32:32
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>>>> 4/15/2023 - 8:28:18 AM POST[200]: /api/course-service/v1/course/new?api_key=wGlWnNDcrU0K4zOF8ywGl 5.135ms - vscode-restclient
+>>>>>> 4/15/2023 - 8:30:41 AM GET[404] : /api/course-service/v1/course/get/51900793?api_key=wGlWnNDcrU0K4zOF8ywGl: ERROR: Course code 51900793 cannot be found or has been removed. 
+ NotFound: Course code 51900793 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/src/models/course.js:33:39
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/CourseModule/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>>>> 4/15/2023 - 8:30:41 AM GET[404]: /api/course-service/v1/course/get/51900793?api_key=wGlWnNDcrU0K4zOF8ywGl 60.082ms - vscode-restclient

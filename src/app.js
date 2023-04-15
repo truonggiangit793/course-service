@@ -12,7 +12,7 @@ const app = express();
 const port = normalizePort(process.env.PORT || 3000);
 const debug = require("debug")("server");
 
-app.use(logger);
+app.use(logger.log);
 app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }));
@@ -25,9 +25,9 @@ app.use(function (req, res, next) {
 });
 
 app.use(function (error, req, res, next) {
-    console.error({ error });
     res.locals.message = error.message;
     res.locals.error = req.app.get("env") === "development" ? error : {};
+    logger.error({ req, res, error });
     return jsonResponse({ req, res }).failed({ statusCode: error.status || 500, message: error.message || "Internal Server Error", errors: error || null });
 });
 
