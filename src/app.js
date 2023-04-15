@@ -6,13 +6,14 @@ import cookieParser from "cookie-parser";
 import jsonResponse from "@/utils/json";
 import RouteInitializer from "@/routes/index";
 import MongoDBConnection from "@/configs/db";
-import logger from "@/services/logger";
+import logger from "@/utils/logger";
 
 const app = express();
 const port = normalizePort(process.env.PORT || 3000);
 const debug = require("debug")("server");
 
-app.use(logger.log);
+console.log = logger.config;
+app.use(logger.morgan);
 app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: false }));
@@ -25,9 +26,9 @@ app.use(function (req, res, next) {
 });
 
 app.use(function (error, req, res, next) {
+    console.log(error);
     res.locals.message = error.message;
     res.locals.error = req.app.get("env") === "development" ? error : {};
-    logger.error({ req, res, error });
     return jsonResponse({ req, res }).failed({ statusCode: error.status || 500, message: error.message || "Internal Server Error", errors: error || null });
 });
 
@@ -51,11 +52,11 @@ function onError(error) {
     const bind = typeof port === "string" ? "Pipe " + port : "Port " + port;
     switch (error.code) {
         case "EACCES":
-            console.error(bind + " requires elevated privileges");
+            console.log(bind + " requires elevated privileges");
             process.exit(1);
             break;
         case "EADDRINUSE":
-            console.error(bind + " is already in use");
+            console.log(bind + " is already in use");
             process.exit(1);
             break;
         default:
@@ -66,7 +67,7 @@ function onError(error) {
 function onListening() {
     const addr = server.address();
     const bind = typeof addr === "string" ? "pipe " + addr : "port " + addr.port;
-    console.log("\x1b[36m%s\x1b[0m", ">>>>>> Local address: " + "http://localhost:" + port);
-    console.log("\x1b[36m%s\x1b[0m", ">>>>>> Network address: " + "http://" + ip.address() + ":" + port);
+    console.log("Local address: " + "http://localhost:" + port);
+    console.log("Network address: " + "http://" + ip.address() + ":" + port);
     debug("Listening on " + bind);
 }
