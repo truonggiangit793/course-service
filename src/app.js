@@ -13,6 +13,7 @@ const port = normalizePort(process.env.PORT || 3000);
 const debug = require("debug")("server");
 
 console.log = logger.config;
+
 app.use(logger.morgan);
 app.use(express.json());
 app.use(cookieParser());

@@ -56,6 +56,17 @@ class Course {
             });
         });
     }
+    forceDeleteOneByCode({ code = null }, callback) {
+        if (!code) return callback(throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }), null);
+        this.model.findDeleted({ code }, (error, course) => {
+            if (error) return callback(throwError({ error }), null);
+            if (course.length === 0) return callback(throwError({ name: "NotFound", message: "Course record with course code " + code + " cannot be found.", status: 404 }), null);
+            return this.model.remove({ code }, (error, removed) => {
+                if (error) return callback(throwError({ error }), null);
+                return callback(null, course[0]);
+            });
+        });
+    }
     restoreOneByCode({ code = null }, callback) {
         if (!code) return callback(throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }), null);
         this.model.findDeleted({ code }, (error, course) => {

@@ -54,6 +54,13 @@ Router.delete("/delete/:courseId", function (req, res, next) {
         return jsonResponse({ req, res }).success({ statusCode: 200, message: course.name + " course with course code " + courseId + " has been removed." });
     });
 });
+Router.delete("/delete/:courseId/force", function (req, res, next) {
+    const { courseId } = req.params;
+    courseModel.forceDeleteOneByCode({ code: parseInt(courseId) }, (err, course) => {
+        if (err) return next(err);
+        return jsonResponse({ req, res }).success({ statusCode: 200, message: course.name + " course with course code " + courseId + " has been removed out of database." });
+    });
+});
 
 /* * * PUT * * */
 Router.put("/restore/:courseId", function (req, res, next) {
