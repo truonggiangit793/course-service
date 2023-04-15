@@ -4,7 +4,7 @@ export default function ({ req, res }) {
             json.handleError({ statusCode, message, data, errors });
             json.send({ status: true, statusCode, message, data, errors });
         },
-        failed: ({ statusCode = 500, message = "Default message!", data = {}, errors = {} }) => {
+        failed: ({ statusCode = 500, message = "Default message!", data = null, errors = null }) => {
             json.handleError({ statusCode, message, data, errors });
             json.send({ status: false, statusCode, message, data, errors });
         },
