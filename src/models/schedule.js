@@ -6,9 +6,11 @@ const model = mongoose.model(
     "Schedule",
     new mongoose.Schema(
         {
+            studentId: { type: String, required: true },
             code: { type: Number, require: true },
             classId: { type: Number, required: true },
             groupId: { type: Number, required: true },
+            dayToFinished: { type: Number, require: true },
             timeStart: { type: Number, required: true },
             timeEnd: { type: Number, required: true },
             limit: { type: Number, required: true },
