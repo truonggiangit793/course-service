@@ -2,10 +2,10 @@
 GET http://localhost:2023/api/course-service/v1/course/get/51900793?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 ###
-DELETE  http://localhost:2023/api/course-service/v1/course/delete/5190075325322?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+DELETE  http://localhost:2023/api/course-service/v1/course/delete/51900753253221?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 ###
-DELETE  http://localhost:2023/api/course-service/v1/course/delete/5190075325322/force?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+DELETE  http://localhost:2023/api/course-service/v1/course/delete/51900753253221/force?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 ###
 PUT  http://localhost:2023/api/course-service/v1/course/restore/519007932222?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
@@ -21,9 +21,39 @@ POST http://localhost:2023/api/course-service/v1/course/new?api_key=wGlWnNDcrU0K
 content-type: application/json
 
 {
-    "code": 5190075325322,
+    "code": 432543634321,
     "name":"Subject ABC",
     "credits": 12,
     "description": "This is a description of the subject ABC",
-    "prerequisite": ["64187a20104b0ba6a2b0c02e", "64187a8e7e2da13b46cb2d44"]
+    "prerequisite": ["643cfbfa484aacdb97bf0e71"]
+}
+
+
+# ==============================================================================================================
+
+
+###
+GET http://localhost:2023/api/course-service/v1/semester/get/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+###
+DELETE  http://localhost:2023/api/course-service/v1/semester/delete/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+###
+DELETE  http://localhost:2023/api/course-service/v1/semester/delete/HK1-2023-2024/force?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+###
+PUT  http://localhost:2023/api/course-service/v1/semester/restore/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+###
+GET http://localhost:2023/api/course-service/v1/semester/get-all?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+###
+GET http://localhost:2023/api/course-service/v1/semester/get-all-deleted?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+###
+POST http://localhost:2023/api/course-service/v1/semester/new?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+
+{
+    "alias": "HK1-2023-2024"
 }
