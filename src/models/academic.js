@@ -20,14 +20,29 @@ class Academic {
     constructor(model) {
         this.model = model;
     }
-    findByStudent({ studentId, semesterAlias }, callback) {
-        if (!studentId) return callback(throwError({ name: "MissedContent", message: "Student ID must be provided.", status: 200 }), null);
-        if (!semesterAlias) return callback(throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }), null);
+    findByStudentInSemester({ studentId, semesterAlias }, callback) {
+        if (!studentId)
+            return callback(
+                throwError({ name: "MissedContent", message: "Student ID must be provided.", status: 200 }),
+                null
+            );
+        if (!semesterAlias)
+            return callback(
+                throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }),
+                null
+            );
 
-        this.model.findOne({ code }, (error, course) => {
+        this.model.find({ studentId, semesterAlias }, (error, academic) => {
             if (error) return callback(throwError({ error }), null);
-            if (course) return callback(null, course);
-            return callback(throwError({ name: "NotFound", message: "Course code " + code + " cannot be found or has been removed.", status: 404 }), null);
+            if (academic) return callback(null, academic);
+            return callback(
+                throwError({
+                    name: "NotFound",
+                    message: "academic for student " + studentId + " cannot be found or has been removed.",
+                    status: 404,
+                }),
+                null
+            );
         });
     }
     findAll(callback) {
@@ -43,10 +58,22 @@ class Academic {
         });
     }
     deleteOneByCode({ code = null }, callback) {
-        if (!code) return callback(throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }), null);
+        if (!code)
+            return callback(
+                throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }),
+                null
+            );
         this.model.findOne({ code }, (error, course) => {
             if (error) return callback(throwError({ error }), null);
-            if (!course) return callback(throwError({ name: "NotFound", message: "Course record with course code " + code + " cannot be found.", status: 404 }), null);
+            if (!course)
+                return callback(
+                    throwError({
+                        name: "NotFound",
+                        message: "Course record with course code " + code + " cannot be found.",
+                        status: 404,
+                    }),
+                    null
+                );
             return this.model.delete({ code }, (error, removed) => {
                 if (error) return callback(throwError({ error }), null);
                 return callback(null, course);
@@ -54,10 +81,22 @@ class Academic {
         });
     }
     forceDeleteOneByCode({ code = null }, callback) {
-        if (!code) return callback(throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }), null);
+        if (!code)
+            return callback(
+                throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }),
+                null
+            );
         this.model.findDeleted({ code }, (error, course) => {
             if (error) return callback(throwError({ error }), null);
-            if (course.length === 0) return callback(throwError({ name: "NotFound", message: "Course record with course code " + code + " cannot be found.", status: 404 }), null);
+            if (course.length === 0)
+                return callback(
+                    throwError({
+                        name: "NotFound",
+                        message: "Course record with course code " + code + " cannot be found.",
+                        status: 404,
+                    }),
+                    null
+                );
             return this.model.remove({ code }, (error, removed) => {
                 if (error) return callback(throwError({ error }), null);
                 return callback(null, course[0]);
@@ -65,38 +104,79 @@ class Academic {
         });
     }
     restoreOneByCode({ code = null }, callback) {
-        if (!code) return callback(throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }), null);
+        if (!code)
+            return callback(
+                throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }),
+                null
+            );
         this.model.findDeleted({ code }, (error, course) => {
             if (error) return callback(throwError({ error }), null);
-            if (!course[0]) return callback(throwError({ name: "NotFound", message: "Course record with course code " + code + " cannot be found.", status: 404 }), null);
+            if (!course[0])
+                return callback(
+                    throwError({
+                        name: "NotFound",
+                        message: "Course record with course code " + code + " cannot be found.",
+                        status: 404,
+                    }),
+                    null
+                );
             return this.model.restore((error) => {
                 if (error) return callback(throwError({ error }), null);
                 return callback(null, course[0]);
             });
         });
     }
-    createOne({ studentId = null, courseCode = null, semesterAlias = null }, callback) {
-        if (!studentId) return callback(throwError({ name: "MissedContent", message: "Student ID must be provided.", status: 200 }), null);
-        if (!courseCode) return callback(throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }), null);
-        if (!semesterAlias) return callback(throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }), null);
-        courseModel.findOneByCode({ code: parseInt(courseId) }, function (err, course) {
-            if (err) return next(err);
-            semesterModel.findOneByAlias({ alias }, (error, semester) => {
-                if (err) return next(error);
-                this.model.findOne({ studentId, courseCode, semesterAlias }, function (error, result) {
-                    if (error) return callback(throwError({ error }), null);
-                    if (result)
+    async createOne({ studentId = null, courseCode = null, semesterAlias = null }, callback) {
+        try {
+            if (!studentId)
+                return callback(
+                    throwError({ name: "MissedContent", message: "Student ID must be provided.", status: 200 }),
+                    null
+                );
+            if (!courseCode)
+                return callback(
+                    throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }),
+                    null
+                );
+            if (!semesterAlias)
+                return callback(
+                    throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }),
+                    null
+                );
+
+            courseModel.findOneByCode({ code: courseCode }, function (err, course) {
+                if (err) return callback(err, null);
+                semesterModel.findOneByAlias({ alias: semesterAlias }, async function (error, semester) {
+                    if (err) return callback(error, null);
+                    console.log(this);
+                    const isExits = this.model.find({ studentId, courseCode, semesterAlias });
+                    if (isExits) {
                         return callback(
                             throwError({
                                 name: "MissedContent",
-                                message: "You have been registered for this course with course code " + courseCode + " in semester with alias " + semesterAlias + ".",
+                                message:
+                                    "You have been registered for this course with course code " +
+                                    courseCode +
+                                    " in semester with alias " +
+                                    semesterAlias +
+                                    ".",
                                 status: 200,
                             }),
                             null
                         );
+                    } else {
+                        const academicQuery = await this.model.createOne({
+                            studentId,
+                            courseCode,
+                            semesterAlias,
+                        });
+                        return callback(null, academicQuery);
+                    }
                 });
             });
-        });
+        } catch (err) {
+            callback(err, null);
+        }
     }
 }
 

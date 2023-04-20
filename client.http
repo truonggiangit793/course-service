@@ -1,5 +1,5 @@
 ###
-GET http://localhost:2023/api/course-service/v1/course/get/51900793?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+GET http://localhost:2023/api/course-service/v1/course/get/4325436343211223?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 ###
 DELETE  http://localhost:2023/api/course-service/v1/course/delete/51900753253221?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
@@ -21,11 +21,11 @@ POST http://localhost:2023/api/course-service/v1/course/new?api_key=wGlWnNDcrU0K
 content-type: application/json
 
 {
-    "code": 432543634321,
-    "name":"Subject ABC",
+    "code": 4325436343211223,
+    "name":"Subject A",
     "credits": 12,
     "description": "This is a description of the subject ABC",
-    "prerequisite": ["643cfbfa484aacdb97bf0e71"]
+    "prerequisite": ["643e2d1357b93e5a82ddc838"]
 }
 
 
@@ -55,5 +55,22 @@ POST http://localhost:2023/api/course-service/v1/semester/new?api_key=wGlWnNDcrU
 content-type: application/json
 
 {
-    "alias": "HK1-2023-2024"
+    "alias": "HK2-2023-2024"
+}
+
+
+# ==============================================================================================================
+
+###
+GET  http://localhost:2023/api/course-service/v1/academic/get-list-academic?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+
+###
+POST http://localhost:2023/api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+
+{
+    "studentId":"2",
+    "courseCode":"432543634321",
+    "semesterAlias":"HK2-2023-2024"
 }
