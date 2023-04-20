@@ -1615,3 +1615,305 @@ ValidationError: "courseCode" must be a number
 >>>> 20/04/2023|05:24:14PM| Local address: http://localhost:2023
 >>>> 20/04/2023|05:24:14PM| Network address: http://172.20.128.1:2023
 >>>> 20/04/2023|05:24:14PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|05:58:36PM| Local address: http://localhost:2023
+>>>> 20/04/2023|05:58:36PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|05:58:36PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|07:19:10PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|07:19:10PM| Local address: http://localhost:2023
+>>>> 20/04/2023|07:19:10PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|07:24:22PM| SyntaxError: Unexpected token [ in JSON at position 112
+SyntaxError: Unexpected token [ in JSON at position 112
+    at JSON.parse (<anonymous>)
+    at parse (D:\hk2 22-23\SOA\course-service\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\hk2 22-23\SOA\course-service\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\hk2 22-23\SOA\course-service\node_modules\raw-body\index.js:224:16)
+    at done (D:\hk2 22-23\SOA\course-service\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\hk2 22-23\SOA\course-service\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+>>>> 20/04/2023|07:24:22PM| POST[400]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 68.482ms - vscode-restclient
+>>>> 20/04/2023|07:25:23PM| Local address: http://localhost:2023
+>>>> 20/04/2023|07:25:23PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|07:25:23PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|07:28:49PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|07:28:49PM| Local address: http://localhost:2023
+>>>> 20/04/2023|07:28:49PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|07:29:33PM| Local address: http://localhost:2023
+>>>> 20/04/2023|07:29:33PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|07:29:33PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|08:46:49PM| Local address: http://localhost:2023
+>>>> 20/04/2023|08:46:49PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|08:46:50PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|08:48:07PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|08:48:06PM| Local address: http://localhost:2023
+>>>> 20/04/2023|08:48:07PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|08:50:41PM| Local address: http://localhost:2023
+>>>> 20/04/2023|08:50:42PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|08:50:42PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|08:50:56PM| Local address: http://localhost:2023
+>>>> 20/04/2023|08:50:56PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|08:50:56PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|08:50:58PM| MissedContent: You have been registered for this course with course code 4325436343211223 in semester with alias HK2-2023-2024.
+MissedContent: You have been registered for this course with course code 4325436343211223 in semester with alias HK2-2023-2024.
+    at throwError (D:\hk2 22-23\SOA\course-service\src\utils\/helper.js:3:17)
+    at call (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:152:35)
+    at tryCatch (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:2:1)
+    at Generator._invoke (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:2:1)
+    at Generator.next (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:2:1)
+    at asyncGeneratorStep (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:2:1)
+    at _next (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:2:1)
+    at D:\hk2 22-23\SOA\course-service\src\models\/academic.js:2:1
+    at new Promise (<anonymous>)
+    at apply (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:2:1)
+    at callback (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:172:14)
+    at D:\hk2 22-23\SOA\course-service\src\models\/semester.js:18:34
+    at D:\hk2 22-23\SOA\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 20/04/2023|08:50:58PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 278.463ms - vscode-restclient
+>>>> 20/04/2023|08:52:56PM| MissedContent: You have been registered for this course with course code 4325436343211223 in semester with alias HK2-2023-2024.
+MissedContent: You have been registered for this course with course code 4325436343211223 in semester with alias HK2-2023-2024.
+    at throwError (D:\hk2 22-23\SOA\course-service\src\utils\/helper.js:3:17)
+    at call (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:152:35)
+    at tryCatch (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:2:1)
+    at Generator._invoke (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:2:1)
+    at Generator.next (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:2:1)
+    at asyncGeneratorStep (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:2:1)
+    at _next (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:2:1)
+    at D:\hk2 22-23\SOA\course-service\src\models\/academic.js:2:1
+    at new Promise (<anonymous>)
+    at apply (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:2:1)
+    at callback (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:172:14)
+    at D:\hk2 22-23\SOA\course-service\src\models\/semester.js:18:34
+    at D:\hk2 22-23\SOA\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 20/04/2023|08:52:56PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 35.257ms - vscode-restclient
+>>>> 20/04/2023|08:55:09PM| Local address: http://localhost:2023
+>>>> 20/04/2023|08:55:09PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|08:55:09PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|08:56:15PM| Local address: http://localhost:2023
+>>>> 20/04/2023|08:56:15PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|08:56:15PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|08:58:04PM| Local address: http://localhost:2023
+>>>> 20/04/2023|08:58:04PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|08:58:04PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|08:58:10PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 138.659ms - vscode-restclient
+>>>> 20/04/2023|09:03:48PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:03:48PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:03:48PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:03:52PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 474.220ms - vscode-restclient
+>>>> 20/04/2023|09:03:52PM| [object Object]
+>>>> 20/04/2023|09:05:23PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:05:23PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:05:24PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:05:26PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 676.615ms - vscode-restclient
+>>>> 20/04/2023|09:06:25PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:06:25PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:06:25PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:06:30PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 175.579ms - vscode-restclient
+>>>> 20/04/2023|09:08:06PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:08:06PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:08:06PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:08:35PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:08:35PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:08:36PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:08:54PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 288.922ms - vscode-restclient
+>>>> 20/04/2023|09:10:52PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:10:52PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:10:53PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:11:00PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 123.962ms - vscode-restclient
+>>>> 20/04/2023|09:11:00PM| TypeError: (0 , _json.default)(...).json is not a function
+TypeError: (0 , _json.default)(...).json is not a function
+    at D:\hk2 22-23\SOA\course-service\src\api\/AcademicService.js:43:59
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+>>>> 20/04/2023|09:12:20PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:12:20PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:12:20PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:12:30PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 147.546ms - vscode-restclient
+>>>> 20/04/2023|09:12:31PM| TypeError: (0 , _json.default)(...).error is not a function
+TypeError: (0 , _json.default)(...).error is not a function
+    at D:\hk2 22-23\SOA\course-service\src\api\/AcademicService.js:43:59
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+>>>> 20/04/2023|09:13:10PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:13:10PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:13:10PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:13:15PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 139.309ms - vscode-restclient
+>>>> 20/04/2023|09:13:15PM| Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\response.js:767:10)
+    at ServerResponse.send (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\response.js:267:15)
+    at Object.send (D:\hk2 22-23\SOA\course-service\src\utils\/json.js:14:36)
+    at Object.failed (D:\hk2 22-23\SOA\course-service\src\utils\/json.js:9:18)
+    at D:\hk2 22-23\SOA\course-service\src\api\/AcademicService.js:43:59
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+>>>> 20/04/2023|09:18:18PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:18:18PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:18:18PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:18:23PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 152.363ms - vscode-restclient
+>>>> 20/04/2023|09:20:02PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:20:02PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:20:02PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:20:12PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:20:12PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:20:12PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:20:34PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 280.595ms - vscode-restclient
+>>>> 20/04/2023|09:24:07PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:24:07PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:24:07PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:24:10PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 155.139ms - vscode-restclient
+>>>> 20/04/2023|09:25:01PM| ValidationError: "courseCode" must be a number
+ValidationError: "courseCode" must be a number
+>>>> 20/04/2023|09:25:01PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 15.096ms - vscode-restclient
+>>>> 20/04/2023|09:36:28PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:36:28PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:36:28PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:36:52PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:36:52PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:36:53PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:37:03PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:37:03PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:37:03PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:37:20PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:37:20PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:37:20PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:37:43PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:37:43PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:37:43PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:38:03PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:38:03PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:38:03PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:42:54PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:42:54PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:42:54PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:44:31PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:44:31PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:44:31PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:44:38PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 281.391ms - vscode-restclient
+>>>> 20/04/2023|09:46:05PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:46:05PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:46:05PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:46:37PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 390.463ms - vscode-restclient
+>>>> 20/04/2023|09:49:16PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:49:16PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:49:16PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:49:21PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 190.492ms - vscode-restclient
+>>>> 20/04/2023|09:49:53PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:49:53PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:49:54PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|09:50:00PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 156.792ms - vscode-restclient
+>>>> 20/04/2023|09:50:59PM| Local address: http://localhost:2023
+>>>> 20/04/2023|09:50:59PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|09:50:59PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:01:06PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:01:06PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:01:06PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:01:37PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:01:37PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:01:37PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:02:03PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:02:03PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:02:03PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:02:18PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:02:18PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:02:18PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:03:17PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:03:17PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:03:17PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:03:55PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:03:55PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:03:56PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:07:19PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:07:19PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:07:20PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:08:38PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:08:38PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:08:38PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:09:42PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:09:42PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:09:42PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:10:53PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:10:53PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:10:53PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:11:42PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:11:42PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:11:42PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:11:53PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:11:53PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:11:53PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:11:56PM| 643e2d1357b93e5a82ddc838
+>>>> 20/04/2023|10:12:31PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:12:31PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:12:31PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:17:19PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:17:19PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:17:20PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:18:21PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:18:21PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:18:21PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:21:36PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:21:36PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:21:36PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:22:30PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:22:30PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:22:30PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:23:25PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:23:25PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:23:25PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:23:35PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 180.228ms - vscode-restclient
+>>>> 20/04/2023|10:25:18PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:25:18PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:25:18PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:25:21PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 107.921ms - vscode-restclient
+>>>> 20/04/2023|10:27:15PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:27:15PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:27:15PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:28:07PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:28:07PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:28:07PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:28:54PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:28:54PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:28:54PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:37:19PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:37:19PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:37:19PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:39:59PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:39:59PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:39:59PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:40:34PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:40:34PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:40:34PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:47:24PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:47:24PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:47:24PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:48:15PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:48:15PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:48:15PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|10:48:30PM| Local address: http://localhost:2023
+>>>> 20/04/2023|10:48:30PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|10:48:30PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|11:09:26PM| Local address: http://localhost:2023
+>>>> 20/04/2023|11:09:26PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|11:09:26PM| Connect to mongoDB successfully!
+>>>> 20/04/2023|11:10:38PM| Local address: http://localhost:2023
+>>>> 20/04/2023|11:10:38PM| Network address: http://172.20.128.1:2023
+>>>> 20/04/2023|11:10:38PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|12:42:22AM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|12:42:22AM| Local address: http://localhost:2023
+>>>> 21/04/2023|12:42:22AM| Connect to mongoDB successfully!
+>>>> 21/04/2023|12:42:35AM| Local address: http://localhost:2023
+>>>> 21/04/2023|12:42:35AM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|12:42:35AM| Connect to mongoDB successfully!
+>>>> 21/04/2023|12:43:26AM| Local address: http://localhost:2023
+>>>> 21/04/2023|12:43:26AM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|12:43:26AM| Connect to mongoDB successfully!
+>>>> 21/04/2023|12:43:58AM| Local address: http://localhost:2023
+>>>> 21/04/2023|12:43:58AM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|12:43:58AM| Connect to mongoDB successfully!
+>>>> 21/04/2023|12:45:15AM| [object Object]
+>>>> 21/04/2023|12:46:04AM| Local address: http://localhost:2023
+>>>> 21/04/2023|12:46:04AM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|12:46:04AM| Connect to mongoDB successfully!

@@ -11,7 +11,7 @@ if (!fs.existsSync(logFilePath)) fs.mkdir(logFilePath, { recursive: true }, (err
 module.exports = {
     config: function (logs) {
         const logLine = ">>>> " + moment().format("DD/MM/YYYY|hh:mm:ssA| ") + logs;
-        const stack = logs.stack ? logLine + "\n" + logs.stack : logLine;
+        const stack = logs?.stack ? logLine + "\n" + logs.stack : logLine;
         fs.readFile(logFile, (err, data) => {
             if (err) return fs.writeFile(logFile, util.format(stack) + "\n", (err) => {});
             return fs.appendFile(logFile, util.format(stack) + "\n", (err) => {});

@@ -45,6 +45,17 @@ class Academic {
             );
         });
     }
+    findBySemester({ alias }, callback) {
+        if (!alias)
+            return callback(
+                throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }),
+                null
+            );
+        this.model.find({ alias }, function (error, academicList) {
+            if (academicList) return callback(null, academicList);
+            return callback(throwError({ error }), null);
+        });
+    }
     findAll(callback) {
         this.model.find({}, function (error, course) {
             if (course) return callback(null, course);
@@ -143,41 +154,42 @@ class Academic {
                     throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }),
                     null
                 );
-
-            courseModel.findOneByCode({ code: courseCode }, function (err, course) {
-                if (err) return callback(err, null);
-                semesterModel.findOneByAlias({ alias: semesterAlias }, async function (error, semester) {
-                    if (err) return callback(error, null);
-                    console.log(this);
-                    const isExits = this.model.find({ studentId, courseCode, semesterAlias });
-                    if (isExits) {
-                        return callback(
-                            throwError({
-                                name: "MissedContent",
-                                message:
-                                    "You have been registered for this course with course code " +
-                                    courseCode +
-                                    " in semester with alias " +
-                                    semesterAlias +
-                                    ".",
-                                status: 200,
-                            }),
-                            null
-                        );
-                    } else {
-                        const academicQuery = await this.model.createOne({
-                            studentId,
-                            courseCode,
-                            semesterAlias,
-                        });
-                        return callback(null, academicQuery);
-                    }
-                });
+            const _this = this;
+            semesterModel.findOneByAlias({ alias: semesterAlias }, async function (error, semester) {
+                if (error) return callback(error, null);
+                const isExits = _this.model.find({ studentId, courseCode, semesterAlias });
+                if (isExits.length > 0) {
+                    return callback(
+                        throwError({
+                            name: "MissedContent",
+                            message:
+                                "You have been registered for this course with course code " +
+                                courseCode +
+                                " in semester with alias " +
+                                semesterAlias +
+                                ".",
+                            status: 200,
+                        }),
+                        null
+                    );
+                } else {
+                    const academicQuery = new _this.model({
+                        studentId,
+                        courseCode,
+                        semesterAlias,
+                    });
+                    await academicQuery.save();
+                    return callback(null, academicQuery);
+                }
             });
         } catch (err) {
             callback(err, null);
         }
     }
+    // test(callback) {
+    //     const aggregate = this.model.aggregate([{$courseCode : }]).count("courseCode");
+    //     return callback(null, aggregate);
+    // }
 }
 
 module.exports = new Academic(model);
