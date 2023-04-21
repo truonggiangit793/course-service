@@ -2961,3 +2961,6 @@ ValidationError: "studentMember" must be an array
 >>>> 21/04/2023|05:40:38PM| Local address: http://localhost:2023
 >>>> 21/04/2023|05:40:38PM| Network address: http://172.17.15.70:2023
 >>>> 21/04/2023|05:40:38PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:44:58PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:44:58PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:44:58PM| Connect to mongoDB successfully!
