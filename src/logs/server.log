@@ -2198,3 +2198,71 @@ NotFound: Academic for student 2 cannot be found or has been removed.
 >>>> 21/04/2023|02:46:18PM| ValidationError: "studentId" is required
 ValidationError: "studentId" is required
 >>>> 21/04/2023|02:46:18PM| GET[500]: /api/course-service/v1/academic/get?semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 7.811ms - vscode-restclient
+>>>> 21/04/2023|02:59:56PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|02:59:56PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:59:56PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:00:07PM| NotFound: Academic for student 2 cannot be found or has been removed.
+NotFound: Academic for student 2 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/academic.js:31:27
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|03:00:07PM| GET[404]: /api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 164.067ms - vscode-restclient
+>>>> 21/04/2023|03:03:21PM| true
+>>>> 21/04/2023|03:03:21PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 94.204ms - vscode-restclient
+>>>> 21/04/2023|03:05:27PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 197.694ms - vscode-restclient
+>>>> 21/04/2023|03:05:27PM| null
+>>>> 21/04/2023|03:06:41PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 52.631ms - vscode-restclient
+>>>> 21/04/2023|03:06:41PM| null
+>>>> 21/04/2023|03:07:13PM| null
+>>>> 21/04/2023|03:07:13PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 102.134ms - vscode-restclient
+>>>> 21/04/2023|03:08:15PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:08:15PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:08:15PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:08:18PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 34.462ms - vscode-restclient
+>>>> 21/04/2023|03:10:04PM| null
+>>>> 21/04/2023|03:10:04PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 136.697ms - vscode-restclient
+>>>> 21/04/2023|03:10:36PM| true
+>>>> 21/04/2023|03:10:36PM| NotFound: Semester with alias HK1-2023-20243 cannot be found or has been removed.
+NotFound: Semester with alias HK1-2023-20243 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/semester.js:19:39
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|03:10:36PM| POST[404]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 71.435ms - vscode-restclient
+>>>> 21/04/2023|03:12:45PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:12:45PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:12:45PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:14:42PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:14:42PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:14:42PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:14:48PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:14:48PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:14:48PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:14:51PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:14:51PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:14:51PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:14:54PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:14:54PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:14:54PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:14:54PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:14:54PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:14:54PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:15:04PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:15:04PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:15:04PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:15:08PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:15:08PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:15:08PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:15:10PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:15:10PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:15:10PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:15:13PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:15:13PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:15:13PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:15:15PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:15:15PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:15:15PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:15:17PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:15:17PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:15:17PM| Connect to mongoDB successfully!

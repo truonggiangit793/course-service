@@ -25,6 +25,31 @@ Router.get("/get", (req, res, next) => {
         });
     });
 });
+Router.get("/statistics/:alias", (req, res, next) => {
+    const alias = req.params.alias || null;
+    courseModel.findAll((err, courseList) => {
+        if (err) return next(err);
+        semesterModel.findOneByAlias({ alias }, (err, semester) => {
+            if (err) return next(err);
+            academicModel.findBySemester({ alias }, (err, listAcademic) => {
+                if (err) return next(err);
+                let results = [];
+                courseList.forEach((course) => {
+                    let academicMatch = listAcademic.filter((academic) => academic.courseCode == course.code);
+                    results.push({
+                        course,
+                        numberOfStudent: academicMatch.length,
+                    });
+                });
+                return jsonResponse({ req, res }).success({
+                    statusCode: 200,
+                    message: "Get list academic statistics in semester " + alias + " successfully!",
+                    data: results,
+                });
+            });
+        });
+    });
+});
 
 /* * * POST * * */
 Router.post("/new", (req, res, next) => {
@@ -41,7 +66,6 @@ Router.post("/new", (req, res, next) => {
             prerequisite.forEach((element) => {
                 allPoints.data.data.forEach((item) => {
                     if (item?.gpa_course >= 5 && item.id_course == element.toString()) {
-                        // console.log(item);
                         isCorrect = item;
                     }
                 });
@@ -66,38 +90,5 @@ Router.post("/new", (req, res, next) => {
         });
     });
 });
-/* * * DELETE * * */
 
-/* * * PUT * * */
-
-/* * * GET : ADMIN * * */
-
-Router.get("/get-academic-statistics/:alias", (req, res, next) => {
-    const alias = req.params.alias || null;
-    // academicModel.test((err, data) => {
-    //     console.info(data);
-    // });
-    courseModel.findAll((err, courseList) => {
-        if (err) return next(err);
-        semesterModel.findOneByAlias({ alias }, (err, semester) => {
-            if (err) return next(err);
-            academicModel.findBySemester({ alias }, (err, listAcademic) => {
-                if (err) return next(err);
-                let results = [];
-                courseList.forEach((course) => {
-                    let academicMatch = listAcademic.filter((academic) => academic.courseCode == course.code);
-                    results.push({
-                        course,
-                        numberOfStudent: academicMatch.length,
-                    });
-                });
-                return jsonResponse({ req, res }).success({
-                    statusCode: 200,
-                    message: "Get list academic statistics in semester " + alias + " successfully!",
-                    data: results,
-                });
-            });
-        });
-    });
-});
 export default Router;
