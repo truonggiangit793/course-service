@@ -75,8 +75,7 @@ Router.get("/get-academic-statistics/:alias", (req, res, next) => {
         if (err) return next(err);
         semesterModel.findOneByAlias({ alias }, (err, semester) => {
             if (err) return next(err);
-            const semesterAlias = alias;
-            academicModel.findBySemester({ semesterAlias }, (err, listAcademic) => {
+            academicModel.findBySemester({ alias }, (err, listAcademic) => {
                 if (err) return next(err);
                 let results = [];
                 courseList.forEach((course) => {
@@ -84,7 +83,7 @@ Router.get("/get-academic-statistics/:alias", (req, res, next) => {
                     results.push({
                         course,
                         numberOfStudent: academicMatch.length,
-                        semesterAlias,
+                        alias,
                     });
                 });
                 return jsonResponse({ req, res }).success({
