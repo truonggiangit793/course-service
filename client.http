@@ -21,11 +21,11 @@ POST http://localhost:2023/api/course-service/v1/course/new?api_key=wGlWnNDcrU0K
 content-type: application/json
 
 {
-    "code": 4325436343211223,
-    "name":"Subject A",
+    "code": 2023004,
+    "name":"Subject D",
     "credits": 12,
-    "description": "This is a description of the subject ABC",
-    "prerequisite": ["643e2d1357b93e5a82ddc838"]
+    "description": "This is a description of the subject D",
+    "prerequisite": ["64423afaf9822028c66dc783"]
 }
 
 
@@ -62,12 +62,8 @@ content-type: application/json
 # ==============================================================================================================
 
 ###
-GET  http://localhost:2023/api/course-service/v1/academic/get-list-academic?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+GET  http://localhost:2023/api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
-###
-GET  http://localhost:2023/api/course-service/v1/academic/get?semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
-content-type: application/json
-
 ###
 POST http://localhost:2023/api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json

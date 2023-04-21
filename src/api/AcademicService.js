@@ -9,7 +9,7 @@ import axios from "axios";
 const Router = express.Router();
 
 /* * * GET * * */
-Router.get("/get-list-academic", (req, res, next) => {
+Router.get("/get", (req, res, next) => {
     const { error } = academicListSchema.validate(req.query);
     if (error) return next(error);
     const { studentId, semesterAlias } = req.query;
@@ -19,8 +19,7 @@ Router.get("/get-list-academic", (req, res, next) => {
             if (err) return next(err);
             return jsonResponse({ req, res }).success({
                 statusCode: 200,
-                message:
-                    "get List academic for student " + studentId + " in semester " + semesterAlias + "successfully!",
+                message: "Academic details with student ID " + studentId + " in semester " + semesterAlias + ".",
                 data: listAcademic,
             });
         });

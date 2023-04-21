@@ -34,11 +34,11 @@ class Academic {
 
         this.model.find({ studentId, semesterAlias }, (error, academic) => {
             if (error) return callback(throwError({ error }), null);
-            if (academic) return callback(null, academic);
+            if (academic[0]) return callback(null, academic);
             return callback(
                 throwError({
                     name: "NotFound",
-                    message: "academic for student " + studentId + " cannot be found or has been removed.",
+                    message: "Academic for student " + studentId + " cannot be found or has been removed.",
                     status: 404,
                 }),
                 null
@@ -46,7 +46,6 @@ class Academic {
         });
     }
     findBySemester({ semesterAlias }, callback) {
-        // console.log(semesterAlias);
         if (!semesterAlias)
             return callback(
                 throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }),
