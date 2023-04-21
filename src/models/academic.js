@@ -45,13 +45,14 @@ class Academic {
             );
         });
     }
-    findBySemester({ alias }, callback) {
-        if (!alias)
+    findBySemester({ semesterAlias }, callback) {
+        // console.log(semesterAlias);
+        if (!semesterAlias)
             return callback(
                 throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }),
                 null
             );
-        this.model.find({ alias }, function (error, academicList) {
+        this.model.find({ semesterAlias }, function (error, academicList) {
             if (academicList) return callback(null, academicList);
             return callback(throwError({ error }), null);
         });

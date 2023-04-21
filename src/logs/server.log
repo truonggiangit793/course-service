@@ -2031,3 +2031,184 @@ ValidationError: "courseCode" must be a number
 >>>> 21/04/2023|02:05:49PM| Local address: http://localhost:2023
 >>>> 21/04/2023|02:05:49PM| Network address: http://172.20.128.1:2023
 >>>> 21/04/2023|02:05:49PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:06:19PM| null
+>>>> 21/04/2023|02:06:19PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 245.936ms - vscode-restclient
+>>>> 21/04/2023|02:07:08PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:07:08PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:07:08PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:07:11PM| null
+>>>> 21/04/2023|02:07:11PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 119.796ms - vscode-restclient
+>>>> 21/04/2023|02:09:20PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:09:20PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:09:20PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:09:38PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 116.447ms - vscode-restclient
+>>>> 21/04/2023|02:09:38PM| null
+>>>> 21/04/2023|02:09:40PM| null
+>>>> 21/04/2023|02:09:40PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 44.158ms - vscode-restclient
+>>>> 21/04/2023|02:10:55PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:10:55PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:10:55PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:11:01PM| 643e2d1357b93e5a82ddc838
+>>>> 21/04/2023|02:11:01PM| null
+>>>> 21/04/2023|02:11:01PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 158.638ms - vscode-restclient
+>>>> 21/04/2023|02:11:28PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:11:28PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:11:28PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:11:39PM| 643e2d1357b93e5a82ddc838
+>>>> 21/04/2023|02:11:39PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 124.121ms - vscode-restclient
+>>>> 21/04/2023|02:11:39PM| null
+>>>> 21/04/2023|02:13:38PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:13:38PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:13:38PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:13:39PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 35.650ms - vscode-restclient
+>>>> 21/04/2023|02:14:36PM| null
+>>>> 21/04/2023|02:14:36PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 156.920ms - vscode-restclient
+>>>> 21/04/2023|02:16:29PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:16:29PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:16:29PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:16:30PM| 1
+>>>> 21/04/2023|02:16:30PM| null
+>>>> 21/04/2023|02:16:30PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 145.747ms - vscode-restclient
+>>>> 21/04/2023|02:18:45PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:18:46PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:18:46PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:19:05PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:19:05PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:19:05PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:19:07PM| false
+>>>> 21/04/2023|02:19:07PM| null
+>>>> 21/04/2023|02:19:07PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 320.322ms - vscode-restclient
+>>>> 21/04/2023|02:20:15PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:20:15PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:20:15PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:20:35PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:20:35PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:20:35PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:20:38PM| string
+>>>> 21/04/2023|02:20:38PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 135.673ms - vscode-restclient
+>>>> 21/04/2023|02:20:38PM| 643e2d1357b93e5a82ddc838
+>>>> 21/04/2023|02:20:38PM| null
+>>>> 21/04/2023|02:21:11PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:21:11PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:21:11PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:22:17PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:22:17PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:22:17PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:22:21PM| string
+>>>> 21/04/2023|02:22:21PM| 643e2d1357b93e5a82ddc838
+>>>> 21/04/2023|02:22:21PM| true
+>>>> 21/04/2023|02:22:21PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 115.247ms - vscode-restclient
+>>>> 21/04/2023|02:22:53PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:22:53PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:22:53PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:22:56PM| 643e2d1357b93e5a82ddc838
+>>>> 21/04/2023|02:22:56PM| string
+>>>> 21/04/2023|02:22:56PM| [object Object]
+>>>> 21/04/2023|02:22:56PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 118.461ms - vscode-restclient
+>>>> 21/04/2023|02:24:20PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:24:20PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:24:20PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:25:32PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:25:32PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:25:32PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:25:50PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 71.909ms - vscode-restclient
+>>>> 21/04/2023|02:27:58PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 68.017ms - vscode-restclient
+>>>> 21/04/2023|02:28:40PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 52.126ms - vscode-restclient
+>>>> 21/04/2023|02:28:55PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 84.775ms - vscode-restclient
+>>>> 21/04/2023|02:34:17PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:34:17PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:34:17PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:35:05PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:35:05PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:35:05PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:35:22PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:35:22PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:35:22PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:35:32PM| MissedContent: Semester alias must be provided.
+MissedContent: Semester alias must be provided.
+    at throwError (D:\hk2 22-23\SOA\course-service\src\utils\/helper.js:3:17)
+    at Academic.findBySemester (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:51:27)
+    at callback (D:\hk2 22-23\SOA\course-service\src\api\/AcademicService.js:82:27)
+    at D:\hk2 22-23\SOA\course-service\src\models\/semester.js:18:34
+    at D:\hk2 22-23\SOA\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|02:35:32PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 59.698ms - vscode-restclient
+>>>> 21/04/2023|02:37:03PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:37:03PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:37:03PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:37:50PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 134.975ms - vscode-restclient
+>>>> 21/04/2023|02:37:50PM| MissedContent: Semester alias must be provided.
+MissedContent: Semester alias must be provided.
+    at throwError (D:\hk2 22-23\SOA\course-service\src\utils\/helper.js:3:17)
+    at Academic.findBySemester (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:51:27)
+    at callback (D:\hk2 22-23\SOA\course-service\src\api\/AcademicService.js:82:27)
+    at D:\hk2 22-23\SOA\course-service\src\models\/semester.js:18:34
+    at D:\hk2 22-23\SOA\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|02:39:38PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:39:38PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:39:38PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:39:40PM| [object Object]
+>>>> 21/04/2023|02:39:40PM| MissedContent: Semester alias must be provided.
+MissedContent: Semester alias must be provided.
+    at throwError (D:\hk2 22-23\SOA\course-service\src\utils\/helper.js:3:17)
+    at Academic.findBySemester (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:51:27)
+    at callback (D:\hk2 22-23\SOA\course-service\src\api\/AcademicService.js:83:27)
+    at D:\hk2 22-23\SOA\course-service\src\models\/semester.js:18:34
+    at D:\hk2 22-23\SOA\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|02:39:40PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 102.172ms - vscode-restclient
+>>>> 21/04/2023|02:40:07PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:40:07PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:40:07PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:40:18PM| MissedContent: Semester alias must be provided.
+MissedContent: Semester alias must be provided.
+    at throwError (D:\hk2 22-23\SOA\course-service\src\utils\/helper.js:3:17)
+    at Academic.findBySemester (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:51:27)
+    at callback (D:\hk2 22-23\SOA\course-service\src\api\/AcademicService.js:83:27)
+    at D:\hk2 22-23\SOA\course-service\src\models\/semester.js:18:34
+    at D:\hk2 22-23\SOA\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|02:40:18PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 76.103ms - vscode-restclient
+>>>> 21/04/2023|02:41:43PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:41:43PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:41:43PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:41:53PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 58.773ms - vscode-restclient
+>>>> 21/04/2023|02:41:53PM| MissedContent: Semester alias must be provided.
+MissedContent: Semester alias must be provided.
+    at throwError (D:\hk2 22-23\SOA\course-service\src\utils\/helper.js:3:17)
+    at Academic.findBySemester (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:51:27)
+    at callback (D:\hk2 22-23\SOA\course-service\src\api\/AcademicService.js:83:27)
+    at D:\hk2 22-23\SOA\course-service\src\models\/semester.js:18:34
+    at D:\hk2 22-23\SOA\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|02:42:27PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:42:27PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:42:27PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:42:31PM| MissedContent: Semester alias must be provided.
+MissedContent: Semester alias must be provided.
+    at throwError (D:\hk2 22-23\SOA\course-service\src\utils\/helper.js:3:17)
+    at Academic.findBySemester (D:\hk2 22-23\SOA\course-service\src\models\/academic.js:51:27)
+    at callback (D:\hk2 22-23\SOA\course-service\src\api\/AcademicService.js:83:27)
+    at D:\hk2 22-23\SOA\course-service\src\models\/semester.js:18:34
+    at D:\hk2 22-23\SOA\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|02:42:31PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 62.673ms - vscode-restclient
+>>>> 21/04/2023|02:43:11PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:43:11PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:43:11PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:43:51PM| HK2-2023-2024
+>>>> 21/04/2023|02:43:51PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 41.335ms - vscode-restclient
+>>>> 21/04/2023|02:44:40PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:44:40PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:44:40PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:45:04PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:45:04PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:45:04PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:45:07PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 37.647ms - vscode-restclient
+>>>> 21/04/2023|02:48:39PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.968ms - vscode-restclient
+>>>> 21/04/2023|02:49:55PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 15.916ms - vscode-restclient
+>>>> 21/04/2023|02:50:38PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 100.897ms - vscode-restclient
+>>>> 21/04/2023|02:51:05PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 34.950ms - vscode-restclient
+>>>> 21/04/2023|02:51:23PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.626ms - vscode-restclient
+>>>> 21/04/2023|02:51:35PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 18.755ms - vscode-restclient

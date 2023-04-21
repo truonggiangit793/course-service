@@ -38,11 +38,9 @@ Router.post("/new", (req, res, next) => {
         const prerequisite = course.prerequisite;
         if (prerequisite.length > 0) {
             const allPoints = await axios.get(`${process.env.ClIENT_SERVICE}/score/get/${studentId}`);
-            console.info(allPoints);
             prerequisite.forEach((element) => {
                 allPoints.data.data.forEach((item) => {
                     if (item?.gpa_course >= 5 && item.id_course == element.toString()) {
-                        // console.log(item);
                         isCorrect = item;
                     }
                 });
@@ -50,7 +48,6 @@ Router.post("/new", (req, res, next) => {
         } else {
             isCorrect = true;
         }
-        console.log(isCorrect);
         if (!isCorrect) {
             return jsonResponse({ req, res }).failed({
                 message: `Subject ${course.name} has an incomplete prerequisite subject. Please check and try again.`,
@@ -82,7 +79,8 @@ Router.get("/get-academic-statistics/:alias", (req, res, next) => {
         if (err) return next(err);
         semesterModel.findOneByAlias({ alias }, (err, semester) => {
             if (err) return next(err);
-            academicModel.findBySemester({ alias }, (err, listAcademic) => {
+            const semesterAlias = alias;
+            academicModel.findBySemester({ semesterAlias }, (err, listAcademic) => {
                 if (err) return next(err);
                 let results = [];
                 courseList.forEach((course) => {
@@ -90,6 +88,7 @@ Router.get("/get-academic-statistics/:alias", (req, res, next) => {
                     results.push({
                         course,
                         numberOfStudent: academicMatch.length,
+                        semesterAlias,
                     });
                 });
                 return jsonResponse({ req, res }).success({
