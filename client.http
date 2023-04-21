@@ -87,7 +87,7 @@ content-type: application/json
 
 {
     "courseCode":2023004,
-    "semesterAlias":"1234",
+    "semesterAlias":"HK1-2023-2024",
     "classId":"1234",
     "groupId":"1234",
     "limit":"1234",
