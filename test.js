@@ -5,7 +5,7 @@ const data = {
     groupId: 1,
     limit: 30,
     studentMember: [123, 456, 789],
-    periods: [1, 2, 3],
+    periods: [123],
     weeks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15],
     days: "Wednesday",
 };

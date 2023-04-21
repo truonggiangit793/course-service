@@ -11,7 +11,8 @@ class Semester {
     constructor(model) {
         this.model = model;
     }
-    findOneByAlias({ alias = null }, callback) {
+    async findOneByAlias({ alias = null }, callback = null) {
+        if (!callback) return await this.model.findOne({ alias });
         if (!alias) return callback(throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }), null);
         this.model.findOne({ alias }, (error, semester) => {
             if (error) return callback(throwError({ error }), null);
@@ -19,13 +20,15 @@ class Semester {
             return callback(throwError({ name: "NotFound", message: "Semester with alias " + alias + " cannot be found or has been removed.", status: 404 }), null);
         });
     }
-    findAll(callback) {
+    async findAll(callback = null) {
+        if (!callback) return await this.model.find({});
         this.model.find({}, function (error, semester) {
             if (semester) return callback(null, semester);
             return callback(throwError({ error }), null);
         });
     }
-    findAllDeleted(callback) {
+    async findAllDeleted(callback = null) {
+        if (!callback) return await this.model.findDeleted({});
         this.model.findDeleted({}, function (error, semester) {
             if (semester) return callback(null, semester);
             return callback(throwError({ error }), null);

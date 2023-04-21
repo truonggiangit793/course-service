@@ -77,5 +77,20 @@ content-type: application/json
     "semesterAlias":"HK1-2023-2024"
 }
 
+# ==============================================================================================================
 
+###
+POST  http://localhost:2023/api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
 
+{
+    "courseCode":2023004,
+    "semesterAlias":"1234",
+    "classId":"1234",
+    "groupId":"1234",
+    "limit":"1234",
+    "studentMember":[123,1234],
+    "periods":[123],
+    "weeks":[123],
+    "day":[123]
+}

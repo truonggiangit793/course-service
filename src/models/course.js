@@ -27,6 +27,7 @@ class Course {
         this.model = model;
     }
     async findOneByCode({ code = null }, callback = null) {
+        if (!callback) return await this.model.findOne({ code });
         if (!code) return callback(throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }), null);
         this.model.findOne({ code }, (error, course) => {
             if (error) return callback(throwError({ error }), null);
@@ -41,19 +42,21 @@ class Course {
             );
         });
     }
-    findAll(callback) {
+    async findAll(callback = null) {
+        if (!callback) return await this.model.find({});
         this.model.find({}, function (error, course) {
             if (course) return callback(null, course);
             return callback(throwError({ error }), null);
         });
     }
-    findAllDeleted(callback) {
+    async findAllDeleted(callback = null) {
+        if (!callback) return await this.model.findDeleted({});
         this.model.findDeleted({}, function (error, course) {
             if (course) return callback(null, course);
             return callback(throwError({ error }), null);
         });
     }
-    deleteOneByCode({ code = null }, callback) {
+    deleteOneByCode({ code = null }, callback = null) {
         if (!code) return callback(throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }), null);
         this.model.findOne({ code }, (error, course) => {
             if (error) return callback(throwError({ error }), null);
@@ -110,7 +113,7 @@ class Course {
             });
         });
     }
-    createOne({ code = null, name = null, credits = null, description = null, prerequisite = [], timeAllocation = {} }, callback) {
+    async createOne({ code = null, name = null, credits = null, description = null, prerequisite = [], timeAllocation = {} }, callback) {
         const invalidPrerequisite = prerequisite.filter((item) => !mongoose.Types.ObjectId.isValid(item));
 
         this.model.find({}, (error, result) => {

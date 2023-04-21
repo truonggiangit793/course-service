@@ -1,8 +1,7 @@
 import mongoose from "mongoose";
 import mongooseDelete from "mongoose-delete";
-import { throwError } from "@/utils/helper";
-import courseModel from "@/models/course";
 import semesterModel from "@/models/semester";
+import { throwError } from "@/utils/helper";
 
 const model = mongoose.model(
     "Academic",
@@ -20,10 +19,10 @@ class Academic {
     constructor(model) {
         this.model = model;
     }
-    findByStudentInSemester({ studentId, semesterAlias }, callback) {
+    async findByStudentInSemester({ studentId, semesterAlias }, callback = null) {
+        if (!callback) return await this.model.find({ studentId, semesterAlias });
         if (!studentId) return callback(throwError({ name: "MissedContent", message: "Student ID must be provided.", status: 200 }), null);
         if (!semesterAlias) return callback(throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }), null);
-
         this.model.find({ studentId, semesterAlias }, (error, academic) => {
             if (error) return callback(throwError({ error }), null);
             if (academic[0]) return callback(null, academic);
@@ -37,27 +36,31 @@ class Academic {
             );
         });
     }
-    findBySemester({ alias }, callback) {
+    async findBySemester({ alias }, callback = null) {
+        if (!callback) return await this.model.find({ alias });
         if (!alias) return callback(throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }), null);
         this.model.find({ alias }, function (error, academicList) {
             if (academicList) return callback(null, academicList);
             return callback(throwError({ error }), null);
         });
     }
-    findByCodeCourse({ codeCourse }, callback) {
+    async findByCodeCourse({ codeCourse }, callback = null) {
+        if (!callback) return await this.model.find({ codeCourse });
         if (!codeCourse) return callback(throwError({ name: "MissedContent", message: "codeCourse must be provided.", status: 200 }), null);
         this.model.find({ codeCourse }, function (error, academicList) {
             if (academicList) return callback(null, academicList);
             return callback(throwError({ error }), null);
         });
     }
-    findAll(callback) {
+    async findAll(callback = null) {
+        if (!callback) return await this.model.find({});
         this.model.find({}, function (error, course) {
             if (course) return callback(null, course);
             return callback(throwError({ error }), null);
         });
     }
-    findAllDeleted(callback) {
+    async findAllDeleted(callback = null) {
+        if (!callback) return await this.model.findDeleted({});
         this.model.findDeleted({}, function (error, course) {
             if (course) return callback(null, course);
             return callback(throwError({ error }), null);
@@ -139,11 +142,7 @@ class Academic {
                         null
                     );
                 } else {
-                    const academicQuery = new _this.model({
-                        studentId,
-                        courseCode,
-                        semesterAlias,
-                    });
+                    const academicQuery = new _this.model({ studentId, courseCode, semesterAlias });
                     await academicQuery.save();
                     return callback(null, academicQuery);
                 }
@@ -152,10 +151,6 @@ class Academic {
             callback(err, null);
         }
     }
-    // test(callback) {
-    //     const aggregate = this.model.aggregate([{$courseCode : }]).count("courseCode");
-    //     return callback(null, aggregate);
-    // }
 }
 
 module.exports = new Academic(model);

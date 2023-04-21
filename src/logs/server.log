@@ -2379,3 +2379,585 @@ Error: Student 196024322222 doesn't exits
 >>>> 21/04/2023|03:51:05PM| Local address: http://localhost:2023
 >>>> 21/04/2023|03:51:05PM| Network address: http://172.17.15.70:2023
 >>>> 21/04/2023|03:51:05PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:53:38PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:53:38PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:53:38PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:54:26PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:54:26PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:54:26PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:54:50PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:54:50PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:54:50PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:54:58PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:54:58PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:54:58PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:55:02PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:55:02PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:55:02PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:55:10PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:55:10PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:55:10PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:56:31PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:56:31PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:56:31PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:56:33PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:56:33PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:56:33PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:38:40PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:38:40PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:38:40PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:39:33PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:39:33PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:39:33PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:40:09PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:40:09PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:40:09PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:40:12PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:40:12PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:40:12PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:48:03PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:48:03PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:48:03PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:48:09PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:48:09PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:48:09PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:48:11PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:48:11PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:48:11PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:48:14PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:48:14PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:48:14PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:48:19PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:48:19PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:48:19PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:48:32PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:48:32PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:48:32PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:48:36PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:48:36PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:48:36PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:48:42PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:48:42PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:48:42PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:48:45PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:48:45PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:48:45PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:48:48PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:48:48PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:48:48PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:48:50PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:48:50PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:48:50PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:48:59PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:48:59PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:48:59PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:49:02PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:49:02PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:49:02PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:49:04PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:49:04PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:49:04PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:49:15PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:49:15PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:49:15PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:49:17PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:49:17PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:49:17PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:49:18PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:49:18PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:49:18PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:49:33PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:49:33PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:49:33PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:49:36PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:49:36PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:49:36PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:49:49PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:49:49PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:49:49PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:49:51PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:49:51PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:49:51PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:49:57PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:49:57PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:49:57PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:51:35PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:51:35PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:51:35PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:52:24PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:52:24PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:52:24PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:52:28PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:52:28PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:52:28PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:52:34PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:52:34PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:52:34PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:52:47PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:52:47PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:52:47PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:52:51PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:52:51PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:52:51PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:53:21PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:53:21PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:53:21PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:53:21PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:53:21PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:53:21PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:53:51PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:53:51PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:53:51PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:53:58PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:53:58PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:53:58PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:54:01PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:54:01PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:54:01PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:54:06PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:54:06PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:54:06PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:54:08PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:54:08PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:54:08PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:54:10PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:54:10PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:54:10PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:54:15PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:54:15PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:54:15PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:54:16PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:54:16PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:54:16PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:54:23PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:54:23PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:54:23PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:54:27PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:54:27PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:54:27PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:54:34PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:54:34PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:54:34PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:54:38PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:54:38PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:54:38PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:54:42PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:54:42PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:54:42PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:54:46PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:54:46PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:54:46PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:54:51PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:54:51PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:54:51PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:55:13PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:55:13PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:55:13PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:55:18PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:55:18PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:55:18PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:55:28PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:55:28PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:55:28PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:55:36PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:55:36PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:55:36PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:55:57PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:55:57PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:55:57PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:56:12PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:56:12PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:56:12PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:56:28PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:56:28PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:56:28PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:56:34PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:56:34PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:56:34PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:56:54PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:56:54PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:56:54PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:57:00PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:57:00PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:57:00PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:57:08PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:57:08PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:57:08PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:57:11PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:57:11PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:57:11PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:57:14PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:57:14PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:57:14PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:57:16PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:57:16PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:57:16PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:57:18PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:57:18PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:57:18PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:58:24PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:58:24PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:58:24PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:58:25PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:58:25PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:58:26PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:58:28PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:58:28PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:58:28PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:58:30PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:58:30PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:58:30PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:58:32PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:58:32PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:58:32PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:58:39PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:58:39PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:58:39PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:58:40PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:58:40PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:58:40PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|04:58:45PM| Local address: http://localhost:2023
+>>>> 21/04/2023|04:58:45PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|04:58:45PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:00:01PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:00:01PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:00:01PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:00:03PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:00:03PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:00:03PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:00:12PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:00:12PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:00:12PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:00:21PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:00:21PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:00:21PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:00:46PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:00:46PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:00:46PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:00:49PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:00:49PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:00:49PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:01:00PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:01:00PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:01:00PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:01:04PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:01:04PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:01:04PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:01:39PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:01:39PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:01:39PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:01:42PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:01:42PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:01:42PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:01:46PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:01:46PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:01:46PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:01:53PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:01:53PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:01:53PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:02:17PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:02:17PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:02:17PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:02:21PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:02:21PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:02:21PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:02:23PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:02:23PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:02:23PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:02:25PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:02:25PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:02:25PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:03:08PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 29.481ms - vscode-restclient
+>>>> 21/04/2023|05:03:40PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:03:40PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:03:40PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:03:40PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:03:40PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:03:40PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:03:44PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:03:44PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:03:44PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:04:20PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:04:20PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:04:20PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:04:21PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:04:21PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:04:21PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:04:40PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:04:40PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:04:40PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:04:48PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:04:48PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:04:48PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:04:54PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:04:54PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:04:54PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:04:57PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:04:57PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:04:57PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:05:02PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:05:02PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:05:02PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:05:16PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:05:16PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:05:16PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:05:18PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:05:18PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:05:18PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:05:21PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:05:21PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:05:21PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:05:24PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:05:24PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:05:24PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:05:30PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:05:30PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:05:30PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:05:43PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:05:43PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:05:43PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:05:58PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:05:58PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:05:58PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:06:00PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:06:00PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:06:00PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:06:02PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:06:02PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:06:02PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:06:10PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:06:10PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:06:10PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:06:17PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:06:17PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:06:17PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:06:26PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:06:26PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:06:26PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:06:28PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:06:28PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:06:28PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:06:30PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:06:30PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:06:30PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:06:35PM| ValidationError: "courseCode" is required
+ValidationError: "courseCode" is required
+>>>> 21/04/2023|05:06:35PM| POST[500]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 29.115ms - vscode-restclient
+>>>> 21/04/2023|05:07:48PM| POST[400]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 10.677ms - vscode-restclient
+>>>> 21/04/2023|05:07:48PM| SyntaxError: Unexpected token } in JSON at position 207
+SyntaxError: Unexpected token } in JSON at position 207
+    at JSON.parse (<anonymous>)
+    at parse (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/json.js:89:19)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/raw-body/index.js:224:16)
+    at done (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+>>>> 21/04/2023|05:07:55PM| ValidationError: "studentMember" must be an array
+ValidationError: "studentMember" must be an array
+>>>> 21/04/2023|05:07:55PM| POST[500]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 7.534ms - vscode-restclient
+>>>> 21/04/2023|05:08:14PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 4.190ms - vscode-restclient
+>>>> 21/04/2023|05:08:25PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:08:25PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:08:25PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:08:46PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:08:46PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:08:46PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:09:26PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:09:26PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:09:26PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:09:27PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:09:27PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:09:27PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:09:32PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:09:32PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:09:32PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:22:00PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:22:00PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:22:00PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:22:03PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:22:03PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:22:03PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:22:05PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:22:05PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:22:05PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:22:07PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:22:07PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:22:07PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:22:32PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:22:32PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:22:32PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:23:00PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:23:00PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:23:00PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:23:03PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:23:03PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:23:03PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:23:07PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:23:07PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:23:07PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:23:11PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:23:11PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:23:11PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:23:14PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:23:14PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:23:14PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:23:16PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:23:16PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:23:16PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:26:08PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:26:08PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:26:08PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:26:12PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 44.738ms - vscode-restclient
+>>>> 21/04/2023|05:27:33PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:27:33PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:27:33PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:27:39PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:27:39PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:27:39PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:27:45PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:27:45PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:27:45PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:27:54PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:27:54PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:27:54PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:27:55PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:27:55PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:27:55PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:28:03PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:28:03PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:28:03PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:28:10PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:28:10PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:28:10PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:28:36PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:28:36PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:28:36PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:28:44PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:28:44PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:28:44PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:28:58PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:28:58PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:28:58PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:29:03PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:29:03PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:29:03PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:29:16PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:29:16PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:29:16PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:29:37PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:29:37PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:29:37PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:30:08PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:30:08PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:30:08PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:30:10PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:30:10PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:30:10PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:30:16PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:30:16PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:30:16PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:30:23PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:30:23PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:30:23PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:30:43PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:30:43PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:30:43PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:30:44PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:30:44PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:30:44PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:30:48PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 42.700ms - vscode-restclient
+>>>> 21/04/2023|05:31:05PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 6.961ms - vscode-restclient
+>>>> 21/04/2023|05:32:02PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:32:02PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:32:02PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:32:20PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:32:20PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:32:20PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:32:30PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:32:30PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:32:30PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:32:34PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 46.670ms - vscode-restclient
+>>>> 21/04/2023|05:32:42PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 7.137ms - vscode-restclient
+>>>> 21/04/2023|05:32:49PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 20.084ms - vscode-restclient
+>>>> 21/04/2023|05:33:12PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:33:12PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:33:12PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:33:15PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:33:15PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:33:15PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:33:21PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:33:21PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:33:21PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:33:36PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:33:36PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:33:36PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:33:38PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:33:38PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:33:38PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:33:42PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:33:42PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:33:42PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:34:20PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:34:20PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:34:20PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:34:21PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:34:21PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:34:21PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:36:18PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:36:18PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:36:18PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:36:24PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:36:24PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:36:24PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:37:19PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:37:19PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:37:19PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:37:29PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:37:29PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:37:29PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:37:31PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:37:31PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:37:31PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:37:57PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:37:57PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:37:57PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:38:18PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:38:18PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:38:18PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:38:44PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:38:44PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:38:44PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:38:54PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:38:54PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:38:54PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:39:09PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:39:09PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:39:09PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:39:16PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:39:16PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:39:16PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:39:32PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:39:32PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:39:32PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:39:46PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:39:46PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:39:46PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:39:49PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:39:49PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:39:49PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:40:21PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:40:21PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:40:21PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:40:28PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:40:28PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:40:28PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:40:33PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:40:33PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:40:33PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|05:40:38PM| Local address: http://localhost:2023
+>>>> 21/04/2023|05:40:38PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|05:40:38PM| Connect to mongoDB successfully!
