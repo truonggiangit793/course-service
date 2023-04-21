@@ -2031,3 +2031,121 @@ ValidationError: "courseCode" must be a number
 >>>> 21/04/2023|02:05:49PM| Local address: http://localhost:2023
 >>>> 21/04/2023|02:05:49PM| Network address: http://172.20.128.1:2023
 >>>> 21/04/2023|02:05:49PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:24:03PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|02:24:03PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:24:03PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:24:09PM| InvalidObjectID: Have an invalid prerequisite course, please try again.
+InvalidObjectID: Have an invalid prerequisite course, please try again.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:141:31
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|02:24:09PM| POST[200]: /api/course-service/v1/course/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 94.866ms - vscode-restclient
+>>>> 21/04/2023|02:24:44PM| POST[200]: /api/course-service/v1/semester/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 78.830ms - vscode-restclient
+>>>> 21/04/2023|02:24:53PM| GET[200]: /api/course-service/v1/semester/get-all-deleted?api_key=wGlWnNDcrU0K4zOF8ywGl - 19.463ms - vscode-restclient
+>>>> 21/04/2023|02:25:00PM| GET[200]: /api/course-service/v1/semester/get-all?api_key=wGlWnNDcrU0K4zOF8ywGl - 20.935ms - vscode-restclient
+>>>> 21/04/2023|02:25:04PM| PUT[200]: /api/course-service/v1/semester/restore/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 103.156ms - vscode-restclient
+>>>> 21/04/2023|02:25:07PM| NotFound: Semester with alias HK1-2023-2024 cannot be found or has been removed.
+NotFound: Semester with alias HK1-2023-2024 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/semester.js:62:43
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|02:25:07PM| PUT[404]: /api/course-service/v1/semester/restore/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 43.416ms - vscode-restclient
+>>>> 21/04/2023|02:25:10PM| GET[200]: /api/course-service/v1/semester/get-all-deleted?api_key=wGlWnNDcrU0K4zOF8ywGl - 8.766ms - vscode-restclient
+>>>> 21/04/2023|02:25:12PM| GET[200]: /api/course-service/v1/semester/get-all?api_key=wGlWnNDcrU0K4zOF8ywGl - 12.308ms - vscode-restclient
+>>>> 21/04/2023|02:25:26PM| GET[200]: /api/course-service/v1/semester/get/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 6.646ms - vscode-restclient
+>>>> 21/04/2023|02:25:33PM| NotFound: Semester with alias HK1-2023-2024s cannot be found or has been removed.
+NotFound: Semester with alias HK1-2023-2024s cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/semester.js:19:39
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|02:25:33PM| GET[404]: /api/course-service/v1/semester/get/HK1-2023-2024s?api_key=wGlWnNDcrU0K4zOF8ywGl - 6.692ms - vscode-restclient
+>>>> 21/04/2023|02:25:43PM| GET[200]: /api/course-service/v1/semester/get/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 4.466ms - vscode-restclient
+>>>> 21/04/2023|02:26:29PM| NotFound: Course code 4325436343211223 cannot be found or has been removed.
+NotFound: Course code 4325436343211223 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:38:27
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|02:26:29PM| GET[404]: /api/course-service/v1/course/get/4325436343211223?api_key=wGlWnNDcrU0K4zOF8ywGl - 12.807ms - vscode-restclient
+>>>> 21/04/2023|02:26:35PM| GET[200]: /api/course-service/v1/course/get-all?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.278ms - vscode-restclient
+>>>> 21/04/2023|02:27:04PM| NotFound: Course code 4325436343211223 cannot be found or has been removed.
+NotFound: Course code 4325436343211223 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:38:27
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|02:27:04PM| GET[404]: /api/course-service/v1/course/get/4325436343211223?api_key=wGlWnNDcrU0K4zOF8ywGl - 14.736ms - vscode-restclient
+>>>> 21/04/2023|02:27:07PM| NotFound: Course record with course code 51900753253221 cannot be found.
+NotFound: Course record with course code 51900753253221 cannot be found.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:69:31
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|02:27:07PM| DELETE[404]: /api/course-service/v1/course/delete/51900753253221?api_key=wGlWnNDcrU0K4zOF8ywGl - 9.285ms - vscode-restclient
+>>>> 21/04/2023|02:27:10PM| NotFound: Course record with course code 51900753253221 cannot be found.
+NotFound: Course record with course code 51900753253221 cannot be found.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:92:31
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|02:27:10PM| DELETE[404]: /api/course-service/v1/course/delete/51900753253221/force?api_key=wGlWnNDcrU0K4zOF8ywGl - 11.179ms - vscode-restclient
+>>>> 21/04/2023|02:27:13PM| NotFound: Course record with course code 519007932222 cannot be found.
+NotFound: Course record with course code 519007932222 cannot be found.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:115:31
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|02:27:13PM| PUT[404]: /api/course-service/v1/course/restore/519007932222?api_key=wGlWnNDcrU0K4zOF8ywGl - 6.628ms - vscode-restclient
+>>>> 21/04/2023|02:27:14PM| GET[200]: /api/course-service/v1/course/get-all?api_key=wGlWnNDcrU0K4zOF8ywGl - 8.329ms - vscode-restclient
+>>>> 21/04/2023|02:27:17PM| GET[200]: /api/course-service/v1/course/get-all-deleted?api_key=wGlWnNDcrU0K4zOF8ywGl - 3.913ms - vscode-restclient
+>>>> 21/04/2023|02:27:54PM| POST[200]: /api/course-service/v1/course/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 45.047ms - vscode-restclient
+>>>> 21/04/2023|02:27:57PM| DatabaseError: Subject A course with course code 2023001 is already existed.
+DatabaseError: Subject A course with course code 2023001 is already existed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at call (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:200:35)
+    at tryCatch (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at Generator._invoke (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at Generator.next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at asyncGeneratorStep (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at _next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1
+    at new Promise (<anonymous>)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1
+>>>> 21/04/2023|02:27:57PM| POST[200]: /api/course-service/v1/course/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 26.258ms - vscode-restclient
+>>>> 21/04/2023|02:28:13PM| POST[200]: /api/course-service/v1/course/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 33.232ms - vscode-restclient
+>>>> 21/04/2023|02:28:20PM| GET[200]: /api/course-service/v1/course/get-all?api_key=wGlWnNDcrU0K4zOF8ywGl - 47.568ms - vscode-restclient
+>>>> 21/04/2023|02:28:44PM| POST[200]: /api/course-service/v1/course/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 36.055ms - vscode-restclient
+>>>> 21/04/2023|02:29:02PM| POST[200]: /api/course-service/v1/course/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 53.801ms - vscode-restclient
+>>>> 21/04/2023|02:29:05PM| POST[200]: /api/course-service/v1/course/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 35.071ms - vscode-restclient
+>>>> 21/04/2023|02:29:05PM| DatabaseError: Subject D course with course code 2023004 is already existed.
+DatabaseError: Subject D course with course code 2023004 is already existed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at call (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:200:35)
+    at tryCatch (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at Generator._invoke (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at Generator.next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at asyncGeneratorStep (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at _next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1
+    at new Promise (<anonymous>)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1
+>>>> 21/04/2023|02:29:08PM| GET[200]: /api/course-service/v1/course/get-all?api_key=wGlWnNDcrU0K4zOF8ywGl - 32.943ms - vscode-restclient
+>>>> 21/04/2023|02:29:20PM| GET[200]: /api/course-service/v1/semester/get/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 10.295ms - vscode-restclient
+>>>> 21/04/2023|02:32:56PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:32:56PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|02:32:56PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:34:14PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|02:34:14PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:34:14PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:34:29PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|02:34:29PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:34:29PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:34:30PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|02:34:30PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:34:30PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:34:33PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|02:34:33PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:34:33PM| Connect to mongoDB successfully!
