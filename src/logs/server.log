@@ -2272,3 +2272,53 @@ NotFound: Semester with alias HK1-2023-20243 cannot be found or has been removed
 >>>> 21/04/2023|03:16:13PM| Local address: http://localhost:2023
 >>>> 21/04/2023|03:16:13PM| Network address: http://172.17.15.70:2023
 >>>> 21/04/2023|03:16:13PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:18:18PM| true
+>>>> 21/04/2023|03:18:18PM| NotFound: Semester with alias HK1-2023-20243 cannot be found or has been removed.
+NotFound: Semester with alias HK1-2023-20243 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/semester.js:19:39
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|03:18:18PM| POST[404]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 115.982ms - vscode-restclient
+>>>> 21/04/2023|03:18:26PM| true
+>>>> 21/04/2023|03:18:26PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 42.694ms - vscode-restclient
+>>>> 21/04/2023|03:19:15PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:19:15PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:19:15PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:19:16PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:19:16PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:19:16PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:19:41PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:19:41PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:19:41PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:19:43PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:19:43PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:19:43PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:21:46PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:21:46PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:21:46PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:22:28PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:22:28PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:22:28PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:22:49PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:22:49PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:22:49PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:22:59PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:22:59PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:22:59PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:25:54PM| Local address: http://localhost:2023
+>>>> 21/04/2023|03:25:54PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|03:25:54PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|03:25:59PM| Error: Student 196024322222 doesn't exits
+Error: Student 196024322222 doesn't exits
+    at call (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/api/AcademicService.js:74:29)
+    at tryCatch (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/api/AcademicService.js:2:1)
+    at Generator._invoke (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/api/AcademicService.js:2:1)
+    at Generator.next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/api/AcademicService.js:2:1)
+    at asyncGeneratorStep (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/api/AcademicService.js:2:1)
+    at _next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/api/AcademicService.js:2:1)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+>>>> 21/04/2023|03:25:59PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 319.981ms - vscode-restclient
+>>>> 21/04/2023|03:27:49PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 114.336ms - vscode-restclient
+>>>> 21/04/2023|03:27:57PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 36.656ms - vscode-restclient
+>>>> 21/04/2023|03:28:30PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 18.414ms - vscode-restclient

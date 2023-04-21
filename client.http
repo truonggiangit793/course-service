@@ -72,9 +72,9 @@ POST http://localhost:2023/api/course-service/v1/academic/new?api_key=wGlWnNDcrU
 content-type: application/json
 
 {
-    "studentId":"196024322222",
-    "courseCode":"2023003",
-    "semesterAlias":"HK1-2023-20243"
+    "studentId":"19065533",
+    "courseCode":"2023002",
+    "semesterAlias":"HK1-2023-2024"
 }
 
 

@@ -57,23 +57,25 @@ Router.post("/new", (req, res, next) => {
     if (error) return next(error);
     const { studentId, courseCode, semesterAlias } = req.body;
     courseModel.findOneByCode({ code: courseCode }, async function (err, course) {
-        if (err) return callback(err, null);
+        if (err) return next(err);
         let isCorrect = null;
         const prerequisite = course.prerequisite;
         if (prerequisite.length > 0) {
             const allPoints = await axios.get(`${process.env.ClIENT_SERVICE}/score/get/${studentId}`);
-            console.info(allPoints);
-            prerequisite.forEach((element) => {
-                allPoints.data.data.forEach((item) => {
-                    if (item?.gpa_course >= 5 && item.id_course == element.toString()) {
-                        isCorrect = item;
-                    }
+            if (allPoints.data.status) {
+                prerequisite.forEach((element) => {
+                    allPoints.data.data.forEach((item) => {
+                        if (item?.gpa_course >= 5 && item.id_course == element.toString()) {
+                            isCorrect = item;
+                        }
+                    });
                 });
-            });
+            } else {
+                return next(new Error(allPoints.data.message));
+            }
         } else {
             isCorrect = true;
         }
-        console.log(isCorrect);
         if (!isCorrect) {
             return jsonResponse({ req, res }).failed({
                 message: `Subject ${course.name} has an incomplete prerequisite subject. Please check and try again.`,
