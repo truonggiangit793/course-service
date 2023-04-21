@@ -85,13 +85,6 @@ content-type: application/json
 POST  http://localhost:2023/api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 
-<<<<<<< HEAD
-###
-GET http://localhost:2023/api/course-service/v1/academic/get-academic-statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
-content-type: application/json
-
-
-=======
 {
     "courseCode":2023004,
     "semesterAlias":"HK1-2023-2024",
@@ -103,4 +96,3 @@ content-type: application/json
     "weeks":[123],
     "day":[123]
 }
->>>>>>> 37441b82f7d70c389900d58d84b716f41a97cf53
