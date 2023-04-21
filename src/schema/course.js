@@ -6,5 +6,6 @@ export default Joi.object({
     credits: Joi.number().min(1).required(),
     description: Joi.string().required(),
     prerequisite: Joi.array(),
+    departmentAllowed: Joi.string().required(),
     timeAllocation: Joi.object(),
 });
