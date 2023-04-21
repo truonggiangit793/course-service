@@ -7,7 +7,6 @@ const Router = express.Router();
 
 /* * * POST * * */
 Router.post("/new", function (req, res, next) {
-    // #swagger.tags = ['Course Service']
     const { error } = courseSchema.validate(req.body);
     if (error) return next(error);
     const { code, name, credits, description, prerequisite } = req.body;
@@ -20,7 +19,6 @@ Router.post("/new", function (req, res, next) {
 
 /* * * GET * * */
 Router.get("/get-all", function (req, res, next) {
-    // #swagger.tags = ['Course Service']
     courseModel.findAll((err, courses) => {
         if (err) return next(err);
         return jsonResponse({ req, res }).success({
@@ -31,7 +29,6 @@ Router.get("/get-all", function (req, res, next) {
     });
 });
 Router.get("/get-all-deleted", function (req, res, next) {
-    // #swagger.tags = ['Course Service']
     courseModel.findAllDeleted((err, courses) => {
         if (err) return next(err);
         return jsonResponse({ req, res }).success({
@@ -42,7 +39,6 @@ Router.get("/get-all-deleted", function (req, res, next) {
     });
 });
 Router.get("/get/:courseId", function (req, res, next) {
-    // #swagger.tags = ['Course Service']
     const { courseId } = req.params;
     courseModel.findOneByCode({ code: parseInt(courseId) }, (err, course) => {
         if (err) return next(err);
@@ -52,7 +48,6 @@ Router.get("/get/:courseId", function (req, res, next) {
 
 /* * * DELETE * * */
 Router.delete("/delete/:courseId", function (req, res, next) {
-    // #swagger.tags = ['Course Service']
     const { courseId } = req.params;
     courseModel.deleteOneByCode({ code: parseInt(courseId) }, (err, course) => {
         if (err) return next(err);
@@ -60,7 +55,6 @@ Router.delete("/delete/:courseId", function (req, res, next) {
     });
 });
 Router.delete("/delete/:courseId/force", function (req, res, next) {
-    // #swagger.tags = ['Course Service']
     const { courseId } = req.params;
     courseModel.forceDeleteOneByCode({ code: parseInt(courseId) }, (err, course) => {
         if (err) return next(err);

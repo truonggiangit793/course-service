@@ -65,19 +65,17 @@ content-type: application/json
 GET  http://localhost:2023/api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 ###
+GET http://localhost:2023/api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+###
 POST http://localhost:2023/api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 
 {
     "studentId":"19065533",
-    "courseCode":"4325436343211223",
-    "semesterAlias":"HK2-2023-2024"
+    "courseCode":"2023002",
+    "semesterAlias":"HK1-2023-2024"
 }
 
-
-
-###
-GET http://localhost:2023/api/course-service/v1/academic/get-academic-statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
-content-type: application/json
 
 
