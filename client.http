@@ -65,10 +65,6 @@ content-type: application/json
 GET  http://localhost:2023/api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 ###
-GET  http://localhost:2023/api/course-service/v1/academic/get?semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
-content-type: application/json
-
-###
 POST http://localhost:2023/api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 

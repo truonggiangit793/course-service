@@ -2149,3 +2149,52 @@ DatabaseError: Subject D course with course code 2023004 is already existed.
 >>>> 21/04/2023|02:34:33PM| Network address: http://172.17.15.70:2023
 >>>> 21/04/2023|02:34:33PM| Local address: http://localhost:2023
 >>>> 21/04/2023|02:34:33PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:38:25PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:38:25PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|02:38:25PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:38:43PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/app.js:26:28
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:47:12)
+>>>> 21/04/2023|02:38:43PM| GET[404]: /api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 21.545ms - vscode-restclient
+>>>> 21/04/2023|02:38:59PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:38:59PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|02:38:59PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:39:02PM| GET[200]: /api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 82.014ms - vscode-restclient
+>>>> 21/04/2023|02:39:32PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|02:39:32PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:39:32PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:40:30PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:40:30PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|02:40:30PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:40:43PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|02:40:43PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:40:43PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:43:42PM| GET[200]: /api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 72.976ms - vscode-restclient
+>>>> 21/04/2023|02:43:52PM| GET[200]: /api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 10.460ms - vscode-restclient
+>>>> 21/04/2023|02:44:10PM| GET[200]: /api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 14.475ms - vscode-restclient
+>>>> 21/04/2023|02:44:10PM| GET[200]: /api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 9.020ms - vscode-restclient
+>>>> 21/04/2023|02:44:10PM| GET[200]: /api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 8.590ms - vscode-restclient
+>>>> 21/04/2023|02:44:11PM| GET[200]: /api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 22.241ms - vscode-restclient
+>>>> 21/04/2023|02:44:11PM| GET[200]: /api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 45.798ms - vscode-restclient
+>>>> 21/04/2023|02:44:49PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:44:49PM| Network address: http://172.17.15.70:2023
+>>>> 21/04/2023|02:44:49PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:44:52PM| GET[404]: /api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 66.918ms - vscode-restclient
+>>>> 21/04/2023|02:44:52PM| NotFound: Academic for student 2 cannot be found or has been removed.
+NotFound: Academic for student 2 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/academic.js:31:27
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|02:46:18PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 21/04/2023|02:46:18PM| GET[500]: /api/course-service/v1/academic/get?semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 7.811ms - vscode-restclient
