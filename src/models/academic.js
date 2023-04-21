@@ -56,6 +56,17 @@ class Academic {
             return callback(throwError({ error }), null);
         });
     }
+    findByCodeCourse({ codeCourse }, callback) {
+        if (!codeCourse)
+            return callback(
+                throwError({ name: "MissedContent", message: "codeCourse must be provided.", status: 200 }),
+                null
+            );
+        this.model.find({ codeCourse }, function (error, academicList) {
+            if (academicList) return callback(null, academicList);
+            return callback(throwError({ error }), null);
+        });
+    }
     findAll(callback) {
         this.model.find({}, function (error, course) {
             if (course) return callback(null, course);

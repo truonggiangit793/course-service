@@ -1917,3 +1917,117 @@ ValidationError: "courseCode" must be a number
 >>>> 21/04/2023|12:46:04AM| Local address: http://localhost:2023
 >>>> 21/04/2023|12:46:04AM| Network address: http://172.20.128.1:2023
 >>>> 21/04/2023|12:46:04AM| Connect to mongoDB successfully!
+>>>> 21/04/2023|01:12:08PM| Local address: http://localhost:2023
+>>>> 21/04/2023|01:12:08PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|01:12:08PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|01:12:13PM| GET[500]: /api/course-service/v1/academic/get-academic-statistics/213213?api_key=wGlWnNDcrU0K4zOF8ywGl - 42.027ms - vscode-restclient
+>>>> 21/04/2023|01:12:13PM| ReferenceError: err is not defined
+ReferenceError: err is not defined
+    at D:\hk2 22-23\SOA\course-service\src\api\/AcademicService.js:75:25
+    at Layer.handle [as handle_request] (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:281:22
+    at param (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:317:13)
+    at D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:275:10)
+    at _default (D:\hk2 22-23\SOA\course-service\src\middleware\/ServiceKey.js:7:54)
+    at Layer.handle [as handle_request] (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:317:13)
+    at D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (D:\hk2 22-23\SOA\course-service\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:317:13)
+    at D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:275:10)
+    at cookieParser (D:\hk2 22-23\SOA\course-service\node_modules\cookie-parser\index.js:57:14)
+    at Layer.handle [as handle_request] (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:317:13)
+    at D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (D:\hk2 22-23\SOA\course-service\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:317:13)
+    at D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:275:10)
+    at logger (D:\hk2 22-23\SOA\course-service\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:317:13)
+    at D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\hk2 22-23\SOA\course-service\node_modules\express\lib\router\index.js:317:13)
+>>>> 21/04/2023|01:12:57PM| Local address: http://localhost:2023
+>>>> 21/04/2023|01:12:57PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|01:12:57PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|01:13:05PM| NotFound: Semester with alias 213213 cannot be found or has been removed.
+NotFound: Semester with alias 213213 cannot be found or has been removed.
+    at throwError (D:\hk2 22-23\SOA\course-service\src\utils\/helper.js:3:17)
+    at D:\hk2 22-23\SOA\course-service\src\models\/semester.js:19:39
+    at D:\hk2 22-23\SOA\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 21/04/2023|01:13:05PM| GET[404]: /api/course-service/v1/academic/get-academic-statistics/213213?api_key=wGlWnNDcrU0K4zOF8ywGl - 48.518ms - vscode-restclient
+>>>> 21/04/2023|01:14:36PM| Local address: http://localhost:2023
+>>>> 21/04/2023|01:14:36PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|01:14:37PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|01:14:40PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 100.192ms - vscode-restclient
+>>>> 21/04/2023|01:38:22PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|01:38:22PM| Local address: http://localhost:2023
+>>>> 21/04/2023|01:38:22PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|01:39:14PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 140.204ms - vscode-restclient
+>>>> 21/04/2023|01:43:35PM| Local address: http://localhost:2023
+>>>> 21/04/2023|01:43:35PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|01:43:35PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|01:44:06PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 32.109ms - vscode-restclient
+>>>> 21/04/2023|01:45:30PM| ValidationError: "courseCode" must be a number
+ValidationError: "courseCode" must be a number
+>>>> 21/04/2023|01:45:30PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 36.665ms - vscode-restclient
+>>>> 21/04/2023|01:45:54PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 19.645ms - vscode-restclient
+>>>> 21/04/2023|01:47:20PM| Local address: http://localhost:2023
+>>>> 21/04/2023|01:47:20PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|01:47:20PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|01:47:22PM| GET[200]: /api/course-service/v1/academic/get-academic-statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 61.401ms - vscode-restclient
+>>>> 21/04/2023|01:47:30PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 109.390ms - vscode-restclient
+>>>> 21/04/2023|01:49:49PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 61.393ms - vscode-restclient
+>>>> 21/04/2023|01:50:41PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 63.909ms - vscode-restclient
+>>>> 21/04/2023|01:51:25PM| Local address: http://localhost:2023
+>>>> 21/04/2023|01:51:25PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|01:51:25PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|01:51:41PM| 1
+>>>> 21/04/2023|01:51:41PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 115.516ms - vscode-restclient
+>>>> 21/04/2023|01:53:49PM| Local address: http://localhost:2023
+>>>> 21/04/2023|01:53:49PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|01:53:49PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|01:53:52PM| null
+>>>> 21/04/2023|01:53:52PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 95.417ms - vscode-restclient
+>>>> 21/04/2023|01:54:33PM| null
+>>>> 21/04/2023|01:54:33PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 44.657ms - vscode-restclient
+>>>> 21/04/2023|01:55:03PM| null
+>>>> 21/04/2023|01:55:03PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 66.659ms - vscode-restclient
+>>>> 21/04/2023|02:03:02PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:03:02PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:03:02PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:03:12PM| null
+>>>> 21/04/2023|02:03:12PM| POST[500]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 116.846ms - vscode-restclient
+>>>> 21/04/2023|02:05:17PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:05:17PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:05:17PM| Connect to mongoDB successfully!
+>>>> 21/04/2023|02:05:49PM| Local address: http://localhost:2023
+>>>> 21/04/2023|02:05:49PM| Network address: http://172.20.128.1:2023
+>>>> 21/04/2023|02:05:49PM| Connect to mongoDB successfully!

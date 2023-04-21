@@ -80,7 +80,8 @@ content-type: application/json
 
 
 
-GET http://localhost:2023/api/course-service/v1/academic/get-academic-statistics/213213?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+###
+GET http://localhost:2023/api/course-service/v1/academic/get-academic-statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 
 
