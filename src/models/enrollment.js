@@ -6,10 +6,10 @@ const model = mongoose.model(
     "Enrollment",
     new mongoose.Schema(
         {
+            studentId: { type: String, required: true },
             courseCode: { type: Number, require: true },
             semesterAlias: { type: String, required: true },
             groupId: { type: Number, required: true },
-            studentId: { type: String, required: true },
         },
         { timestamps: true }
     ).plugin(mongooseDelete, { deletedAt: true, overrideMethods: "all" })
@@ -19,17 +19,19 @@ class Enrollment {
     constructor(model) {
         this.model = model;
     }
-    async createOne({ courseCode = null, semesterAlias = null, classId = null, groupId = null, limit = null, periods = [], weeks = [], day = null }, callback) {
+    async createOne({ courseCode = null, semesterAlias = null, groupId = null, studentId = null }, callback) {
+        if (!studentId) return callback(throwError({ name: "MissedContent", message: "Student ID must be provided.", status: 200 }), null);
         if (!courseCode) return callback(throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }), null);
         if (!semesterAlias) return callback(throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }), null);
-        if (!classId) return callback(throwError({ name: "MissedContent", message: "Class ID must be provided.", status: 200 }), null);
         if (!groupId) return callback(throwError({ name: "MissedContent", message: "Group ID must be provided.", status: 200 }), null);
-        if (!limit) return callback(throwError({ name: "MissedContent", message: "Limit must be provided.", status: 200 }), null);
-        if (periods.length <= 0) return callback(throwError({ name: "MissedContent", message: "Length of periods must have at least 1.", status: 200 }), null);
-        if (weeks.length <= 0) return callback(throwError({ name: "MissedContent", message: "Length of weeks must have at least 1.", status: 200 }), null);
-        if (!day) return callback(throwError({ name: "MissedContent", message: "Day is must be provided.", status: 200 }), null);
-        const newSchedule = await this.model.create({ courseCode, semesterAlias, classId, groupId, limit, periods, weeks, day });
-        return callback(null, newSchedule);
+        const newEnrollment = await this.model.create({ studentId, courseCode, semesterAlias, groupId });
+        return callback(null, newEnrollment);
+    }
+    async findOne({ courseCode, studentId, groupId, semesterAlias }) {
+        return await this.model.findOne({ courseCode, studentId, groupId, semesterAlias });
+    }
+    async findBySemester({ studentId, semesterAlias }) {
+        return await this.model.find({ studentId, semesterAlias });
     }
 }
 
