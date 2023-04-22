@@ -8,14 +8,18 @@ const model = mongoose.model(
         {
             courseCode: { type: Number, require: true },
             semesterAlias: { type: String, required: true },
-            classId: { type: Number, required: true },
+            classId: { type: String, required: true },
             groupId: { type: Number, required: true },
             limit: { type: Number, required: true },
             studentMember: { type: Array, default: [] },
             periods: { type: Array, required: true },
             weeks: { type: Array, required: true },
             registrationAllowed: { type: Boolean, default: false },
-            day: { type: String, required: true, enum: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sunday"] },
+            day: {
+                type: String,
+                required: true,
+                enum: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sunday"],
+            },
         },
         { timestamps: true }
     ).plugin(mongooseDelete, { deletedAt: true, overrideMethods: "all" })
@@ -25,26 +29,89 @@ class Schedule {
     constructor(model) {
         this.model = model;
     }
-    async createOne({ courseCode = null, semesterAlias = null, classId = null, groupId = null, limit = null, studentMember = [], periods = [], weeks = [], day = [] }, callback) {
-        if (!courseCode) return callback(throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }), null);
+    async createOne(
+        {
+            courseCode = null,
+            semesterAlias = null,
+            classId = null,
+            groupId = null,
+            limit = null,
+            studentMember = [],
+            periods = [],
+            weeks = [],
+            day = [],
+        },
+        callback
+    ) {
+        if (!courseCode)
+            return callback(
+                throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }),
+                null
+            );
 
-        if (!semesterAlias) return callback(throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }), null);
+        if (!semesterAlias)
+            return callback(
+                throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }),
+                null
+            );
 
-        if (!classId) return callback(throwError({ name: "MissedContent", message: "Class ID must be provided.", status: 200 }), null);
+        if (!classId)
+            return callback(
+                throwError({ name: "MissedContent", message: "Class ID must be provided.", status: 200 }),
+                null
+            );
 
-        if (!groupId) return callback(throwError({ name: "MissedContent", message: "Group ID must be provided.", status: 200 }), null);
+        if (!groupId)
+            return callback(
+                throwError({ name: "MissedContent", message: "Group ID must be provided.", status: 200 }),
+                null
+            );
 
-        if (limit) return callback(throwError({ name: "MissedContent", message: "Limit must be provided.", status: 200 }), null);
+        if (limit)
+            return callback(
+                throwError({ name: "MissedContent", message: "Limit must be provided.", status: 200 }),
+                null
+            );
 
-        if (studentMember.length <= 0) return callback(throwError({ name: "MissedContent", message: "Length of student member must have at least 1.", status: 200 }), null);
+        if (studentMember.length <= 0)
+            return callback(
+                throwError({
+                    name: "MissedContent",
+                    message: "Length of student member must have at least 1.",
+                    status: 200,
+                }),
+                null
+            );
 
-        if (periods.length <= 0) return callback(throwError({ name: "MissedContent", message: "Length of periods must have at least 1.", status: 200 }), null);
+        if (periods.length <= 0)
+            return callback(
+                throwError({ name: "MissedContent", message: "Length of periods must have at least 1.", status: 200 }),
+                null
+            );
 
-        if (weeks.length <= 0) return callback(throwError({ name: "MissedContent", message: "Length of weeks must have at least 1.", status: 200 }), null);
+        if (weeks.length <= 0)
+            return callback(
+                throwError({ name: "MissedContent", message: "Length of weeks must have at least 1.", status: 200 }),
+                null
+            );
 
-        if (day.length <= 0) return callback(throwError({ name: "MissedContent", message: "Length of day must have at least 1.", status: 200 }), null);
+        if (day.length <= 0)
+            return callback(
+                throwError({ name: "MissedContent", message: "Length of day must have at least 1.", status: 200 }),
+                null
+            );
 
-        const newSchedule = await this.model.create({ courseCode, semesterAlias, classId, groupId, limit, studentMember, periods, weeks, day });
+        const newSchedule = await this.model.create({
+            courseCode,
+            semesterAlias,
+            classId,
+            groupId,
+            limit,
+            studentMember,
+            periods,
+            weeks,
+            day,
+        });
 
         return callback(null, newSchedule);
     }
