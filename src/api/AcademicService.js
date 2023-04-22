@@ -69,7 +69,7 @@ Router.post("/new", (req, res, next) => {
 
 /* * * GET : ADMIN * * */
 
-Router.get("/get-academic-statistics/:alias", (req, res, next) => {
+Router.get("/statistics/:alias", (req, res, next) => {
     const alias = req.params.alias || null;
     courseModel.findAll((err, courseList) => {
         if (err) return next(err);

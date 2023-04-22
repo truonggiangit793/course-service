@@ -16,7 +16,7 @@ Router.get("/", function (req, res, next) {
 Router.post("/new", async function (req, res, next) {
     const { error } = scheduleSchema.validate(req.body);
     if (error) return next(error);
-    const { courseCode, semesterAlias, classId, groupId, limit, studentMember, periods, weeks, day } = req.body;
+    const { courseCode, semesterAlias, groupId, limit, studentMember, periods, weeks, day } = req.body;
     const courseQuery = await courseModel.findOneByCode({ code: courseCode });
     const semesterQuery = await semesterModel.findOneByAlias({ alias: semesterAlias });
     if (!courseQuery) return jsonResponse({ req, res }).failed({ statusCode: 200, message: "Course record with course code " + courseCode + " is invalid." });

@@ -63,10 +63,10 @@ content-type: application/json
 # ==============================================================================================================
 
 ###
-GET  http://localhost:2023/api/course-service/v1/academic/get-list-academic?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+GET  http://localhost:2023/api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 ###
-GET  http://localhost:2023/api/course-service/v1/academic/get-academic-statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+GET  http://localhost:2023/api/course-service/v1/academic/statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 
 ###
@@ -87,11 +87,9 @@ content-type: application/json
 
 {
     "courseCode":2023004,
-    "semesterAlias":"1234",
-    "classId":"1234",
-    "groupId":"1234",
-    "limit":"1234",
-    "studentMember":[123,1234],
+    "semesterAlias":"HK1-2023-2024",
+    "statudentId": 51900793,
+    "groupId":1,
     "periods":[123],
     "weeks":[123],
     "day":[123]
