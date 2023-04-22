@@ -21,7 +21,8 @@ Router.post("/new", async function (req, res, next) {
     const semesterQuery = await semesterModel.findOneByAlias({ alias: semesterAlias });
     if (!courseQuery) return jsonResponse({ req, res }).failed({ statusCode: 200, message: "Course record with course code " + courseCode + " is invalid." });
     if (!semesterQuery) return jsonResponse({ req, res }).failed({ statusCode: 200, message: "Semester with alias " + semesterAlias + " is invalid." });
-
+    const courseData = await scheduleModel.findOne({ courseCode, semesterAlias, classId, groupId });
+    console.info({ courseData });
     res.end("Hello");
 });
 

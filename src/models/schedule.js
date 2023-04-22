@@ -48,6 +48,9 @@ class Schedule {
 
         return callback(null, newSchedule);
     }
+    async findOne({ courseCode, semesterAlias, classId, groupId }) {
+        return await this.model.findOne({ courseCode, semesterAlias, classId, groupId });
+    }
     // findOneByCode({ code = null }, callback) {
     //     if (!code) return callback(throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }), null);
     //     this.model.findOne({ code }, (error, course) => {
