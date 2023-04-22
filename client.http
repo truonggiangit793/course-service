@@ -86,11 +86,22 @@ POST  http://localhost:2023/api/course-service/v1/schedule/new?api_key=wGlWnNDcr
 content-type: application/json
 
 {
-    "courseCode":2023004,
+    "courseCode":2023003,
     "semesterAlias":"HK1-2023-2024",
-    "statudentId": 51900793,
-    "groupId":1,
-    "periods":[123],
-    "weeks":[123],
-    "day":[123]
+    "groupId":2,
+    "limit": 30,
+    "periods":[1,2,3],
+    "weeks":[1,2,3],
+    "day":"Wednesday"
+}
+
+###
+POST  http://localhost:2023/api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+
+{
+    "studentId":"51900793",
+    "courseCode":2023003,
+    "semesterAlias":"HK1-2023-2024",
+    "groupId":2
 }
