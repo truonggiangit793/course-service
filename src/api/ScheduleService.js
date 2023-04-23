@@ -59,7 +59,7 @@ Router.post("/enroll", async function (req, res, next) {
     if (error) return next(error);
 
     const { studentId, courseCode, semesterAlias, groupId } = req.body;
-    const academicQuery = await courseModel.findByStudentInSemesterHasCourseCode({
+    const academicQuery = await academicModel.findByStudentInSemesterHasCourseCode({
         studentId,
         semesterAlias,
         courseCode,
