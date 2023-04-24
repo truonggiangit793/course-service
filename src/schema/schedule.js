@@ -7,5 +7,5 @@ export default Joi.object({
     limit: Joi.number().required(),
     periods: Joi.array().required(),
     weeks: Joi.array().required(),
-    day: Joi.string().required().valid("Monday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"),
+    day: Joi.string().required().valid("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"),
 });

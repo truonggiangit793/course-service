@@ -1462,3 +1462,844 @@ NotFound: Course code 4325436343211223 cannot be found or has been removed.
     at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:40:27
     at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
     at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 24/04/2023|02:41:09PM| GET[200]: /api/course-service/v1/semester/get/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 27.325ms - vscode-restclient
+>>>> 24/04/2023|02:41:24PM| NotFound: Academic for student 2 cannot be found or has been removed.
+NotFound: Academic for student 2 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/academic.js:38:27
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 24/04/2023|02:41:24PM| GET[404]: /api/course-service/v1/academic/get?studentId=2&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 38.628ms - vscode-restclient
+>>>> 24/04/2023|02:41:38PM| GET[404]: /api/course-service/v1/academic/get?studentId=51900793&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 7.556ms - vscode-restclient
+>>>> 24/04/2023|02:41:38PM| NotFound: Academic for student 51900793 cannot be found or has been removed.
+NotFound: Academic for student 51900793 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/academic.js:38:27
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 24/04/2023|02:41:42PM| GET[200]: /api/course-service/v1/academic/statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 17.018ms - vscode-restclient
+>>>> 24/04/2023|02:43:42PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:43:42PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:43:42PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:44:35PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:44:35PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:44:35PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:46:30PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:46:30PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:46:30PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:48:18PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:48:18PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:48:18PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:48:36PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:48:36PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:48:36PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:50:14PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:50:14PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:50:14PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:50:34PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:50:34PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:50:34PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:51:54PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:51:54PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:51:54PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:51:58PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:51:58PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:51:58PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:52:08PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:52:08PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:52:08PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:52:45PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:52:45PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:52:45PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:52:49PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:52:49PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:52:49PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:52:52PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:52:52PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:52:52PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:53:01PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:53:01PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:53:01PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:53:18PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:53:18PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:53:18PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:54:03PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:54:03PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:54:03PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:54:47PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:54:47PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:54:47PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:54:53PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:54:53PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:54:53PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:54:56PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:54:56PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:54:56PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:55:00PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:55:00PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:55:00PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:55:13PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:55:13PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:55:13PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:55:16PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:55:16PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:55:16PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:55:26PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:55:26PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:55:26PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:55:41PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:55:41PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:55:41PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:58:39PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:58:39PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:58:39PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:58:50PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:58:50PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:58:50PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:58:53PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:58:53PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:58:53PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:59:02PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:59:02PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:59:02PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:59:07PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:59:07PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:59:07PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:59:10PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:59:10PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:59:10PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:59:16PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:59:16PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:59:16PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:59:22PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:59:22PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:59:22PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:00:04PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:00:04PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:00:04PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:00:21PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:00:21PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:00:21PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:00:26PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:00:26PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:00:26PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:00:31PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:00:31PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:00:31PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:00:47PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:00:47PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:00:47PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:00:50PM| MissedContent: Course code must be provided.
+MissedContent: Course code must be provided.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at Course.call (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:31:46)
+    at tryCatch (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at Generator._invoke (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at Generator.next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at asyncGeneratorStep (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at _next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1
+    at new Promise (<anonymous>)
+    at Course.apply (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:2:1)
+    at Course.findOneByCode (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:44:6)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/api/AcademicService.js:35:17
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at _default (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/middleware/ServiceKey.js:5:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/urlencoded.js:82:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/cookie-parser/index.js:71:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/read.js:130:5
+    at invokeCallback (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/raw-body/index.js:224:16)
+    at done (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+>>>> 24/04/2023|03:00:50PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 78.133ms - vscode-restclient
+>>>> 24/04/2023|03:01:10PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:01:10PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:01:10PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:01:12PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:01:12PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:01:12PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:01:13PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:01:13PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:01:13PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:01:19PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:01:19PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:01:19PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:01:24PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:01:24PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:01:24PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:01:25PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:01:25PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:01:25PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:01:29PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:01:29PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:01:29PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:01:34PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:01:34PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:01:34PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:01:44PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:01:44PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:01:44PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:01:47PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:01:47PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:01:47PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:04:26PM| NotFound: Course code 51 cannot be found or has been removed.
+NotFound: Course code 51 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:36:27
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 24/04/2023|03:04:26PM| POST[404]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 88.903ms - vscode-restclient
+>>>> 24/04/2023|03:04:36PM| NotFound: Academic for student 51900793 cannot be found or has been removed.
+NotFound: Academic for student 51900793 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/academic.js:38:27
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 24/04/2023|03:04:36PM| GET[404]: /api/course-service/v1/academic/get?studentId=51900793&semesterAlias=HK2-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 35.597ms - vscode-restclient
+>>>> 24/04/2023|03:04:50PM| GET[200]: /api/course-service/v1/academic/statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 27.498ms - vscode-restclient
+>>>> 24/04/2023|03:05:26PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 37.530ms - vscode-restclient
+>>>> 24/04/2023|03:05:37PM| GET[200]: /api/course-service/v1/academic/statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 29.033ms - vscode-restclient
+>>>> 24/04/2023|03:06:05PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 21.662ms - vscode-restclient
+>>>> 24/04/2023|03:06:10PM| GET[200]: /api/course-service/v1/academic/statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 14.245ms - vscode-restclient
+>>>> 24/04/2023|03:06:38PM| GET[200]: /api/course-service/v1/academic/statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.707ms - vscode-restclient
+>>>> 24/04/2023|03:07:04PM| ValidationError: "day" must be one of [Monday, Wednesday, Thursday, Friday, Saturday, Sunday]
+ValidationError: "day" must be one of [Monday, Wednesday, Thursday, Friday, Saturday, Sunday]
+>>>> 24/04/2023|03:07:04PM| POST[500]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 9.817ms - vscode-restclient
+>>>> 24/04/2023|03:07:07PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 30.158ms - vscode-restclient
+>>>> 24/04/2023|03:07:17PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 42.446ms - vscode-restclient
+>>>> 24/04/2023|03:07:49PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 35.096ms - vscode-restclient
+>>>> 24/04/2023|03:08:01PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 12.838ms - vscode-restclient
+>>>> 24/04/2023|03:08:40PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 14.623ms - vscode-restclient
+>>>> 24/04/2023|03:08:59PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 17.991ms - vscode-restclient
+>>>> 24/04/2023|03:09:01PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.641ms - vscode-restclient
+>>>> 24/04/2023|03:09:31PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 20.741ms - vscode-restclient
+>>>> 24/04/2023|03:09:36PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 16.296ms - vscode-restclient
+>>>> 24/04/2023|03:09:37PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.645ms - vscode-restclient
+>>>> 24/04/2023|03:11:02PM| GET[200]: /api/course-service/v1/course/get-all - 8.807ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:11:07PM| GET[200]: /api/course-service/v1/course/get-all-deleted - 6.118ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:11:28PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:11:28PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:11:28PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:11:31PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 24/04/2023|03:11:31PM| GET[500]: /api/course-service/v1/academic/get - 8.740ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:11:36PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 24/04/2023|03:11:36PM| GET[500]: /api/course-service/v1/academic/get - 3.325ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:11:46PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/app.js:26:28
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at _default (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/middleware/ServiceKey.js:5:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/cookie-parser/index.js:57:14)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+>>>> 24/04/2023|03:11:46PM| GET[404]: /api/course-service/v1/academic/get-all - 14.512ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:11:51PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:11:51PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:11:51PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:11:55PM| GET[200]: /api/course-service/v1/semester/get-all - 29.833ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:11:58PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:11:58PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:11:58PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:12:15PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:12:15PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:12:15PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:12:28PM| GET[200]: /api/course-service/v1/semester/get-all-deleted - 16.175ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:12:42PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:12:42PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:12:42PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:12:50PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:12:50PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:12:50PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:12:52PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:12:52PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:12:52PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:12:56PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:12:56PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:12:56PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:13:25PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:13:25PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:13:25PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:13:27PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:13:27PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:13:27PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:13:30PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:13:30PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:13:30PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:13:34PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 36.793ms - vscode-restclient
+>>>> 24/04/2023|03:13:36PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 72.966ms - vscode-restclient
+>>>> 24/04/2023|03:13:36PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 10.190ms - vscode-restclient
+>>>> 24/04/2023|03:19:40PM| GET[200]: /api/course-service/v1/course/get-all - 92.534ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:19:47PM| GET[200]: /api/course-service/v1/course/get-all-deleted - 7.750ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:19:49PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 20.940ms - vscode-restclient
+>>>> 24/04/2023|03:20:05PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 32.450ms - vscode-restclient
+>>>> 24/04/2023|03:20:07PM| GET[200]: /api/course-service/v1/course/get/2023001 - 6.290ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:20:10PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 7.644ms - vscode-restclient
+>>>> 24/04/2023|03:20:27PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 19.493ms - vscode-restclient
+>>>> 24/04/2023|03:20:34PM| POST[200]: /api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl - 7.067ms - vscode-restclient
+>>>> 24/04/2023|03:20:37PM| GET[500]: /api/course-service/v1/academic/get - 4.226ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:20:37PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 24/04/2023|03:20:40PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 7.373ms - vscode-restclient
+>>>> 24/04/2023|03:20:49PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/app.js:26:28
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at _default (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/middleware/ServiceKey.js:5:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/cookie-parser/index.js:57:14)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+>>>> 24/04/2023|03:20:49PM| GET[404]: /api/course-service/v1/academic/get-all - 16.690ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:20:49PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 56.882ms - vscode-restclient
+>>>> 24/04/2023|03:21:22PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:21:22PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:21:22PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:21:23PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:21:23PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:21:23PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:21:41PM| GET[404]: /api/course-service/v1/academic/get-academic-statistics/HK1-2023-2024 - 17.339ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:21:41PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/app.js:26:28
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at _default (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/middleware/ServiceKey.js:5:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/cookie-parser/index.js:57:14)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+>>>> 24/04/2023|03:22:23PM| GET[200]: /api/course-service/v1/semester/get-all-deleted - 32.923ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:23:47PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:23:47PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:23:47PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:23:49PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:23:49PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:23:49PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:23:50PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 48.465ms - vscode-restclient
+>>>> 24/04/2023|03:23:57PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 43.952ms - vscode-restclient
+>>>> 24/04/2023|03:24:43PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:24:43PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:24:43PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:24:44PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 43.725ms - vscode-restclient
+>>>> 24/04/2023|03:25:11PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 16.106ms - vscode-restclient
+>>>> 24/04/2023|03:25:15PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 11.096ms - vscode-restclient
+>>>> 24/04/2023|03:25:19PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 32.516ms - vscode-restclient
+>>>> 24/04/2023|03:26:07PM| GET[200]: /api/course-service/v1/course/get-all - 32.904ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:27:05PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 29.967ms - vscode-restclient
+>>>> 24/04/2023|03:27:23PM| NotFound: Semester with alias HK2-2023-2024 cannot be found or has been removed.
+NotFound: Semester with alias HK2-2023-2024 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/semester.js:20:39
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 24/04/2023|03:27:23PM| GET[404]: /api/course-service/v1/academic/statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 86.007ms - vscode-restclient
+>>>> 24/04/2023|03:27:34PM| NotFound: Academic for student 51900793 cannot be found or has been removed.
+NotFound: Academic for student 51900793 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/academic.js:30:27
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 24/04/2023|03:27:34PM| GET[404]: /api/course-service/v1/academic/get?studentId=51900793&semesterAlias=HK1-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 53.288ms - vscode-restclient
+>>>> 24/04/2023|03:27:38PM| NotFound: Semester with alias HK2-2023-2024 cannot be found or has been removed.
+NotFound: Semester with alias HK2-2023-2024 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/semester.js:20:39
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 24/04/2023|03:27:38PM| GET[404]: /api/course-service/v1/academic/statistics/HK2-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 12.652ms - vscode-restclient
+>>>> 24/04/2023|03:27:43PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 28.125ms - vscode-restclient
+>>>> 24/04/2023|03:27:54PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 48.372ms - vscode-restclient
+>>>> 24/04/2023|03:27:58PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 12.574ms - vscode-restclient
+>>>> 24/04/2023|03:28:04PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 23.703ms - vscode-restclient
+>>>> 24/04/2023|03:28:07PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 14.237ms - vscode-restclient
+>>>> 24/04/2023|03:28:11PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 6.833ms - vscode-restclient
+>>>> 24/04/2023|03:28:21PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 32.377ms - vscode-restclient
+>>>> 24/04/2023|03:28:51PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 11.461ms - vscode-restclient
+>>>> 24/04/2023|03:29:01PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 27.251ms - vscode-restclient
+>>>> 24/04/2023|03:29:04PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 15.355ms - vscode-restclient
+>>>> 24/04/2023|03:29:06PM| POST[200]: /api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl - 6.285ms - vscode-restclient
+>>>> 24/04/2023|03:29:26PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:29:26PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:29:26PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:30:03PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:30:03PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:30:03PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:30:17PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:30:17PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:30:17PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:30:29PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:30:29PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:30:29PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:32:00PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:32:00PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:32:00PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:32:01PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:32:01PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:32:01PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:33:32PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:33:32PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:33:32PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:33:50PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:33:50PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:33:50PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:33:55PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:33:55PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:33:55PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:33:58PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:33:58PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:33:58PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:34:09PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 61.675ms - vscode-restclient
+>>>> 24/04/2023|03:34:27PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:34:27PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:34:27PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:34:29PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:34:29PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:34:29PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:34:33PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 48.350ms - vscode-restclient
+>>>> 24/04/2023|03:34:48PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 27.398ms - vscode-restclient
+>>>> 24/04/2023|03:35:20PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:35:20PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:35:20PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:35:23PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:35:23PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:35:23PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:35:26PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:35:26PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:35:26PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:35:35PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:35:35PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:35:35PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:35:40PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:35:40PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:35:40PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:35:41PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:35:41PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:35:41PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:35:44PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:35:44PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:35:44PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:35:47PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:35:47PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:35:47PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:35:50PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:35:50PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:35:50PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:35:56PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:35:56PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:35:56PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:36:09PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:36:09PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:36:09PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:37:10PM| POST[200]: /api/course-service/v1/course/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 85.882ms - vscode-restclient
+>>>> 24/04/2023|03:37:44PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 55.044ms - vscode-restclient
+>>>> 24/04/2023|03:37:51PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.441ms - vscode-restclient
+>>>> 24/04/2023|03:38:03PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 10.446ms - vscode-restclient
+>>>> 24/04/2023|03:38:18PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 56.550ms - vscode-restclient
+>>>> 24/04/2023|03:38:36PM| NotFound: Course code 19517882 cannot be found or has been removed.
+NotFound: Course code 19517882 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:36:27
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 24/04/2023|03:38:36PM| POST[404]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 77.066ms - vscode-restclient
+>>>> 24/04/2023|03:38:46PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 24/04/2023|03:38:46PM| GET[500]: /api/course-service/v1/academic/get - 5.934ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|03:38:46PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 64.073ms - vscode-restclient
+>>>> 24/04/2023|03:38:59PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 56.746ms - vscode-restclient
+>>>> 24/04/2023|03:39:01PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 5.540ms - vscode-restclient
+>>>> 24/04/2023|03:39:10PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 17.851ms - vscode-restclient
+>>>> 24/04/2023|03:39:13PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 20.166ms - vscode-restclient
+>>>> 24/04/2023|03:39:35PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 14.836ms - vscode-restclient
+>>>> 24/04/2023|03:39:39PM| POST[200]: /api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.845ms - vscode-restclient
+>>>> 24/04/2023|03:39:53PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 22.771ms - vscode-restclient
+>>>> 24/04/2023|03:39:57PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 5.095ms - vscode-restclient
+>>>> 24/04/2023|03:40:02PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 40.222ms - vscode-restclient
+>>>> 24/04/2023|03:40:17PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 27.553ms - vscode-restclient
+>>>> 24/04/2023|03:41:03PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:41:03PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:41:03PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:41:18PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 50.759ms - vscode-restclient
+>>>> 24/04/2023|03:41:53PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:41:53PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:41:53PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:42:02PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:42:02PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:42:02PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:42:06PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:42:06PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:42:06PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:42:14PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:42:14PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:42:14PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:42:30PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:42:30PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:42:30PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:42:34PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:42:34PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:42:34PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:42:37PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 83.902ms - vscode-restclient
+>>>> 24/04/2023|03:43:40PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 35.216ms - vscode-restclient
+>>>> 24/04/2023|03:45:52PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:45:52PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:45:52PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:45:53PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 48.943ms - vscode-restclient
+>>>> 24/04/2023|03:48:23PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:48:23PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:48:23PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:48:25PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:48:25PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:48:25PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:48:42PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:48:42PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:48:42PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:48:48PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:48:48PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:48:48PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:48:50PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:48:50PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:48:50PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:48:52PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:48:52PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:48:52PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:48:54PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 58.718ms - vscode-restclient
+>>>> 24/04/2023|03:49:15PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:49:15PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:49:15PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:50:28PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:50:28PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:50:28PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:50:34PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 51.892ms - vscode-restclient
+>>>> 24/04/2023|03:50:56PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:50:56PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:50:56PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:50:59PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:50:59PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:50:59PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:51:34PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:51:34PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:51:34PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:51:35PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 63.922ms - vscode-restclient
+>>>> 24/04/2023|03:51:49PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:51:49PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:51:49PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:51:51PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 33.293ms - vscode-restclient
+>>>> 24/04/2023|03:52:09PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:52:09PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:52:09PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:52:30PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:52:30PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:52:30PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:52:48PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:52:48PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:52:48PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:52:50PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 70.637ms - vscode-restclient
+>>>> 24/04/2023|03:53:04PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:53:04PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:53:04PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:53:04PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 47.676ms - vscode-restclient
+>>>> 24/04/2023|03:53:16PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:53:16PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:53:16PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:53:19PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 79.330ms - vscode-restclient
+>>>> 24/04/2023|03:53:27PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:53:27PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:53:27PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:53:50PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 62.040ms - vscode-restclient
+>>>> 24/04/2023|03:54:44PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:54:44PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:54:44PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:55:19PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:55:19PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:55:19PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:55:21PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:55:21PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:55:21PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:55:35PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:55:35PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:55:35PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:55:36PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 64.558ms - vscode-restclient
+>>>> 24/04/2023|03:55:41PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 60.478ms - vscode-restclient
+>>>> 24/04/2023|03:55:48PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:55:48PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:55:48PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:55:50PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 49.536ms - vscode-restclient
+>>>> 24/04/2023|03:55:51PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 19.434ms - vscode-restclient
+>>>> 24/04/2023|03:55:51PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 63.697ms - vscode-restclient
+>>>> 24/04/2023|03:55:51PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 19.603ms - vscode-restclient
+>>>> 24/04/2023|03:55:52PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 16.725ms - vscode-restclient
+>>>> 24/04/2023|03:55:52PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 15.379ms - vscode-restclient
+>>>> 24/04/2023|03:56:05PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:56:05PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:56:05PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:56:13PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:56:13PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:56:13PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:56:15PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:56:15PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:56:15PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:56:17PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 163.700ms - vscode-restclient
+>>>> 24/04/2023|03:56:42PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:56:42PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:56:42PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:56:44PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:56:44PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:56:44PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:56:45PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 56.004ms - vscode-restclient
+>>>> 24/04/2023|03:57:37PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:57:37PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:57:37PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:57:38PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:57:38PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:57:38PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:57:40PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:57:40PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:57:40PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:57:42PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:57:42PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:57:42PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:57:46PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 45.709ms - vscode-restclient
+>>>> 24/04/2023|03:57:46PM| [object Object]
+>>>> 24/04/2023|03:57:55PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:57:55PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:57:55PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:57:56PM| [object Object]
+>>>> 24/04/2023|03:57:56PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 36.613ms - vscode-restclient
+>>>> 24/04/2023|03:58:00PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 68.907ms - vscode-restclient
+>>>> 24/04/2023|03:58:00PM| [object Object]
+>>>> 24/04/2023|03:58:07PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:58:07PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:58:07PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:58:10PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:58:10PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:58:10PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:58:13PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:58:13PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:58:13PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:58:16PM| [object Object]
+>>>> 24/04/2023|03:58:16PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 48.002ms - vscode-restclient
+>>>> 24/04/2023|03:58:23PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:58:23PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:58:23PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:58:26PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 54.191ms - vscode-restclient
+>>>> 24/04/2023|03:59:18PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:59:18PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:59:18PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:59:19PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 40.040ms - vscode-restclient
+>>>> 24/04/2023|03:59:36PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:59:36PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:59:36PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|03:59:37PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 65.938ms - vscode-restclient
+>>>> 24/04/2023|03:59:48PM| Local address: http://localhost:2023
+>>>> 24/04/2023|03:59:48PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|03:59:48PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:00:02PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:00:02PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:00:02PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:00:05PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:00:05PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:00:05PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:00:17PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 53.981ms - vscode-restclient
+>>>> 24/04/2023|04:00:23PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 28.042ms - vscode-restclient
+>>>> 24/04/2023|04:00:24PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 21.848ms - vscode-restclient
+>>>> 24/04/2023|04:00:32PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:00:32PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:00:32PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:00:33PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 68.814ms - vscode-restclient
+>>>> 24/04/2023|04:00:54PM| ValidationError: "day" must be one of [Monday, Wednesday, Thursday, Friday, Saturday, Sunday]
+ValidationError: "day" must be one of [Monday, Wednesday, Thursday, Friday, Saturday, Sunday]
+>>>> 24/04/2023|04:00:54PM| POST[500]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 10.139ms - vscode-restclient
+>>>> 24/04/2023|04:01:13PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:01:13PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:01:13PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:01:21PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 73.562ms - vscode-restclient
+>>>> 24/04/2023|04:01:23PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 17.142ms - vscode-restclient
+>>>> 24/04/2023|04:01:31PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 36.190ms - vscode-restclient
+>>>> 24/04/2023|04:01:46PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 29.944ms - vscode-restclient
+>>>> 24/04/2023|04:02:13PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:02:13PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:02:13PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:02:32PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:02:32PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:02:32PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:02:39PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:02:39PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:02:39PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:02:45PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:02:45PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:02:45PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:02:47PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:02:47PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:02:47PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:02:51PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:02:51PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:02:51PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:02:56PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 52.171ms - vscode-restclient
+>>>> 24/04/2023|04:03:07PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 60.944ms - vscode-restclient
+>>>> 24/04/2023|04:03:12PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 22.838ms - vscode-restclient
+>>>> 24/04/2023|04:03:13PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 19.305ms - vscode-restclient
+>>>> 24/04/2023|04:03:13PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 15.441ms - vscode-restclient
+>>>> 24/04/2023|04:03:34PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:03:34PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:03:34PM| Connect to mongoDB successfully!
