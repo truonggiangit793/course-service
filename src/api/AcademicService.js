@@ -127,24 +127,14 @@ Router.delete("/remove", async (req, res, next) => {
             statusCode: 200,
             message: "You have been registered this course in your academic plan!",
         });
-    semesterModel.findOneByAlias({ alias: semesterAlias }, (err, semester) => {
+
+    academicModel.deleteOneByCode({ studentId, courseCode, semesterAlias }, async function (err, academic) {
         if (err) return next(err);
-        if (semester.status) {
-            academicModel.deleteOneByCode({ studentId, courseCode, semesterAlias }, async function (err, academic) {
-                if (err) return next(err);
-                return jsonResponse({ req, res }).failed({
-                    statusCode: 200,
-                    message: `Remove academic for course ${courseCode} successfully.`,
-                    data: academic,
-                });
-            });
-        } else {
-            return jsonResponse({ req, res }).failed({
-                statusCode: 200,
-                message: `Semester ${semesterAlias} has already been closed.`,
-                data: academic,
-            });
-        }
+        return jsonResponse({ req, res }).failed({
+            statusCode: 200,
+            message: `Remove academic for course ${courseCode} successfully.`,
+            data: academic,
+        });
     });
 });
 

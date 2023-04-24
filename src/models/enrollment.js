@@ -22,12 +22,52 @@ class Enrollment {
     }
     async createOne({ courseCode = null, semesterAlias = null, groupId = null, studentId = null }, callback) {
         const classId = `${courseCode}-${semesterAlias}`;
-        if (!studentId) return callback(throwError({ name: "MissedContent", message: "Student ID must be provided.", status: 200 }), null);
-        if (!courseCode) return callback(throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }), null);
-        if (!semesterAlias) return callback(throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }), null);
-        if (!groupId) return callback(throwError({ name: "MissedContent", message: "Group ID must be provided.", status: 200 }), null);
+        if (!studentId)
+            return callback(
+                throwError({ name: "MissedContent", message: "Student ID must be provided.", status: 200 }),
+                null
+            );
+        if (!courseCode)
+            return callback(
+                throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }),
+                null
+            );
+        if (!semesterAlias)
+            return callback(
+                throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }),
+                null
+            );
+        if (!groupId)
+            return callback(
+                throwError({ name: "MissedContent", message: "Group ID must be provided.", status: 200 }),
+                null
+            );
         const newEnrollment = await this.model.create({ studentId, courseCode, semesterAlias, classId, groupId });
         return callback(null, newEnrollment);
+    }
+    async deleteOne({ courseCode = null, semesterAlias = null, groupId = null, studentId = null }, callback) {
+        if (!studentId)
+            return callback(
+                throwError({ name: "MissedContent", message: "Student ID must be provided.", status: 200 }),
+                null
+            );
+        if (!courseCode)
+            return callback(
+                throwError({ name: "MissedContent", message: "Course code must be provided.", status: 200 }),
+                null
+            );
+        if (!semesterAlias)
+            return callback(
+                throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }),
+                null
+            );
+        if (!groupId)
+            return callback(
+                throwError({ name: "MissedContent", message: "Group ID must be provided.", status: 200 }),
+                null
+            );
+        const enroll = await this.model.deleteOne({ studentId, courseCode, semesterAlias, groupId });
+        return callback(null, enroll);
     }
     async findOne({ courseCode, studentId, groupId, semesterAlias }) {
         const classId = `${courseCode}-${semesterAlias}`;
