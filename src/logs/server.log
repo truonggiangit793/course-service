@@ -2303,3 +2303,558 @@ ValidationError: "day" must be one of [Monday, Wednesday, Thursday, Friday, Satu
 >>>> 24/04/2023|04:03:34PM| Local address: http://localhost:2023
 >>>> 24/04/2023|04:03:34PM| Network address: http://172.17.13.163:2023
 >>>> 24/04/2023|04:03:34PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:03:55PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 44.939ms - vscode-restclient
+>>>> 24/04/2023|04:04:24PM| POST[200]: /api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl - 37.715ms - vscode-restclient
+>>>> 24/04/2023|04:04:28PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.474ms - vscode-restclient
+>>>> 24/04/2023|04:05:41PM| GET[200]: /api/course-service/v1/course/get-all - 16.891ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:05:52PM| GET[200]: /api/course-service/v1/course/get-all-deleted - 5.760ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:06:08PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 24/04/2023|04:06:08PM| GET[500]: /api/course-service/v1/academic/get - 5.851ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:06:22PM| GET[404]: /api/course-service/v1/academic/get-all - 14.884ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:06:22PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/app.js:26:28
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at _default (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/middleware/ServiceKey.js:5:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/cookie-parser/index.js:57:14)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+>>>> 24/04/2023|04:06:33PM| GET[200]: /api/course-service/v1/semester/get-all - 6.981ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:06:52PM| GET[404]: /api/course-service/v1/semester/get/delete/HK1-2023-2024/force - 13.013ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:06:52PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/app.js:26:28
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at _default (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/middleware/ServiceKey.js:5:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/cookie-parser/index.js:57:14)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+>>>> 24/04/2023|04:06:56PM| GET[200]: /api/course-service/v1/course/get/321987321?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.200ms - vscode-restclient
+>>>> 24/04/2023|04:07:02PM| GET[200]: /api/course-service/v1/course/get-all?api_key=wGlWnNDcrU0K4zOF8ywGl - 5.859ms - vscode-restclient
+>>>> 24/04/2023|04:07:03PM| GET[404]: /api/course-service/v1/semester/get-academic-statistics/HK1-2023-2024 - 3.532ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:07:03PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/app.js:26:28
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at _default (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/middleware/ServiceKey.js:5:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/cookie-parser/index.js:57:14)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+>>>> 24/04/2023|04:07:08PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/app.js:26:28
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at _default (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/middleware/ServiceKey.js:5:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/cookie-parser/index.js:57:14)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+>>>> 24/04/2023|04:07:08PM| GET[404]: /api/course-service/v1/semester/restore/HK1-2023-2024 - 3.978ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:07:08PM| GET[200]: /api/course-service/v1/course/get-all-deleted?api_key=wGlWnNDcrU0K4zOF8ywGl - 3.476ms - vscode-restclient
+>>>> 24/04/2023|04:07:13PM| GET[200]: /api/course-service/v1/semester/get/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 8.586ms - vscode-restclient
+>>>> 24/04/2023|04:07:18PM| GET[200]: /api/course-service/v1/semester/get-all?api_key=wGlWnNDcrU0K4zOF8ywGl - 5.187ms - vscode-restclient
+>>>> 24/04/2023|04:07:32PM| GET[404]: /api/course-service/v1/academic/get?studentId=51900793&semesterAlias=HK1-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 67.478ms - vscode-restclient
+>>>> 24/04/2023|04:07:32PM| NotFound: Academic for student 51900793 cannot be found or has been removed.
+NotFound: Academic for student 51900793 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/academic.js:30:27
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 24/04/2023|04:07:45PM| NotFound: Academic for student 19065533 cannot be found or has been removed.
+NotFound: Academic for student 19065533 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/academic.js:30:27
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 24/04/2023|04:07:45PM| GET[404]: /api/course-service/v1/academic/get?studentId=19065533&semesterAlias=HK1-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 7.853ms - vscode-restclient
+>>>> 24/04/2023|04:08:32PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 16.376ms - vscode-restclient
+>>>> 24/04/2023|04:09:11PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:09:11PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:09:11PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:09:13PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:09:13PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:09:13PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:09:16PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:09:16PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:09:16PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:09:18PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:09:18PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:09:18PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:09:33PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:09:33PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:09:33PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:09:34PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:09:34PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:09:34PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:09:43PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:09:43PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:09:43PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:09:55PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:09:55PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:09:55PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:10:21PM| GET[200]: /api/course-service/v1/course/get-all-deleted - 22.447ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:10:29PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:10:29PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:10:29PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:10:41PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:10:41PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:10:41PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:10:43PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:10:43PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:10:43PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:10:52PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:10:52PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:10:52PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:11:22PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:11:22PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:11:22PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:11:22PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:11:22PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:11:22PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:11:24PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:11:24PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:11:24PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:11:26PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:11:26PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:11:26PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:11:53PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:11:53PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:11:53PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:12:05PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:12:05PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:12:05PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:12:08PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 29.936ms - vscode-restclient
+>>>> 24/04/2023|04:12:20PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:12:20PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:12:20PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:12:22PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 25.703ms - vscode-restclient
+>>>> 24/04/2023|04:12:37PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:12:37PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:12:37PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:12:39PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 35.605ms - vscode-restclient
+>>>> 24/04/2023|04:12:42PM| GET[200]: /api/course-service/v1/course/get-all-deleted - 12.259ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:12:53PM| GET[200]: /api/course-service/v1/course/get-all - 7.305ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:12:53PM| GET[200]: /api/course-service/v1/course/get-all - 5.168ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:13:05PM| GET[200]: /api/course-service/v1/course/get/2023001 - 11.971ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:13:22PM| GET[200]: /api/course-service/v1/course/get/321987321 - 12.335ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:13:58PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:13:58PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:13:58PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:14:00PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 37.109ms - vscode-restclient
+>>>> 24/04/2023|04:14:21PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 14.473ms - vscode-restclient
+>>>> 24/04/2023|04:14:28PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 46.112ms - vscode-restclient
+>>>> 24/04/2023|04:14:31PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 9.001ms - vscode-restclient
+>>>> 24/04/2023|04:14:32PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 6.753ms - vscode-restclient
+>>>> 24/04/2023|04:14:32PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 5.603ms - vscode-restclient
+>>>> 24/04/2023|04:14:32PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 6.088ms - vscode-restclient
+>>>> 24/04/2023|04:14:38PM| GET[200]: /api/course-service/v1/academic/get?studentId=19065533&semesterAlias=HK1-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 9.272ms - vscode-restclient
+>>>> 24/04/2023|04:15:08PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:15:08PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:15:08PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:15:10PM| GET[200]: /api/course-service/v1/academic/get?studentId=19065533&semesterAlias=HK1-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 30.854ms - vscode-restclient
+>>>> 24/04/2023|04:15:13PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 37.392ms - vscode-restclient
+>>>> 24/04/2023|04:15:29PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:15:29PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:15:29PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:15:31PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 31.356ms - vscode-restclient
+>>>> 24/04/2023|04:15:40PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 44.484ms - vscode-restclient
+>>>> 24/04/2023|04:15:42PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 5.711ms - vscode-restclient
+>>>> 24/04/2023|04:15:43PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 9.536ms - vscode-restclient
+>>>> 24/04/2023|04:15:43PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 6.312ms - vscode-restclient
+>>>> 24/04/2023|04:15:49PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 14.782ms - vscode-restclient
+>>>> 24/04/2023|04:15:52PM| GET[200]: /api/course-service/v1/academic/get?studentId=19065533&semesterAlias=HK1-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 10.318ms - vscode-restclient
+>>>> 24/04/2023|04:16:10PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 43.492ms - vscode-restclient
+>>>> 24/04/2023|04:16:14PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 12.904ms - vscode-restclient
+>>>> 24/04/2023|04:16:25PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 10.295ms - vscode-restclient
+>>>> 24/04/2023|04:16:46PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 14.040ms - vscode-restclient
+>>>> 24/04/2023|04:16:52PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/app.js:26:28
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at _default (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/middleware/ServiceKey.js:5:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/cookie-parser/index.js:57:14)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+>>>> 24/04/2023|04:16:52PM| GET[404]: /api/course-service/v1/academic/get-all - 11.786ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:16:54PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 22.167ms - vscode-restclient
+>>>> 24/04/2023|04:16:56PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 14.039ms - vscode-restclient
+>>>> 24/04/2023|04:16:58PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 6.605ms - vscode-restclient
+>>>> 24/04/2023|04:17:12PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 18.137ms - vscode-restclient
+>>>> 24/04/2023|04:17:17PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 37.921ms - vscode-restclient
+>>>> 24/04/2023|04:17:18PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 15.548ms - vscode-restclient
+>>>> 24/04/2023|04:17:19PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 16.114ms - vscode-restclient
+>>>> 24/04/2023|04:17:23PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 9.594ms - vscode-restclient
+>>>> 24/04/2023|04:17:33PM| POST[200]: /api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl - 4.788ms - vscode-restclient
+>>>> 24/04/2023|04:17:38PM| GET[200]: /api/course-service/v1/semester/get-all - 7.788ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:18:07PM| GET[200]: /api/course-service/v1/semester/get/HK1-2023-2024 - 9.893ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:18:20PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/app.js:26:28
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:635:15
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:260:14)
+    at Function.handle (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at _default (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/middleware/ServiceKey.js:5:12)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at urlencodedParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/cookie-parser/index.js:57:14)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at jsonParser (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/json.js:119:7)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at logger (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:275:10)
+    at expressInit (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/middleware/init.js:40:5)
+    at Layer.handle [as handle_request] (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:317:13)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/express/lib/router/index.js:335:12)
+>>>> 24/04/2023|04:18:20PM| GET[404]: /api/course-service/v1/semester/get/delete/HK1-2023-2024/force - 5.900ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:18:35PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:18:35PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:18:35PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:18:38PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:18:38PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:18:38PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:18:43PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:18:43PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:18:43PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:18:57PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:18:57PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:18:57PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:18:59PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:18:59PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:18:59PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:19:01PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:19:01PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:19:01PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:19:05PM| Local address: http://localhost:2023
+>>>> 24/04/2023|04:19:05PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|04:19:05PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|04:19:15PM| POST[200]: /api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl - 33.469ms - vscode-restclient
+>>>> 24/04/2023|04:19:27PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 12.581ms - vscode-restclient
+>>>> 24/04/2023|04:19:37PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 29.561ms - vscode-restclient
+>>>> 24/04/2023|04:19:42PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 25.969ms - vscode-restclient
+>>>> 24/04/2023|04:20:02PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 55.159ms - vscode-restclient
+>>>> 24/04/2023|04:20:08PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 16.329ms - vscode-restclient
+>>>> 24/04/2023|04:20:13PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 24/04/2023|04:20:13PM| GET[500]: /api/course-service/v1/academic/get - 5.056ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|04:20:16PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 17.492ms - vscode-restclient
+>>>> 24/04/2023|04:20:24PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 14.705ms - vscode-restclient
+>>>> 24/04/2023|04:20:45PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 24.175ms - vscode-restclient
+>>>> 24/04/2023|04:21:24PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.615ms - vscode-restclient
+>>>> 24/04/2023|04:21:33PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 24.302ms - vscode-restclient
+>>>> 24/04/2023|04:21:43PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.611ms - vscode-restclient
+>>>> 24/04/2023|04:21:45PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 10.434ms - vscode-restclient
+>>>> 24/04/2023|04:21:45PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 10.401ms - vscode-restclient
+>>>> 24/04/2023|04:21:48PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 27.436ms - vscode-restclient
+>>>> 24/04/2023|04:23:20PM| GET[200]: /api/course-service/v1/course/get/321987321?api_key=wGlWnNDcrU0K4zOF8ywGl - 15.291ms - vscode-restclient
+>>>> 24/04/2023|04:23:47PM| POST[200]: /api/course-service/v1/course/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 27.528ms - vscode-restclient
+>>>> 24/04/2023|04:23:54PM| GET[200]: /api/course-service/v1/semester/get/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 5.418ms - vscode-restclient
+>>>> 24/04/2023|04:24:01PM| GET[200]: /api/course-service/v1/semester/get-all?api_key=wGlWnNDcrU0K4zOF8ywGl - 6.161ms - vscode-restclient
+>>>> 24/04/2023|04:24:17PM| POST[200]: /api/course-service/v1/semester/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 11.679ms - vscode-restclient
+>>>> 24/04/2023|04:24:20PM| GET[200]: /api/course-service/v1/semester/get-all?api_key=wGlWnNDcrU0K4zOF8ywGl - 4.270ms - vscode-restclient
+>>>> 24/04/2023|04:24:32PM| NotFound: Academic for student 19065533 cannot be found or has been removed.
+NotFound: Academic for student 19065533 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/academic.js:30:27
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 24/04/2023|04:24:32PM| GET[404]: /api/course-service/v1/academic/get?studentId=19065533&semesterAlias=HK1-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 62.105ms - vscode-restclient
+>>>> 24/04/2023|04:24:46PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 22.225ms - vscode-restclient
+>>>> 24/04/2023|04:25:30PM| NotFound: Semester with alias HK1-2023-2022 cannot be found or has been removed.
+NotFound: Semester with alias HK1-2023-2022 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/semester.js:20:39
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 24/04/2023|04:25:30PM| GET[404]: /api/course-service/v1/academic/statistics/HK1-2023-2022?api_key=wGlWnNDcrU0K4zOF8ywGl - 27.987ms - vscode-restclient
+>>>> 24/04/2023|04:25:37PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 19.422ms - vscode-restclient
+>>>> 24/04/2023|04:25:48PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 12.386ms - vscode-restclient
+>>>> 24/04/2023|04:25:52PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 32.799ms - vscode-restclient
+>>>> 24/04/2023|04:25:56PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 25.219ms - vscode-restclient
+>>>> 24/04/2023|04:26:04PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.372ms - vscode-restclient
+>>>> 24/04/2023|04:26:06PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 9.829ms - vscode-restclient
+>>>> 24/04/2023|04:26:11PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 20.024ms - vscode-restclient
+>>>> 24/04/2023|04:26:13PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 12.582ms - vscode-restclient
+>>>> 24/04/2023|04:26:37PM| GET[200]: /api/course-service/v1/academic/get?studentId=19065533&semesterAlias=HK1-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 13.945ms - vscode-restclient
+>>>> 24/04/2023|04:27:06PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 20.074ms - vscode-restclient
+>>>> 24/04/2023|04:27:18PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 19.815ms - vscode-restclient
+>>>> 24/04/2023|04:27:29PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 4.078ms - vscode-restclient
+>>>> 24/04/2023|04:27:43PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 16.786ms - vscode-restclient
+>>>> 24/04/2023|04:27:54PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 17.875ms - vscode-restclient
+>>>> 24/04/2023|04:27:57PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl - 10.324ms - vscode-restclient
+>>>> 24/04/2023|04:28:26PM| POST[200]: /api/course-service/v1/schedule/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 23.794ms - vscode-restclient
+>>>> 24/04/2023|04:28:29PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 5.526ms - vscode-restclient
+>>>> 24/04/2023|04:28:53PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 11.057ms - vscode-restclient
+>>>> 24/04/2023|04:29:15PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 34.837ms - vscode-restclient
+>>>> 24/04/2023|04:29:44PM| GET[200]: /api/course-service/v1/academic/get?studentId=19065533&semesterAlias=HK1-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 12.916ms - vscode-restclient
+>>>> 24/04/2023|04:30:21PM| GET[200]: /api/course-service/v1/academic/get?studentId=19065533&semesterAlias=HK1-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl - 27.988ms - vscode-restclient
+>>>> 24/04/2023|04:30:38PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 6.147ms - vscode-restclient
+>>>> 24/04/2023|04:30:59PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 18.449ms - vscode-restclient
+>>>> 24/04/2023|04:31:09PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.618ms - vscode-restclient
+>>>> 24/04/2023|04:31:16PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.042ms - vscode-restclient
+>>>> 24/04/2023|04:31:25PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 12.109ms - vscode-restclient
+>>>> 24/04/2023|04:31:31PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 26.081ms - vscode-restclient
+>>>> 24/04/2023|04:31:38PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 15.869ms - vscode-restclient
+>>>> 24/04/2023|04:31:46PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 8.644ms - vscode-restclient
+>>>> 24/04/2023|04:31:55PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 97.181ms - vscode-restclient
+>>>> 24/04/2023|04:33:05PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 10.948ms - vscode-restclient
+>>>> 24/04/2023|04:33:10PM| POST[200]: /api/course-service/v1/academic/new?api_key=wGlWnNDcrU0K4zOF8ywGl - 28.242ms - vscode-restclient
+>>>> 24/04/2023|04:33:28PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 43.933ms - vscode-restclient
+>>>> 24/04/2023|04:33:38PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 12.235ms - vscode-restclient
+>>>> 24/04/2023|04:33:45PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 24.384ms - vscode-restclient
+>>>> 24/04/2023|04:33:50PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 5.823ms - vscode-restclient
+>>>> 24/04/2023|04:34:43PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 12.828ms - vscode-restclient
+>>>> 24/04/2023|04:35:03PM| POST[200]: /api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl - 10.355ms - vscode-restclient

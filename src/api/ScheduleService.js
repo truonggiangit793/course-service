@@ -146,12 +146,29 @@ Router.post("/enrollment/semester", async (req, res, next) => {
     if (!studentId) return jsonResponse({ req, res }).failed({ statusCode: 200, message: "Student ID must be provided." });
     if (!semesterAlias) return jsonResponse({ req, res }).failed({ statusCode: 200, message: "Semester alias must be provided." });
 
+    const scheduleData = await scheduleModel.findAll();
     const enrollmentList = await enrollmentModel.findBySemester({ studentId, semesterAlias });
+
+    const studentEnrollmentList = enrollmentList.map((item) => {
+        const schedule = scheduleData.find((schedule) => schedule.semesterAlias == item.semesterAlias);
+        return {
+            courseCode: item.courseCode,
+            classId: schedule.classId,
+            semesterAlias: item.semesterAlias,
+            groupId: item.groupId,
+            schedule: {
+                day: schedule.day,
+                periods: schedule.periods,
+                weeks: schedule.weeks,
+                memberNum: schedule.memberNum,
+            },
+        };
+    });
 
     return jsonResponse({ req, res }).success({
         statusCode: 200,
         message: "List course enrollment records in semester " + semesterAlias + ".",
-        data: { total: enrollmentList.length, list: enrollmentList },
+        data: { total: studentEnrollmentList.length, list: studentEnrollmentList },
     });
 });
 export default Router;

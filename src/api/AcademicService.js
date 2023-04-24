@@ -20,13 +20,16 @@ Router.get("/get", (req, res, next) => {
             return jsonResponse({ req, res }).success({
                 statusCode: 200,
                 message: "Academic details with student ID " + studentId + " in semester " + semesterAlias + ".",
-                data: listAcademic,
+                data: {
+                    total: listAcademic.length,
+                    list: listAcademic,
+                },
             });
         });
     });
 });
 Router.get("/statistics/:alias", (req, res, next) => {
-    const alias = req.params.alias || null;
+    const { alias } = req.params;
     courseModel.findAll((err, courseList) => {
         if (err) return next(err);
         semesterModel.findOneByAlias({ alias }, (err, semester) => {
@@ -37,9 +40,13 @@ Router.get("/statistics/:alias", (req, res, next) => {
                 courseList.forEach((course) => {
                     let academicMatch = listAcademic.filter((academic) => academic.courseCode == course.code);
                     results.push({
-                        course,
-                        numberOfStudent: academicMatch.length,
-                        alias,
+                        courseCode: course.code,
+                        name: course.name,
+                        credit: course.credit,
+                        description: course.description,
+                        prerequisite: course.prerequisite,
+                        semesterAlias: alias,
+                        registrationCount: academicMatch.length,
                     });
                 });
                 return jsonResponse({ req, res }).success({

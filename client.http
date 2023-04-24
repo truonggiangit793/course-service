@@ -1,5 +1,5 @@
 ###
-GET http://localhost:2023/api/course-service/v1/course/get/4325436343211223?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+GET http://localhost:2023/api/course-service/v1/course/get/321987321?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 ###
 DELETE  http://localhost:2023/api/course-service/v1/course/delete/51900753253221?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
@@ -21,10 +21,10 @@ POST http://localhost:2023/api/course-service/v1/course/new?api_key=wGlWnNDcrU0K
 content-type: application/json
 
 {
-    "code": 321987321,
-    "name":"Subject B",
+    "code": 38485322,
+    "name":"Subject C",
     "credits": 12,
-    "description": "This is a description of the subject B",
+    "description": "This is a description of the subject C",
     "prerequisite": [],
     "departmentAllowed": "213298731"
 }
@@ -56,14 +56,14 @@ POST http://localhost:2023/api/course-service/v1/semester/new?api_key=wGlWnNDcrU
 content-type: application/json
 
 {
-    "alias": "HK1-2023-2024"
+    "alias": "HK2-2023-2024"
 }
 
 
 # ==============================================================================================================
 
 ###
-GET  http://localhost:2023/api/course-service/v1/academic/get?studentId=51900793&semesterAlias=HK1-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+GET  http://localhost:2023/api/course-service/v1/academic/get?studentId=19065533&semesterAlias=HK1-2023-2024&api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 ###
 GET  http://localhost:2023/api/course-service/v1/academic/statistics/HK1-2023-2024?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
@@ -74,8 +74,8 @@ POST http://localhost:2023/api/course-service/v1/academic/new?api_key=wGlWnNDcrU
 content-type: application/json
 
 {
-    "studentId":"19065533",
-    "courseCode":321987321,
+    "studentId":"19602432",
+    "courseCode":2023001,
     "semesterAlias":"HK1-2023-2024"
 }
 
@@ -86,9 +86,9 @@ POST  http://localhost:2023/api/course-service/v1/schedule/new?api_key=wGlWnNDcr
 content-type: application/json
 
 {
-    "courseCode":321987321,
+    "courseCode":38485322,
     "semesterAlias":"HK1-2023-2024",
-    "groupId":2,
+    "groupId":1,
     "limit": 2,
     "periods":[1,2,3],
     "weeks":[1,2,3],
@@ -107,17 +107,17 @@ POST  http://localhost:2023/api/course-service/v1/schedule/enroll?api_key=wGlWnN
 content-type: application/json
 
 {
-    "studentId":"19065533",
-    "courseCode":321987321,
+    "studentId":"19602432",
+    "courseCode":2023001,
     "semesterAlias":"HK1-2023-2024",
-    "groupId":2
+    "groupId":1
 }
 ###
 POST  http://localhost:2023/api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 
 {
-    "studentId":"19065533"
+    "studentId":"19602432"
 }
 ###
 POST  http://localhost:2023/api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
