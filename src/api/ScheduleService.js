@@ -14,6 +14,16 @@ const Router = express.Router();
 Router.get("/", function (req, res, next) {
     return jsonResponse({ req, res }).failed({ statusCode: 200, message: "Course code has been removed." });
 });
+Router.post("/all", async function (req, res, next) {
+    const { semesterAlias } = req.body;
+    if (!semesterAlias) return jsonResponse({ req, res }).failed({ statusCode: 200, message: "Semester alias must be provided." });
+    const scheduleData = await scheduleModel.findBySemester({ semesterAlias });
+    return jsonResponse({ req, res }).success({
+        statusCode: 200,
+        message: "List schedule records in semester " + semesterAlias + ".",
+        data: { total: scheduleData.length, list: scheduleData },
+    });
+});
 
 /* * * POST * * */
 Router.post("/new", async function (req, res, next) {
@@ -73,8 +83,7 @@ Router.post("/enroll", async function (req, res, next) {
             statusCode: 200,
             message: "This class has not been registered in your academic plan.",
         });
-    if (!scheduleData)
-        return jsonResponse({ req, res }).failed({ statusCode: 200, message: "This schedule cannot be found." });
+    if (!scheduleData) return jsonResponse({ req, res }).failed({ statusCode: 200, message: "This schedule cannot be found." });
     if (scheduleData.memberNum >= scheduleData.limit)
         return jsonResponse({ req, res }).failed({
             statusCode: 200,
@@ -102,4 +111,43 @@ Router.post("/enroll", async function (req, res, next) {
     // });
 });
 
+Router.post("/enrollment/all", async (req, res, next) => {
+    const { studentId } = req.body;
+    if (!studentId) return jsonResponse({ req, res }).failed({ statusCode: 200, message: "Student ID must be provided." });
+    const enrollmentList = await enrollmentModel.findAllByStudentId({ studentId });
+    const scheduleData = await scheduleModel.findAll();
+    const list = enrollmentList.map((item) => {
+        const schedule = scheduleData.find((schedule) => schedule.semesterAlias == item.semesterAlias);
+        return {
+            courseCode: item.courseCode,
+            classId: schedule.classId,
+            semesterAlias: item.semesterAlias,
+            groupId: item.groupId,
+            schedule: {
+                day: schedule.day,
+                periods: schedule.periods,
+                weeks: schedule.weeks,
+                memberNum: schedule.memberNum,
+            },
+        };
+    });
+    return jsonResponse({ req, res }).success({
+        statusCode: 200,
+        message: "List of all course enrollment records retrieved successfully.",
+        data: { studentId, total: enrollmentList.length, list },
+    });
+});
+Router.post("/enrollment/semester", async (req, res, next) => {
+    const { studentId, semesterAlias } = req.body;
+    if (!studentId) return jsonResponse({ req, res }).failed({ statusCode: 200, message: "Student ID must be provided." });
+    if (!semesterAlias) return jsonResponse({ req, res }).failed({ statusCode: 200, message: "Semester alias must be provided." });
+
+    const enrollmentList = await enrollmentModel.findBySemester({ studentId, semesterAlias });
+
+    return jsonResponse({ req, res }).success({
+        statusCode: 200,
+        message: "List course enrollment records in semester " + semesterAlias + ".",
+        data: { total: enrollmentList.length, list: enrollmentList },
+    });
+});
 export default Router;

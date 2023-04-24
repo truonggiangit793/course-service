@@ -96,6 +96,13 @@ content-type: application/json
 }
 
 ###
+POST  http://localhost:2023/api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+
+{
+    "semesterAlias":"HK1-2023-2024"
+}
+###
 POST  http://localhost:2023/api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
 content-type: application/json
 
@@ -103,5 +110,20 @@ content-type: application/json
     "studentId":"19065533",
     "courseCode":2023001,
     "semesterAlias":"HK1-2023-2024",
-    "groupId":2
+    "groupId":1
+}
+###
+POST  http://localhost:2023/api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+
+{
+    "studentId":"19065533"
+}
+###
+POST  http://localhost:2023/api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl HTTP/1.1
+content-type: application/json
+
+{
+    "studentId":"19065533",
+    "semesterAlias": "HK1-2023-2024"
 }

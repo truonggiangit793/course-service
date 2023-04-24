@@ -946,3 +946,519 @@ ValidationError: "studentId" must be a string
 >>>> 22/04/2023|05:00:40PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 57.405ms - vscode-restclient
 >>>> 22/04/2023|05:04:20PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 57.996ms - vscode-restclient
 >>>> 22/04/2023|05:05:10PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 40.882ms - vscode-restclient
+>>>> 22/04/2023|05:37:24PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 33.162ms - vscode-restclient
+>>>> 22/04/2023|05:38:23PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 30.058ms - vscode-restclient
+>>>> 23/04/2023|09:44:35AM| Local address: http://localhost:2023
+>>>> 23/04/2023|09:44:35AM| Network address: http://192.168.1.3:2023
+>>>> 23/04/2023|09:44:35AM| Connect to mongoDB successfully!
+>>>> 24/04/2023|01:23:43PM| Local address: http://localhost:2023
+>>>> 24/04/2023|01:23:43PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|01:23:43PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|01:33:43PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 57.695ms - vscode-restclient
+>>>> 24/04/2023|01:54:23PM| Local address: http://localhost:2023
+>>>> 24/04/2023|01:54:23PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|01:54:23PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|01:55:13PM| Local address: http://localhost:2023
+>>>> 24/04/2023|01:55:13PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|01:55:13PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|01:57:21PM| Local address: http://localhost:2023
+>>>> 24/04/2023|01:57:21PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|01:57:21PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|01:57:57PM| Local address: http://localhost:2023
+>>>> 24/04/2023|01:57:57PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|01:57:57PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|01:58:05PM| Local address: http://localhost:2023
+>>>> 24/04/2023|01:58:05PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|01:58:05PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|01:58:07PM| SyntaxError: Unexpected token } in JSON at position 30
+SyntaxError: Unexpected token } in JSON at position 30
+    at JSON.parse (<anonymous>)
+    at parse (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/types/json.js:89:19)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/raw-body/index.js:224:16)
+    at done (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+>>>> 24/04/2023|01:58:07PM| POST[400]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 28.881ms - vscode-restclient
+>>>> 24/04/2023|01:58:13PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 3.280ms - vscode-restclient
+>>>> 24/04/2023|01:58:37PM| Local address: http://localhost:2023
+>>>> 24/04/2023|01:58:37PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|01:58:37PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|01:59:04PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|01:59:04PM| Local address: http://localhost:2023
+>>>> 24/04/2023|01:59:04PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|01:59:17PM| Local address: http://localhost:2023
+>>>> 24/04/2023|01:59:17PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|01:59:17PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|01:59:56PM| Local address: http://localhost:2023
+>>>> 24/04/2023|01:59:56PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|01:59:56PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|01:59:57PM| Local address: http://localhost:2023
+>>>> 24/04/2023|01:59:57PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|01:59:57PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:00:13PM| GET[401]: /api/course-service/v1/course/get-all - 5.681ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|02:00:22PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:00:22PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:00:22PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:00:24PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 42.411ms - vscode-restclient
+>>>> 24/04/2023|02:00:25PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 31.028ms - vscode-restclient
+>>>> 24/04/2023|02:00:33PM| GET[401]: /api/course-service/v1/course/get-all-deleted - 5.127ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|02:01:57PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:01:57PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:01:58PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:02:13PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:02:13PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:02:13PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:02:21PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:02:21PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:02:21PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:02:24PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:02:24PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:02:24PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:02:28PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:02:28PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:02:28PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:02:30PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 39.477ms - vscode-restclient
+>>>> 24/04/2023|02:04:51PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:04:51PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:04:51PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:04:53PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:04:53PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:04:53PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:05:07PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:05:07PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:05:07PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:06:20PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:06:20PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:06:20PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:06:34PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:06:34PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:06:34PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:06:35PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:06:35PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:06:35PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:07:11PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:07:11PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:07:11PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:07:12PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:07:12PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:07:12PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:07:14PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:07:14PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:07:14PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:07:19PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:07:19PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:07:20PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:07:21PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:07:21PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:07:21PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:07:23PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:07:23PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:07:23PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:07:32PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:07:32PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:07:32PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:08:15PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:08:15PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:08:15PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:08:15PM| GET[200]: /api/course-service/v1/course/get-all - 42.150ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|02:08:30PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:08:30PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:08:30PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:08:33PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:08:33PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:08:33PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:08:35PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:08:35PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:08:35PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:08:38PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:08:38PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:08:38PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:08:40PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:08:40PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:08:40PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:08:44PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:08:44PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:08:44PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:09:17PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:09:17PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:09:17PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:09:21PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:09:21PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:09:21PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:09:23PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:09:23PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:09:23PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:09:25PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:09:25PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:09:25PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:10:01PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:10:01PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:10:01PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:10:13PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:10:13PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:10:13PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:10:14PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:10:14PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:10:14PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:10:19PM| POST[200]: /api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl - 34.669ms - vscode-restclient
+>>>> 24/04/2023|02:10:38PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:10:38PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:10:38PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:10:49PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:10:49PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:10:49PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:10:49PM| POST[200]: /api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl - 26.907ms - vscode-restclient
+>>>> 24/04/2023|02:11:05PM| POST[200]: /api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl - 21.013ms - vscode-restclient
+>>>> 24/04/2023|02:11:11PM| POST[200]: /api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl - 17.801ms - vscode-restclient
+>>>> 24/04/2023|02:11:20PM| POST[200]: /api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl - 10.941ms - vscode-restclient
+>>>> 24/04/2023|02:11:57PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:11:57PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:11:57PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:13:09PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:13:09PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:13:09PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:13:15PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:13:15PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:13:15PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:14:30PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:14:30PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:14:30PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:14:46PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:14:46PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:14:46PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:14:52PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:14:52PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:14:52PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:15:13PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:15:13PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:15:13PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:15:35PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:15:35PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:15:35PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:15:45PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:15:45PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:15:45PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:15:47PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:15:47PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:15:47PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:16:51PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:16:51PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:16:51PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:16:59PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:16:59PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:16:59PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:17:00PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 53.692ms - vscode-restclient
+>>>> 24/04/2023|02:17:15PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:17:15PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:17:15PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:17:17PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 46.091ms - vscode-restclient
+>>>> 24/04/2023|02:17:17PM| {
+  _id: new ObjectId("6443ac8615d8094e7b981b57"),
+  courseCode: 2023003,
+  semesterAlias: 'HK1-2023-2024',
+  classId: '2023003-HK1-2023-2024',
+  groupId: 1,
+  limit: 2,
+  memberNum: 1,
+  periods: [ 1, 2, 3 ],
+  weeks: [ 1, 2, 3 ],
+  allowedEnroll: true,
+  day: 'Wednesday',
+  deleted: false,
+  createdAt: 2023-04-22T09:44:38.242Z,
+  updatedAt: 2023-04-22T09:51:27.789Z,
+  __v: 0
+},{
+  _id: new ObjectId("6443ac9015d8094e7b981b5c"),
+  courseCode: 2023003,
+  semesterAlias: 'HK1-2023-2024',
+  classId: '2023003-HK1-2023-2024',
+  groupId: 2,
+  limit: 1,
+  memberNum: 1,
+  periods: [ 1, 2, 3 ],
+  weeks: [ 1, 2, 3 ],
+  allowedEnroll: true,
+  day: 'Wednesday',
+  deleted: false,
+  createdAt: 2023-04-22T09:44:48.424Z,
+  updatedAt: 2023-04-22T09:53:24.985Z,
+  __v: 0
+},{
+  _id: new ObjectId("6443aeea7b752e10cb082e7d"),
+  courseCode: 2023001,
+  semesterAlias: 'HK1-2023-2024',
+  classId: '2023001-HK1-2023-2024',
+  groupId: 1,
+  limit: 5,
+  memberNum: 0,
+  periods: [ 1, 2, 3 ],
+  weeks: [ 1, 2, 3 ],
+  allowedEnroll: true,
+  day: 'Wednesday',
+  deleted: false,
+  createdAt: 2023-04-22T09:54:50.421Z,
+  updatedAt: 2023-04-22T09:54:50.421Z,
+  __v: 0
+},{
+  _id: new ObjectId("6443aef17b752e10cb082e85"),
+  courseCode: 2023001,
+  semesterAlias: 'HK1-2023-2024',
+  classId: '2023001-HK1-2023-2024',
+  groupId: 2,
+  limit: 5,
+  memberNum: 0,
+  periods: [ 1, 2, 3 ],
+  weeks: [ 1, 2, 3 ],
+  allowedEnroll: true,
+  day: 'Wednesday',
+  deleted: false,
+  createdAt: 2023-04-22T09:54:57.075Z,
+  updatedAt: 2023-04-22T09:54:57.075Z,
+  __v: 0
+}
+>>>> 24/04/2023|02:17:17PM| {
+  _id: new ObjectId("6443ac8615d8094e7b981b57"),
+  courseCode: 2023003,
+  semesterAlias: 'HK1-2023-2024',
+  classId: '2023003-HK1-2023-2024',
+  groupId: 1,
+  limit: 2,
+  memberNum: 1,
+  periods: [ 1, 2, 3 ],
+  weeks: [ 1, 2, 3 ],
+  allowedEnroll: true,
+  day: 'Wednesday',
+  deleted: false,
+  createdAt: 2023-04-22T09:44:38.242Z,
+  updatedAt: 2023-04-22T09:51:27.789Z,
+  __v: 0
+},{
+  _id: new ObjectId("6443ac9015d8094e7b981b5c"),
+  courseCode: 2023003,
+  semesterAlias: 'HK1-2023-2024',
+  classId: '2023003-HK1-2023-2024',
+  groupId: 2,
+  limit: 1,
+  memberNum: 1,
+  periods: [ 1, 2, 3 ],
+  weeks: [ 1, 2, 3 ],
+  allowedEnroll: true,
+  day: 'Wednesday',
+  deleted: false,
+  createdAt: 2023-04-22T09:44:48.424Z,
+  updatedAt: 2023-04-22T09:53:24.985Z,
+  __v: 0
+},{
+  _id: new ObjectId("6443aeea7b752e10cb082e7d"),
+  courseCode: 2023001,
+  semesterAlias: 'HK1-2023-2024',
+  classId: '2023001-HK1-2023-2024',
+  groupId: 1,
+  limit: 5,
+  memberNum: 0,
+  periods: [ 1, 2, 3 ],
+  weeks: [ 1, 2, 3 ],
+  allowedEnroll: true,
+  day: 'Wednesday',
+  deleted: false,
+  createdAt: 2023-04-22T09:54:50.421Z,
+  updatedAt: 2023-04-22T09:54:50.421Z,
+  __v: 0
+},{
+  _id: new ObjectId("6443aef17b752e10cb082e85"),
+  courseCode: 2023001,
+  semesterAlias: 'HK1-2023-2024',
+  classId: '2023001-HK1-2023-2024',
+  groupId: 2,
+  limit: 5,
+  memberNum: 0,
+  periods: [ 1, 2, 3 ],
+  weeks: [ 1, 2, 3 ],
+  allowedEnroll: true,
+  day: 'Wednesday',
+  deleted: false,
+  createdAt: 2023-04-22T09:54:57.075Z,
+  updatedAt: 2023-04-22T09:54:57.075Z,
+  __v: 0
+}
+>>>> 24/04/2023|02:17:25PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:17:25PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:17:25PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:17:27PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:17:27PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:17:27PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:17:28PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 37.844ms - vscode-restclient
+>>>> 24/04/2023|02:19:37PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:19:37PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:19:37PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:19:41PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 39.764ms - vscode-restclient
+>>>> 24/04/2023|02:19:43PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 15.279ms - vscode-restclient
+>>>> 24/04/2023|02:19:53PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:19:53PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:19:54PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:19:58PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 34.887ms - vscode-restclient
+>>>> 24/04/2023|02:19:59PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 5.647ms - vscode-restclient
+>>>> 24/04/2023|02:20:00PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 5.493ms - vscode-restclient
+>>>> 24/04/2023|02:20:00PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 7.575ms - vscode-restclient
+>>>> 24/04/2023|02:20:00PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 6.980ms - vscode-restclient
+>>>> 24/04/2023|02:20:06PM| POST[200]: /api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl - 6.818ms - vscode-restclient
+>>>> 24/04/2023|02:20:08PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 6.032ms - vscode-restclient
+>>>> 24/04/2023|02:20:19PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:20:19PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:20:19PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:20:23PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:20:23PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:20:23PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:20:24PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 38.588ms - vscode-restclient
+>>>> 24/04/2023|02:20:36PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:20:36PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:20:36PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:20:37PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 36.590ms - vscode-restclient
+>>>> 24/04/2023|02:21:35PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:21:35PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:21:35PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:21:41PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:21:41PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:21:41PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:21:42PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:21:42PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:21:42PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:22:03PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:22:03PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:22:03PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:22:04PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:22:04PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:22:04PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:22:06PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:22:06PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:22:06PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:22:13PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:22:13PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:22:13PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:22:39PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:22:39PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:22:39PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:22:58PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:22:58PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:22:58PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:23:05PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 45.333ms - vscode-restclient
+>>>> 24/04/2023|02:23:16PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:23:16PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:23:16PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:23:17PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 40.388ms - vscode-restclient
+>>>> 24/04/2023|02:23:41PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:23:41PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:23:41PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:23:43PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:23:43PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:23:43PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:23:49PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:23:49PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:23:49PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:24:04PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:24:04PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:24:04PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:24:08PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 35.082ms - vscode-restclient
+>>>> 24/04/2023|02:24:52PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:24:52PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:24:52PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:25:06PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:25:06PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:25:06PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:25:17PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:25:17PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:25:17PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:26:15PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:26:15PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:26:15PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:26:30PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:26:30PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:26:30PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:26:48PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:26:48PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:26:48PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:26:49PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 66.219ms - vscode-restclient
+>>>> 24/04/2023|02:27:21PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:27:21PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:27:21PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:27:25PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:27:25PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:27:25PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:27:26PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:27:26PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:27:26PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:27:29PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:27:29PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:27:29PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:27:30PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 36.167ms - vscode-restclient
+>>>> 24/04/2023|02:27:47PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:27:47PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:27:47PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:27:47PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 34.017ms - vscode-restclient
+>>>> 24/04/2023|02:28:03PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:28:03PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:28:03PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:28:04PM| POST[200]: /api/course-service/v1/schedule/enrollment/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 29.883ms - vscode-restclient
+>>>> 24/04/2023|02:28:06PM| GET[200]: /api/course-service/v1/course/get-all - 13.551ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|02:28:49PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:28:49PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:28:49PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:28:54PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:28:54PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:28:54PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:29:10PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:29:10PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:29:10PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:29:44PM| POST[200]: /api/course-service/v1/schedule/enrollment/semester?api_key=wGlWnNDcrU0K4zOF8ywGl - 67.839ms - vscode-restclient
+>>>> 24/04/2023|02:30:59PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 33.063ms - vscode-restclient
+>>>> 24/04/2023|02:33:32PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:33:32PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:33:32PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:34:16PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:34:16PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:34:16PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:34:40PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:34:40PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:34:40PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:35:10PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:35:10PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:35:10PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:35:24PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:35:24PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:35:24PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:35:25PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:35:25PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:35:25PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:35:44PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:35:44PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:35:44PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:35:58PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:35:58PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:35:58PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:36:00PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:36:00PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:36:00PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:36:06PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:36:06PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:36:06PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:36:08PM| Local address: http://localhost:2023
+>>>> 24/04/2023|02:36:08PM| Network address: http://172.17.13.163:2023
+>>>> 24/04/2023|02:36:08PM| Connect to mongoDB successfully!
+>>>> 24/04/2023|02:36:26PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 39.916ms - vscode-restclient
+>>>> 24/04/2023|02:37:28PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 34.916ms - vscode-restclient
+>>>> 24/04/2023|02:37:37PM| POST[200]: /api/course-service/v1/schedule/all?api_key=wGlWnNDcrU0K4zOF8ywGl - 8.719ms - vscode-restclient
+>>>> 24/04/2023|02:37:48PM| GET[200]: /api/course-service/v1/course/get-all - 19.569ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|02:38:04PM| GET[200]: /api/course-service/v1/course/get/2023001 - 190.680ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 24/04/2023|02:39:09PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 35.006ms - vscode-restclient
+>>>> 24/04/2023|02:40:45PM| GET[404]: /api/course-service/v1/course/get/4325436343211223?api_key=wGlWnNDcrU0K4zOF8ywGl - 79.984ms - vscode-restclient
+>>>> 24/04/2023|02:40:45PM| NotFound: Course code 4325436343211223 cannot be found or has been removed.
+NotFound: Course code 4325436343211223 cannot be found or has been removed.
+    at throwError (/Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/utils/helper.js:3:17)
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/src/models/course.js:40:27
+    at /Users/truonggiangit793/Desktop/KjnwjnPham/course-service/node_modules/mongoose/lib/model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)

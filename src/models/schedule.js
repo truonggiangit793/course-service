@@ -41,6 +41,9 @@ class Schedule {
         const newSchedule = await this.model.create({ courseCode, semesterAlias, classId, groupId, limit, periods, weeks, day });
         return callback(null, newSchedule);
     }
+    async findAll() {
+        return await this.model.find({});
+    }
     async findOne({ courseCode, semesterAlias, groupId }) {
         const classId = `${courseCode}-${semesterAlias}`;
         return await this.model.findOne({ courseCode, semesterAlias, classId, groupId });
