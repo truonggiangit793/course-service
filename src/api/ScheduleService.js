@@ -7,6 +7,7 @@ import academicModel from "@/models/academic";
 import enrollmentModel from "@/models/enrollment";
 import scheduleSchema from "@/schema/schedule";
 import enrollmentSchema from "@/schema/enrollment";
+import axios from "axios";
 
 const Router = express.Router();
 
@@ -76,74 +77,87 @@ Router.post("/enroll", async function (req, res, next) {
         courseCode,
     });
 
-    const scheduleDataAll = await scheduleModel.findAll();
-    const scheduleData = await scheduleModel.findOne({ courseCode, semesterAlias, groupId });
-    const enrollmentQuery = await enrollmentModel.findOne({ courseCode, studentId, groupId, semesterAlias });
-    const enrollmentList = await enrollmentModel.findBySemester({ studentId, semesterAlias });
+    courseModel.findOneByCode({ code: courseCode }, async (err, course) => {
+        // console.log(course.id);
+        if (err) return next(err);
+        const scheduleDataAll = await scheduleModel.findAll();
+        const scheduleData = await scheduleModel.findOne({ courseCode, semesterAlias, groupId });
+        const enrollmentQuery = await enrollmentModel.findOne({ courseCode, studentId, groupId, semesterAlias });
+        const enrollmentList = await enrollmentModel.findBySemester({ studentId, semesterAlias });
 
-    if (!academicQuery[0])
-        return jsonResponse({ req, res }).failed({
-            statusCode: 200,
-            message: "This class has not been registered in your academic plan.",
-        });
-    if (!scheduleData)
-        return jsonResponse({ req, res }).failed({ statusCode: 200, message: "This schedule cannot be found." });
-    if (scheduleData.memberNum >= scheduleData.limit)
-        return jsonResponse({ req, res }).failed({
-            statusCode: 200,
-            message: "This class has been fulled with students.",
-        });
-    if (!scheduleData.allowedEnroll)
-        return jsonResponse({ req, res }).failed({
-            statusCode: 200,
-            message: "You do not have permission to enroll this class.",
-        });
-    if (enrollmentQuery)
-        return jsonResponse({ req, res }).failed({
-            statusCode: 200,
-            message: "You have been enrolled this class before.",
-        });
+        if (!academicQuery[0])
+            return jsonResponse({ req, res }).failed({
+                statusCode: 200,
+                message: "This class has not been registered in your academic plan.",
+            });
+        if (!scheduleData)
+            return jsonResponse({ req, res }).failed({ statusCode: 200, message: "This schedule cannot be found." });
+        if (scheduleData.memberNum >= scheduleData.limit)
+            return jsonResponse({ req, res }).failed({
+                statusCode: 200,
+                message: "This class has been fulled with students.",
+            });
+        if (!scheduleData.allowedEnroll)
+            return jsonResponse({ req, res }).failed({
+                statusCode: 200,
+                message: "You do not have permission to enroll this class.",
+            });
+        if (enrollmentQuery)
+            return jsonResponse({ req, res }).failed({
+                statusCode: 200,
+                message: "You have been enrolled this class before.",
+            });
 
-    const studentEnrollmentList = enrollmentList.map((item) => {
-        const schedule = scheduleDataAll.find((schedule) => schedule.semesterAlias == item.semesterAlias);
-        return {
-            courseCode: item.courseCode,
-            classId: schedule.classId,
-            semesterAlias: item.semesterAlias,
-            groupId: item.groupId,
-            schedule: {
-                day: schedule.day,
-                periods: schedule.periods,
-                weeks: schedule.weeks,
-                memberNum: schedule.memberNum,
-            },
-        };
-    });
-
-    const duplicatedSchedule = studentEnrollmentList.find(
-        (item) =>
-            item.semesterAlias == scheduleData.semesterAlias &&
-            item.schedule.day == scheduleData.day &&
-            JSON.stringify(scheduleData.periods) == JSON.stringify(item.schedule.periods) &&
-            JSON.stringify(scheduleData.weeks) == JSON.stringify(item.schedule.weeks)
-    );
-
-    if (duplicatedSchedule)
-        return jsonResponse({ req, res }).failed({
-            statusCode: 200,
-            message: "You have a duplicated course in this day.",
-            data: duplicatedSchedule,
+        const studentEnrollmentList = enrollmentList.map((item) => {
+            const schedule = scheduleDataAll.find((schedule) => schedule.semesterAlias == item.semesterAlias);
+            return {
+                courseCode: item.courseCode,
+                classId: schedule.classId,
+                semesterAlias: item.semesterAlias,
+                groupId: item.groupId,
+                schedule: {
+                    day: schedule.day,
+                    periods: schedule.periods,
+                    weeks: schedule.weeks,
+                    memberNum: schedule.memberNum,
+                },
+            };
         });
 
-    enrollmentModel.createOne({ studentId, courseCode, semesterAlias, groupId }, async (error, result) => {
-        if (error) return next(error);
-        await scheduleModel.updateMemberNumber(
-            { courseCode, semesterAlias, groupId },
-            { memberNum: scheduleData.memberNum + 1 }
+        const duplicatedSchedule = studentEnrollmentList.find(
+            (item) =>
+                item.semesterAlias == scheduleData.semesterAlias &&
+                item.schedule.day == scheduleData.day &&
+                JSON.stringify(scheduleData.periods) == JSON.stringify(item.schedule.periods) &&
+                JSON.stringify(scheduleData.weeks) == JSON.stringify(item.schedule.weeks)
         );
-        return jsonResponse({ req, res }).success({
-            statusCode: 200,
-            message: "You have been enrolled to this class successfully.",
+
+        if (duplicatedSchedule)
+            return jsonResponse({ req, res }).failed({
+                statusCode: 200,
+                message: "You have a duplicated course in this day.",
+                data: duplicatedSchedule,
+            });
+
+        enrollmentModel.createOne({ studentId, courseCode, semesterAlias, groupId }, async (error, result) => {
+            if (error) return next(error);
+            const allPoints = await axios.post(`${process.env.ClIENT_SERVICE}/score/new`, {
+                id_student: studentId,
+                id_course: course._id,
+                semester: semesterAlias,
+            });
+            if (allPoints.data.status) {
+                await scheduleModel.updateMemberNumber(
+                    { courseCode, semesterAlias, groupId },
+                    { memberNum: scheduleData.memberNum + 1 }
+                );
+                return jsonResponse({ req, res }).success({
+                    statusCode: 200,
+                    message: "You have been enrolled to this class successfully.",
+                });
+            } else {
+                return next(new Error(allPoints.data.message));
+            }
         });
     });
 });
@@ -159,17 +173,32 @@ Router.delete("/delete-enroll", async function (req, res, next) {
         return jsonResponse({ req, res }).failed({ statusCode: 200, message: "This schedule cannot be found." });
     if (!enrollmentQuery)
         return jsonResponse({ req, res }).failed({ statusCode: 200, message: "You are not enroll this class before." });
-
-    enrollmentModel.deleteOne({ studentId, courseCode, semesterAlias, groupId }, async (error, result) => {
-        if (error) return next(error);
+    courseModel.findOneByCode({ code: courseCode }, async (err, course) => {
+        if (err) return next(err);
+        // enrollmentModel.deleteOne({ studentId, courseCode, semesterAlias, groupId }, async (error, result) => {
+        //     if (error) return next(error);
+        //     const allPoints = await axios.get(`${process.env.ClIENT_SERVICE}/score/new`);
+        //     if (allPoints.data.status) {
         await scheduleModel.updateMemberNumber(
             { courseCode, semesterAlias, groupId },
-            { memberNum: scheduleData.memberNum - 1 }
+            { memberNum: scheduleData.memberNum + 1 }
         );
         return jsonResponse({ req, res }).success({
             statusCode: 200,
-            message: `Your enrollment in class ${groupId} has been removed.`,
+            message: "You have been enrolled to this class successfully.",
         });
+        // } else {
+        //     return next(new Error(allPoints.data.message));
+        // }
+        // await scheduleModel.updateMemberNumber(
+        //     { courseCode, semesterAlias, groupId },
+        //     { memberNum: scheduleData.memberNum - 1 }
+        // );
+        // return jsonResponse({ req, res }).success({
+        //     statusCode: 200,
+        //     message: `Your enrollment in class ${groupId} has been removed.`,
+        // });
+        // });
     });
 });
 
