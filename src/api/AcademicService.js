@@ -64,8 +64,16 @@ Router.post("/new", async (req, res, next) => {
     const { error } = academicSchema.validate(req.body);
     if (error) return next(error);
     const { studentId, courseCode, semesterAlias } = req.body;
-    const registered = await academicModel.findByStudentInSemesterHasCourseCode({ studentId, courseCode, semesterAlias });
-    if (registered[0]) return jsonResponse({ req, res }).failed({ statusCode: 200, message: "You have been registered this course in your academic plan!" });
+    const registered = await academicModel.findByStudentInSemesterHasCourseCode({
+        studentId,
+        courseCode,
+        semesterAlias,
+    });
+    if (registered[0])
+        return jsonResponse({ req, res }).failed({
+            statusCode: 200,
+            message: "You have been registered this course in your academic plan!",
+        });
 
     courseModel.findOneByCode({ code: courseCode }, async function (err, course) {
         if (err) return next(err);
@@ -102,6 +110,41 @@ Router.post("/new", async (req, res, next) => {
                 data: academic,
             });
         });
+    });
+});
+
+Router.delete("/remove", async (req, res, next) => {
+    const { error } = academicSchema.validate(req.body);
+    if (error) return next(error);
+    const { studentId, courseCode, semesterAlias } = req.body;
+    const registered = await academicModel.findByStudentInSemesterHasCourseCode({
+        studentId,
+        courseCode,
+        semesterAlias,
+    });
+    if (registered[0])
+        return jsonResponse({ req, res }).failed({
+            statusCode: 200,
+            message: "You have been registered this course in your academic plan!",
+        });
+    semesterModel.findOneByAlias({ alias: semesterAlias }, (err, semester) => {
+        if (err) return next(err);
+        if (semester.status) {
+            academicModel.deleteOneByCode({ studentId, courseCode, semesterAlias }, async function (err, academic) {
+                if (err) return next(err);
+                return jsonResponse({ req, res }).failed({
+                    statusCode: 200,
+                    message: `Remove academic for course ${courseCode} successfully.`,
+                    data: academic,
+                });
+            });
+        } else {
+            return jsonResponse({ req, res }).failed({
+                statusCode: 200,
+                message: `Semester ${semesterAlias} has already been closed.`,
+                data: academic,
+            });
+        }
     });
 });
 
