@@ -75,7 +75,7 @@ content-type: application/json
 
 {
     "studentId":"19065533",
-    "courseCode":4325436343211223,
+    "courseCode":432543634321,
     "semesterAlias":"HK1-2023-2024"
 }
 
@@ -118,7 +118,7 @@ content-type: application/json
 
 {
     "studentId":"19065533",
-    "courseCode":"643e2d8457b93e5a82ddc842",
+    "courseCode":"432543634321",
     "semesterAlias":"HK1-2023-2024",
     "groupId":1
 }

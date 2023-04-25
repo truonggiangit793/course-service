@@ -2913,3 +2913,79 @@ ValidationError: "courseCode" must be a number
 >>>> 24/04/2023|11:39:35PM| Local address: http://localhost:2023
 >>>> 24/04/2023|11:39:35PM| Network address: http://172.20.128.1:2023
 >>>> 24/04/2023|11:39:35PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|01:46:01PM| Local address: http://localhost:2023
+>>>> 25/04/2023|01:46:01PM| Network address: http://172.20.128.1:2023
+>>>> 25/04/2023|01:46:01PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|01:46:09PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 630.548ms - vscode-restclient
+>>>> 25/04/2023|01:46:38PM| DELETE[200]: /api/course-service/v1/schedule/delete-enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 15.453ms - vscode-restclient
+>>>> 25/04/2023|01:48:44PM| Local address: http://localhost:2023
+>>>> 25/04/2023|01:48:44PM| Network address: http://172.20.128.1:2023
+>>>> 25/04/2023|01:48:44PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|01:48:45PM| null
+>>>> 25/04/2023|01:48:45PM| DELETE[200]: /api/course-service/v1/schedule/delete-enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 61.600ms - vscode-restclient
+>>>> 25/04/2023|01:49:37PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 208.376ms - vscode-restclient
+>>>> 25/04/2023|01:50:17PM| {
+  _id: new ObjectId("64477801693d697908485e9a"),
+  studentId: '19065533',
+  courseCode: 432543634321,
+  semesterAlias: 'HK1-2023-2024',
+  classId: '432543634321-HK1-2023-2024',
+  groupId: 1,
+  deleted: false,
+  createdAt: 2023-04-25T06:49:37.068Z,
+  updatedAt: 2023-04-25T06:49:37.068Z,
+  __v: 0
+}
+>>>> 25/04/2023|01:51:34PM| Network address: http://172.20.128.1:2023
+>>>> 25/04/2023|01:51:34PM| Local address: http://localhost:2023
+>>>> 25/04/2023|01:51:34PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|01:51:36PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 242.318ms - vscode-restclient
+>>>> 25/04/2023|01:51:47PM| [object Object]
+>>>> 25/04/2023|01:51:47PM| DELETE[200]: /api/course-service/v1/schedule/delete-enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 103.462ms - vscode-restclient
+>>>> 25/04/2023|01:52:37PM| Local address: http://localhost:2023
+>>>> 25/04/2023|01:52:37PM| Network address: http://172.20.128.1:2023
+>>>> 25/04/2023|01:52:37PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|01:52:39PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 363.760ms - vscode-restclient
+>>>> 25/04/2023|01:52:42PM| DELETE[200]: /api/course-service/v1/schedule/delete-enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 155.028ms - vscode-restclient
+>>>> 25/04/2023|01:55:48PM| Local address: http://localhost:2023
+>>>> 25/04/2023|01:55:49PM| Network address: http://172.20.128.1:2023
+>>>> 25/04/2023|01:55:49PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|01:55:51PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 366.362ms - vscode-restclient
+>>>> 25/04/2023|01:56:39PM| Local address: http://localhost:2023
+>>>> 25/04/2023|01:56:39PM| Network address: http://172.20.128.1:2023
+>>>> 25/04/2023|01:56:39PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|02:01:06PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 306.932ms - vscode-restclient
+>>>> 25/04/2023|02:04:19PM| Local address: http://localhost:2023
+>>>> 25/04/2023|02:04:19PM| Network address: http://172.20.128.1:2023
+>>>> 25/04/2023|02:04:19PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|02:04:21PM| DELETE[200]: /api/course-service/v1/schedule/delete-enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 243.346ms - vscode-restclient
+>>>> 25/04/2023|02:05:20PM| Local address: http://localhost:2023
+>>>> 25/04/2023|02:05:20PM| Network address: http://172.20.128.1:2023
+>>>> 25/04/2023|02:05:20PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|02:05:56PM| Local address: http://localhost:2023
+>>>> 25/04/2023|02:05:56PM| Network address: http://172.20.128.1:2023
+>>>> 25/04/2023|02:05:57PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|02:06:00PM| DELETE[200]: /api/course-service/v1/schedule/delete-enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 51.037ms - vscode-restclient
+>>>> 25/04/2023|02:06:34PM| DELETE[200]: /api/course-service/v1/schedule/delete-enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 19.859ms - vscode-restclient
+>>>> 25/04/2023|02:06:49PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 263.420ms - vscode-restclient
+>>>> 25/04/2023|02:07:04PM| POST[404]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 74.460ms - vscode-restclient
+>>>> 25/04/2023|02:07:04PM| NotFound: Course code 4325436343212 cannot be found or has been removed.
+NotFound: Course code 4325436343212 cannot be found or has been removed.
+    at throwError (D:\hk2 22-23\SOA\course-service\src\utils\/helper.js:3:17)
+    at D:\hk2 22-23\SOA\course-service\src\models\/course.js:36:27
+    at D:\hk2 22-23\SOA\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|02:07:09PM| DELETE[200]: /api/course-service/v1/schedule/delete-enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 86.390ms - vscode-restclient
+>>>> 25/04/2023|02:09:40PM| NotFound: Course code 4325436343212 cannot be found or has been removed.
+NotFound: Course code 4325436343212 cannot be found or has been removed.
+    at throwError (D:\hk2 22-23\SOA\course-service\src\utils\/helper.js:3:17)
+    at D:\hk2 22-23\SOA\course-service\src\models\/course.js:36:27
+    at D:\hk2 22-23\SOA\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|02:09:40PM| POST[404]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.645ms - vscode-restclient
+>>>> 25/04/2023|02:09:49PM| POST[200]: /api/course-service/v1/schedule/enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 75.323ms - vscode-restclient
+>>>> 25/04/2023|02:09:55PM| DELETE[200]: /api/course-service/v1/schedule/delete-enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 13.271ms - vscode-restclient
+>>>> 25/04/2023|02:10:02PM| DELETE[200]: /api/course-service/v1/schedule/delete-enroll?api_key=wGlWnNDcrU0K4zOF8ywGl - 47.115ms - vscode-restclient
+>>>> 25/04/2023|02:11:14PM| Local address: http://localhost:2023
+>>>> 25/04/2023|02:11:14PM| Network address: http://172.20.128.1:2023
+>>>> 25/04/2023|02:11:14PM| Connect to mongoDB successfully!

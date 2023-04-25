@@ -171,34 +171,33 @@ Router.delete("/delete-enroll", async function (req, res, next) {
     const enrollmentQuery = await enrollmentModel.findOne({ courseCode, studentId, groupId, semesterAlias });
     if (!scheduleData)
         return jsonResponse({ req, res }).failed({ statusCode: 200, message: "This schedule cannot be found." });
+
     if (!enrollmentQuery)
         return jsonResponse({ req, res }).failed({ statusCode: 200, message: "You are not enroll this class before." });
     courseModel.findOneByCode({ code: courseCode }, async (err, course) => {
         if (err) return next(err);
-        // enrollmentModel.deleteOne({ studentId, courseCode, semesterAlias, groupId }, async (error, result) => {
-        //     if (error) return next(error);
-        //     const allPoints = await axios.get(`${process.env.ClIENT_SERVICE}/score/new`);
-        //     if (allPoints.data.status) {
-        await scheduleModel.updateMemberNumber(
-            { courseCode, semesterAlias, groupId },
-            { memberNum: scheduleData.memberNum + 1 }
-        );
-        return jsonResponse({ req, res }).success({
-            statusCode: 200,
-            message: "You have been enrolled to this class successfully.",
+        const allPoints = await axios.delete(`${process.env.ClIENT_SERVICE}/score/delete`, {
+            data: { id_student: studentId, id_course: course._id, semester: semesterAlias },
         });
-        // } else {
-        //     return next(new Error(allPoints.data.message));
-        // }
-        // await scheduleModel.updateMemberNumber(
-        //     { courseCode, semesterAlias, groupId },
-        //     { memberNum: scheduleData.memberNum - 1 }
-        // );
-        // return jsonResponse({ req, res }).success({
-        //     statusCode: 200,
-        //     message: `Your enrollment in class ${groupId} has been removed.`,
-        // });
-        // });
+        if (allPoints.data.status) {
+            enrollmentModel.deleteOne({ studentId, courseCode, semesterAlias, groupId }, async (error, result) => {
+                if (error) return next(error);
+
+                await scheduleModel.updateMemberNumber(
+                    { courseCode, semesterAlias, groupId },
+                    { memberNum: scheduleData.memberNum - 1 }
+                );
+                return jsonResponse({ req, res }).success({
+                    statusCode: 200,
+                    message: "Your enrollment to this class has been remove successfully.",
+                });
+            });
+        } else {
+            return jsonResponse({ req, res }).success({
+                statusCode: 200,
+                message: allPoints.data.message,
+            });
+        }
     });
 });
 
