@@ -80,7 +80,7 @@ Router.post("/new", async (req, res, next) => {
         let isCorrect = null;
         const prerequisite = course.prerequisite;
         if (prerequisite.length > 0) {
-            const allPoints = await axios.get(`${process.env.ClIENT_SERVICE}/score/get/${studentId}`);
+            const allPoints = await axios.get(`${process.env.ClIENT_SERVICE}/api/client-service/v1/score/get/${studentId}`);
             if (allPoints.data.status) {
                 prerequisite.forEach((element) => {
                     allPoints.data.data.forEach((item) => {
@@ -122,15 +122,16 @@ Router.delete("/remove", async (req, res, next) => {
         courseCode,
         semesterAlias,
     });
-    if (registered[0])
+    if (!registered[0])
         return jsonResponse({ req, res }).failed({
             statusCode: 200,
-            message: "You have been registered this course in your academic plan!",
+            message: "Cannot found this academic record",
         });
 
     academicModel.deleteOneByCode({ studentId, courseCode, semesterAlias }, async function (err, academic) {
         if (err) return next(err);
-        return jsonResponse({ req, res }).failed({
+        return jsonResponse({ req, res }).success({
+            status: true,
             statusCode: 200,
             message: `Remove academic for course ${courseCode} successfully.`,
             data: academic,

@@ -15,6 +15,7 @@ const Router = express.Router();
 Router.get("/", function (req, res, next) {
     return jsonResponse({ req, res }).failed({ statusCode: 200, message: "Course code has been removed." });
 });
+
 Router.post("/all", async function (req, res, next) {
     const { semesterAlias } = req.body;
     if (!semesterAlias)
@@ -58,7 +59,8 @@ Router.post("/new", async function (req, res, next) {
     } else {
         scheduleModel.createOne({ courseCode, semesterAlias, groupId, limit, periods, weeks, day }, (error, result) => {
             if (error) return next(error);
-            return jsonResponse({ req, res }).failed({
+            return jsonResponse({ req, res }).success({
+                status: true,
                 statusCode: 200,
                 message: "A schedule for course with course code " + courseCode + " is created.",
             });
@@ -141,7 +143,7 @@ Router.post("/enroll", async function (req, res, next) {
 
         enrollmentModel.createOne({ studentId, courseCode, semesterAlias, groupId }, async (error, result) => {
             if (error) return next(error);
-            const allPoints = await axios.post(`${process.env.ClIENT_SERVICE}/score/new`, {
+            const allPoints = await axios.post(`${process.env.ClIENT_SERVICE}/api/client-service/v1/score/new`, {
                 id_student: studentId,
                 id_course: course._id,
                 semester: semesterAlias,
@@ -152,6 +154,7 @@ Router.post("/enroll", async function (req, res, next) {
                     { memberNum: scheduleData.memberNum + 1 }
                 );
                 return jsonResponse({ req, res }).success({
+                    status: true,
                     statusCode: 200,
                     message: "You have been enrolled to this class successfully.",
                 });
@@ -176,7 +179,7 @@ Router.delete("/delete-enroll", async function (req, res, next) {
         return jsonResponse({ req, res }).failed({ statusCode: 200, message: "You are not enroll this class before." });
     courseModel.findOneByCode({ code: courseCode }, async (err, course) => {
         if (err) return next(err);
-        const allPoints = await axios.delete(`${process.env.ClIENT_SERVICE}/score/delete`, {
+        const allPoints = await axios.delete(`${process.env.ClIENT_SERVICE}/api/client-service/v1/score/delete`, {
             data: { id_student: studentId, id_course: course._id, semester: semesterAlias },
         });
         if (allPoints.data.status) {
@@ -219,6 +222,7 @@ Router.post("/enrollment/all", async (req, res, next) => {
                 periods: schedule.periods,
                 weeks: schedule.weeks,
                 memberNum: schedule.memberNum,
+                createdAt: item.createdAt
             },
         };
     });

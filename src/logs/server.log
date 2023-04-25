@@ -2989,3 +2989,1213 @@ NotFound: Course code 4325436343212 cannot be found or has been removed.
 >>>> 25/04/2023|02:11:14PM| Local address: http://localhost:2023
 >>>> 25/04/2023|02:11:14PM| Network address: http://172.20.128.1:2023
 >>>> 25/04/2023|02:11:14PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|06:20:47PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|06:20:47PM| Local address: http://localhost:2023
+>>>> 25/04/2023|06:21:02PM| GET[404]: / - 15.934ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|06:21:02PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at E:\Workspace\SOA-Project\Final\course-service\src\/app.js:26:28
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (E:\Workspace\SOA-Project\Final\course-service\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at cookieParser (E:\Workspace\SOA-Project\Final\course-service\node_modules\cookie-parser\index.js:71:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (E:\Workspace\SOA-Project\Final\course-service\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at logger (E:\Workspace\SOA-Project\Final\course-service\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at query (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:174:3)
+    at Function.handle (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\application.js:174:10)
+    at Server.app (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\express.js:39:9)
+    at Server.emit (node:events:513:28)
+    at Server.emit (node:domain:489:12)
+    at parserOnIncoming (node:_http_server:1072:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
+>>>> 25/04/2023|06:21:02PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at E:\Workspace\SOA-Project\Final\course-service\src\/app.js:26:28
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (E:\Workspace\SOA-Project\Final\course-service\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at cookieParser (E:\Workspace\SOA-Project\Final\course-service\node_modules\cookie-parser\index.js:71:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (E:\Workspace\SOA-Project\Final\course-service\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at logger (E:\Workspace\SOA-Project\Final\course-service\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at query (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:174:3)
+    at Function.handle (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\application.js:174:10)
+    at Server.app (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\express.js:39:9)
+    at Server.emit (node:events:513:28)
+    at Server.emit (node:domain:489:12)
+    at parserOnIncoming (node:_http_server:1072:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
+>>>> 25/04/2023|06:21:02PM| GET[404]: /favicon.ico - 9.540ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|06:21:17PM| Failed to connect to MongoDB!
+>>>> 25/04/2023|06:21:17PM| 🚀 ~ file: db.js:12 ~ error:MongooseServerSelectionError: connect ECONNREFUSED ::1:27017
+>>>> 25/04/2023|06:23:34PM| Local address: http://localhost:2023
+>>>> 25/04/2023|06:23:34PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|06:23:34PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|06:25:33PM| GET[200]: /api/course-service/v1/course/get-all - 15.252ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|07:01:05PM| GET[200]: /api/course-service/v1/course/get-all - 12.353ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|07:24:26PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|07:24:26PM| Local address: http://localhost:2023
+>>>> 25/04/2023|07:24:26PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|07:27:10PM| GET[200]: /api/course-service/v1/course/get-all - 17.169ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|07:37:37PM| GET[200]: /api/course-service/v1/course/get-all - 4.209ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|07:40:20PM| GET[200]: /api/course-service/v1/semester/get-all - 3.514ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|07:41:36PM| GET[200]: /api/course-service/v1/semester/get-all - 1.916ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|07:42:54PM| GET[200]: /api/course-service/v1/semester/get-all - 2.854ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|07:44:34PM| GET[200]: /api/course-service/v1/semester/get-all - 3.800ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|07:44:53PM| GET[200]: /api/course-service/v1/semester/get-all - 3.202ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|07:44:56PM| GET[200]: /api/course-service/v1/course/get-all - 5.095ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|07:45:13PM| GET[200]: /api/course-service/v1/course/get-all-deleted - 3.335ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|07:45:39PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at E:\Workspace\SOA-Project\Final\course-service\src\/app.js:26:28
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:635:15
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:47:12)
+>>>> 25/04/2023|07:45:39PM| GET[404]: /api/course-service/v1/academic/remove - 10.631ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|07:48:02PM| GET[200]: /api/course-service/v1/course/get-all - 3.614ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|07:48:31PM| DELETE[200]: /api/course-service/v1/course/delete/321987321 - 15.438ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|07:48:45PM| DELETE[200]: /api/course-service/v1/course/delete/321987321/force - 8.585ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|07:49:01PM| PUT[404]: /api/course-service/v1/course/restore/321987321 - 46.380ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|07:49:01PM| NotFound: Course record with course code 321987321 cannot be found.
+NotFound: Course record with course code 321987321 cannot be found.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/course.js:103:31
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|07:49:18PM| GET[200]: /api/course-service/v1/course/get/3219891092397321 - 3.903ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|07:49:26PM| DELETE[200]: /api/course-service/v1/course/delete/3219891092397321 - 4.470ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|07:49:32PM| PUT[200]: /api/course-service/v1/course/restore/3219891092397321 - 8.027ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|07:50:18PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 14.303ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|07:50:18PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|07:52:56PM| GET[200]: /api/course-service/v1/semester/get-all - 2.751ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|07:53:04PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 25/04/2023|07:53:04PM| GET[500]: /api/course-service/v1/academic/get?(studentId=20850706&semesterAlias=) - 3.027ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|07:53:12PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 25/04/2023|07:53:12PM| GET[500]: /api/course-service/v1/academic/get?(studentId=20850706&semesterAlias=HK1-2023-2024) - 1.573ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|07:54:04PM| GET[200]: /api/course-service/v1/semester/get-all - 2.491ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|07:54:08PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|07:54:08PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK2-2023-2024 - 5.453ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|07:58:02PM| Local address: http://localhost:2023
+>>>> 25/04/2023|07:58:02PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|07:58:02PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|08:00:28PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|08:00:28PM| Local address: http://localhost:2023
+>>>> 25/04/2023|08:00:28PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|08:02:20PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|08:02:20PM| Local address: http://localhost:2023
+>>>> 25/04/2023|08:02:20PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|08:02:43PM| POST[200]: /api/course-service/v1/academic/new - 43.041ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|08:04:41PM| Local address: http://localhost:2023
+>>>> 25/04/2023|08:04:41PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|08:04:41PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|08:07:54PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|08:07:54PM| Local address: http://localhost:2023
+>>>> 25/04/2023|08:07:54PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|08:08:30PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|08:08:30PM| Local address: http://localhost:2023
+>>>> 25/04/2023|08:08:30PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|08:08:36PM| POST[200]: /api/course-service/v1/academic/new - 90.556ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|08:08:36PM| [object Object]
+>>>> 25/04/2023|08:08:59PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|08:08:59PM| Local address: http://localhost:2023
+>>>> 25/04/2023|08:08:59PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|08:10:22PM| POST[200]: /api/course-service/v1/academic/new - 43.389ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|08:10:35PM| GET[200]: /api/course-service/v1/semester/get-all - 6.341ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:10:49PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|08:10:49PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK2-2023-2024 - 51.705ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:10:54PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 5.805ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:11:02PM| [object Object]
+>>>> 25/04/2023|08:11:02PM| POST[200]: /api/course-service/v1/academic/new - 87.841ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|08:12:18PM| GET[200]: /api/course-service/v1/semester/get-all - 2.436ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:12:24PM| GET[200]: /api/course-service/v1/semester/get-all - 3.024ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:13:24PM| GET[200]: /api/course-service/v1/semester/get-all - 2.516ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:13:42PM| GET[200]: /api/course-service/v1/semester/get-all - 3.807ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:13:42PM| GET[200]: /api/course-service/v1/semester/get-all - 3.285ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:13:47PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|08:13:47PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK2-2023-2024 - 8.249ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:13:50PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 5.627ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:15:40PM| GET[200]: /api/course-service/v1/semester/get-all - 1.930ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:15:45PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 7.101ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:17:09PM| GET[200]: /api/course-service/v1/semester/get-all - 3.228ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:17:28PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 5.706ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:19:14PM| GET[200]: /api/course-service/v1/semester/get-all - 2.288ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:19:16PM| GET[200]: /api/course-service/v1/semester/get-all - 3.470ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:19:19PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 4.899ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:20:12PM| GET[200]: /api/course-service/v1/semester/get-all - 3.135ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:20:12PM| GET[200]: /api/course-service/v1/semester/get-all - 2.769ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:20:19PM| GET[200]: /api/course-service/v1/semester/get-all - 1.930ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:20:31PM| GET[200]: /api/course-service/v1/semester/get-all - 2.119ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:20:33PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 5.265ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:21:00PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|08:21:00PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK2-2023-2024 - 7.789ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:21:04PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 4.175ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:21:20PM| GET[200]: /api/course-service/v1/semester/get-all - 3.709ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:22:20PM| GET[200]: /api/course-service/v1/semester/get-all - 2.766ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:23:12PM| GET[200]: /api/course-service/v1/semester/get-all - 2.270ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:23:16PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 5.294ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:24:40PM| POST[200]: /api/course-service/v1/academic/new - 6.906ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|08:24:55PM| DELETE[200]: /api/course-service/v1/academic/remove - 3.073ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|08:26:07PM| NotFound: academic record cannot be found.
+NotFound: academic record cannot be found.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:135:31
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|08:26:07PM| DELETE[404]: /api/course-service/v1/academic/remove - 6.005ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|08:26:36PM| DELETE[200]: /api/course-service/v1/academic/remove - 2.652ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|08:27:55PM| DELETE[200]: /api/course-service/v1/academic/remove - 3.255ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|08:29:19PM| Local address: http://localhost:2023
+>>>> 25/04/2023|08:29:19PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|08:29:19PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|08:30:04PM| Local address: http://localhost:2023
+>>>> 25/04/2023|08:30:04PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|08:30:04PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|08:30:12PM| DELETE[200]: /api/course-service/v1/academic/remove - 36.172ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|08:31:39PM| GET[200]: /api/course-service/v1/semester/get-all - 7.048ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:31:39PM| GET[200]: /api/course-service/v1/semester/get-all - 4.045ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:31:54PM| GET[200]: /api/course-service/v1/semester/get-all - 3.742ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:32:00PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 8.415ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:32:02PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 25/04/2023|08:32:02PM| DELETE[500]: /api/course-service/v1/academic/remove - 4.340ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:32:18PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 5.441ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:32:29PM| DELETE[500]: /api/course-service/v1/academic/remove - 1.112ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:32:29PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 25/04/2023|08:32:41PM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024 - 12.805ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|08:34:34PM| GET[200]: /api/course-service/v1/semester/get-all - 4.412ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:34:37PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 5.987ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:34:39PM| DELETE[500]: /api/course-service/v1/academic/remove - 1.587ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:34:39PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 25/04/2023|08:34:41PM| GET[200]: /api/course-service/v1/course/get-all - 4.623ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|08:35:38PM| GET[200]: /api/course-service/v1/semester/get-all - 3.172ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:35:47PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 5.034ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:35:59PM| DELETE[500]: /api/course-service/v1/academic/remove - 1.544ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:35:59PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 25/04/2023|08:38:44PM| GET[200]: /api/course-service/v1/semester/get-all - 3.277ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:38:52PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 4.147ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:38:55PM| DELETE[200]: /api/course-service/v1/academic/remove - 8.577ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:39:04PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|08:39:04PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 72.211ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:39:40PM| GET[200]: /api/course-service/v1/semester/get-all - 3.335ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:39:43PM| GET[200]: /api/course-service/v1/semester/get-all - 2.725ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:39:58PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|08:39:58PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 6.357ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:40:48PM| POST[200]: /api/course-service/v1/academic/new - 22.749ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:40:54PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 4.818ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:41:01PM| DELETE[200]: /api/course-service/v1/academic/remove - 5.137ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:41:17PM| GET[200]: /api/course-service/v1/semester/get-all - 3.831ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:41:32PM| GET[200]: /api/course-service/v1/semester/get-all - 2.715ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:41:53PM| POST[200]: /api/course-service/v1/academic/new - 11.349ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:41:57PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 3.400ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:42:00PM| DELETE[200]: /api/course-service/v1/academic/remove - 4.673ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:42:56PM| Local address: http://localhost:2023
+>>>> 25/04/2023|08:42:56PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|08:42:56PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|08:43:21PM| POST[200]: /api/course-service/v1/academic/new - 132.318ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:43:29PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 7.481ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:45:44PM| DELETE[200]: /api/course-service/v1/academic/remove - 18.102ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:46:02PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|08:46:02PM| Local address: http://localhost:2023
+>>>> 25/04/2023|08:46:02PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|08:46:06PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 49.327ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:46:06PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|08:46:11PM| POST[200]: /api/course-service/v1/academic/new - 31.371ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:46:12PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 6.699ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:47:08PM| GET[200]: /api/course-service/v1/semester/get-all - 3.843ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:47:10PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 7.611ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:47:13PM| DELETE[200]: /api/course-service/v1/academic/remove - 11.851ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:48:14PM| Local address: http://localhost:2023
+>>>> 25/04/2023|08:48:14PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|08:48:14PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|08:48:19PM| GET[200]: /api/course-service/v1/semester/get-all - 12.984ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:48:22PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|08:48:22PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 19.205ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:48:27PM| POST[200]: /api/course-service/v1/academic/new - 29.721ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:49:03PM| Local address: http://localhost:2023
+>>>> 25/04/2023|08:49:03PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|08:49:03PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|08:49:24PM| POST[200]: /api/course-service/v1/academic/new - 27.457ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:49:28PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 11.664ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:49:31PM| DELETE[200]: /api/course-service/v1/academic/remove - 12.928ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:49:43PM| GET[200]: /api/course-service/v1/semester/get-all - 3.693ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:49:46PM| POST[200]: /api/course-service/v1/academic/new - 27.919ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:49:52PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 5.650ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:49:54PM| DELETE[200]: /api/course-service/v1/academic/remove - 10.005ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:50:23PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|08:50:23PM| Local address: http://localhost:2023
+>>>> 25/04/2023|08:50:23PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|08:50:23PM| POST[200]: /api/course-service/v1/academic/new - 40.619ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:50:31PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 9.303ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:50:33PM| DELETE[200]: /api/course-service/v1/academic/remove - 11.767ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:51:37PM| GET[200]: /api/course-service/v1/semester/get-all - 5.372ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:51:40PM| POST[200]: /api/course-service/v1/academic/new - 10.757ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:51:43PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 4.962ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:51:48PM| DELETE[200]: /api/course-service/v1/academic/remove - 7.240ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:51:48PM| GET[200]: /api/course-service/v1/semester/get-all - 2.336ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:52:10PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 48.169ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:52:10PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|08:52:24PM| GET[200]: /api/course-service/v1/semester/get-all - 3.349ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:53:59PM| GET[200]: /api/course-service/v1/semester/get-all - 2.294ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:54:06PM| GET[200]: /api/course-service/v1/semester/get-all - 4.667ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:56:21PM| GET[200]: /api/course-service/v1/semester/get-all - 3.358ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:56:29PM| GET[200]: /api/course-service/v1/semester/get-all - 2.697ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:58:54PM| GET[200]: /api/course-service/v1/course/get-all - 3.115ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|08:59:59PM| GET[200]: /api/course-service/v1/semester/get-all - 2.180ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:01:16PM| GET[200]: /api/course-service/v1/semester/get-all - 1.940ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:02:11PM| GET[200]: /api/course-service/v1/semester/get-all - 2.121ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:02:24PM| GET[200]: /api/course-service/v1/semester/get-all - 3.038ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:02:51PM| GET[200]: /api/course-service/v1/semester/get-all - 4.041ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:03:37PM| GET[200]: /api/course-service/v1/semester/get-all - 2.956ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:03:56PM| GET[200]: /api/course-service/v1/semester/get-all - 2.341ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:04:17PM| GET[200]: /api/course-service/v1/semester/get-all - 2.796ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:04:49PM| GET[200]: /api/course-service/v1/semester/get/HK1-2023-2024 - 3.317ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:08:35PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|09:08:35PM| Local address: http://localhost:2023
+>>>> 25/04/2023|09:08:35PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|09:08:42PM| PATCH[200]: /api/course-service/v1/semester/HK2-2023-2024 - 25.643ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:09:30PM| GET[200]: /api/course-service/v1/semester/get-all - 5.039ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:09:35PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|09:09:35PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK2-2023-2024 - 46.815ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:09:57PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|09:09:57PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 6.119ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:10:51PM| GET[200]: /api/course-service/v1/semester/get-all - 2.661ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:10:56PM| GET[200]: /api/course-service/v1/course/get-all - 8.033ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:12:50PM| POST[200]: /api/course-service/v1/semester/new - 18.361ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:14:38PM| Local address: http://localhost:2023
+>>>> 25/04/2023|09:14:38PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|09:14:38PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|09:15:02PM| POST[200]: /api/course-service/v1/semester/new - 34.735ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:15:34PM| PATCH[200]: /api/course-service/v1/semester/HK1-2024-2025 - 12.001ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:16:09PM| GET[200]: /api/course-service/v1/semester/get-all - 4.621ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:16:15PM| GET[200]: /api/course-service/v1/semester/get-all - 3.948ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:17:04PM| GET[200]: /api/course-service/v1/semester/get-all - 3.977ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:18:02PM| GET[200]: /api/course-service/v1/semester/get-all - 3.498ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:18:07PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|09:18:07PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 41.846ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:18:14PM| GET[200]: /api/course-service/v1/course/get-all - 5.167ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:18:18PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|09:18:18PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 6.627ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:19:05PM| GET[200]: /api/course-service/v1/semester/get-all - 3.922ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:19:07PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|09:19:07PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK2-2023-2024 - 7.712ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:19:10PM| GET[200]: /api/course-service/v1/course/get-all - 6.543ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:19:17PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|09:19:17PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK2-2023-2024 - 7.100ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:19:44PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at E:\Workspace\SOA-Project\Final\course-service\src\/app.js:26:28
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:635:15
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at _default (E:\Workspace\SOA-Project\Final\course-service\src\middleware\/ServiceKey.js:5:12)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (E:\Workspace\SOA-Project\Final\course-service\node_modules\body-parser\lib\types\urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at cookieParser (E:\Workspace\SOA-Project\Final\course-service\node_modules\cookie-parser\index.js:71:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (E:\Workspace\SOA-Project\Final\course-service\node_modules\body-parser\lib\types\json.js:119:7)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at logger (E:\Workspace\SOA-Project\Final\course-service\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+>>>> 25/04/2023|09:19:44PM| GET[404]: /api/course-service/v1/semester/get-academic-statistics/HK2-2023-2024 - 11.832ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:19:59PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 7.152ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:19:59PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|09:20:02PM| GET[200]: /api/course-service/v1/course/get-all - 4.143ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:21:29PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at E:\Workspace\SOA-Project\Final\course-service\src\/app.js:26:28
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:635:15
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at _default (E:\Workspace\SOA-Project\Final\course-service\src\middleware\/ServiceKey.js:5:12)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (E:\Workspace\SOA-Project\Final\course-service\node_modules\body-parser\lib\types\urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at cookieParser (E:\Workspace\SOA-Project\Final\course-service\node_modules\cookie-parser\index.js:71:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (E:\Workspace\SOA-Project\Final\course-service\node_modules\body-parser\lib\types\json.js:119:7)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at logger (E:\Workspace\SOA-Project\Final\course-service\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+>>>> 25/04/2023|09:21:29PM| DELETE[404]: /api/course-service/v1/semester/get/delete/HK3-2023-2024 - 7.678ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:21:46PM| NotFoundError: Not Found
+NotFoundError: Not Found
+    at E:\Workspace\SOA-Project\Final\course-service\src\/app.js:26:28
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:635:15
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at _default (E:\Workspace\SOA-Project\Final\course-service\src\middleware\/ServiceKey.js:5:12)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (E:\Workspace\SOA-Project\Final\course-service\node_modules\body-parser\lib\types\urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at cookieParser (E:\Workspace\SOA-Project\Final\course-service\node_modules\cookie-parser\index.js:71:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (E:\Workspace\SOA-Project\Final\course-service\node_modules\body-parser\lib\types\json.js:119:7)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at logger (E:\Workspace\SOA-Project\Final\course-service\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:317:13)
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Workspace\SOA-Project\Final\course-service\node_modules\express\lib\router\index.js:335:12)
+>>>> 25/04/2023|09:21:46PM| DELETE[404]: /api/course-service/v1/semester/get/delete/HK3-2023-2024 - 6.530ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:22:24PM| DELETE[200]: /api/course-service/v1/semester/delete/HK3-2023-2024 - 7.562ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:22:32PM| GET[200]: /api/course-service/v1/semester/get-all-deleted - 2.839ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:23:02PM| NotFound: Semester with alias HK3-2023-2024 cannot be found or has been removed.
+NotFound: Semester with alias HK3-2023-2024 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/semester.js:29:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|09:23:02PM| GET[404]: /api/course-service/v1/semester/get/HK3-2023-2024 - 15.368ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:23:17PM| DELETE[200]: /api/course-service/v1/semester/delete/HK3-2023-2024/force - 11.619ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:23:36PM| DELETE[200]: /api/course-service/v1/semester/delete/HK1-2024-2025 - 5.763ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:23:51PM| NotFound: Semester with alias HK1-2024-2025 cannot be found or has been removed.
+NotFound: Semester with alias HK1-2024-2025 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/semester.js:29:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|09:23:51PM| PATCH[404]: /api/course-service/v1/semester/HK1-2024-2025 - 3.940ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:24:07PM| PUT[200]: /api/course-service/v1/semester/restore/HK1-2024-2025 - 5.254ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:24:16PM| PATCH[200]: /api/course-service/v1/semester/HK1-2024-2025 - 6.160ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:26:37PM| Local address: http://localhost:2023
+>>>> 25/04/2023|09:26:37PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|09:26:37PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|09:27:01PM| GET[200]: /api/course-service/v1/schedule/ - 4.117ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:27:23PM| GET[200]: /api/course-service/v1/semester/get-all - 10.844ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:29:41PM| GET[200]: /api/course-service/v1/semester/get-all - 5.618ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:29:43PM| GET[200]: /api/course-service/v1/course/get-all - 10.136ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:30:51PM| GET[200]: /api/course-service/v1/semester/get-all - 4.024ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:30:53PM| GET[200]: /api/course-service/v1/course/get-all - 4.994ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:31:47PM| GET[200]: /api/course-service/v1/semester/get-all - 2.733ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:32:57PM| GET[200]: /api/course-service/v1/semester/get-all - 4.127ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:32:57PM| GET[200]: /api/course-service/v1/semester/get-all - 3.629ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:32:59PM| GET[200]: /api/course-service/v1/course/get-all - 3.847ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:33:08PM| POST[200]: /api/course-service/v1/schedule/all - 13.902ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:34:12PM| GET[200]: /api/course-service/v1/semester/get-all - 3.484ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:34:13PM| GET[200]: /api/course-service/v1/course/get-all - 3.688ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:34:36PM| GET[200]: /api/course-service/v1/semester/get-all - 3.370ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:34:38PM| GET[200]: /api/course-service/v1/course/get-all - 5.194ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:34:58PM| GET[200]: /api/course-service/v1/semester/get-all - 3.571ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:34:59PM| GET[200]: /api/course-service/v1/course/get-all - 2.487ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:35:33PM| GET[200]: /api/course-service/v1/semester/get-all - 3.322ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:35:44PM| GET[200]: /api/course-service/v1/course/get-all - 3.399ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:37:19PM| GET[200]: /api/course-service/v1/semester/get-all - 2.177ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:37:22PM| GET[200]: /api/course-service/v1/course/get-all - 3.089ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:37:39PM| GET[200]: /api/course-service/v1/semester/get-all - 2.197ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:37:45PM| GET[200]: /api/course-service/v1/course/get-all - 3.856ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:38:46PM| GET[200]: /api/course-service/v1/semester/get-all - 3.990ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:38:54PM| GET[200]: /api/course-service/v1/course/get-all - 3.182ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:39:04PM| GET[200]: /api/course-service/v1/course/get-all - 3.735ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:39:28PM| GET[200]: /api/course-service/v1/course/get-all - 3.688ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:39:35PM| GET[200]: /api/course-service/v1/course/get-all - 2.645ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:39:46PM| ValidationError: "periods" must be an array
+ValidationError: "periods" must be an array
+>>>> 25/04/2023|09:39:46PM| POST[500]: /api/course-service/v1/schedule/new - 4.580ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:41:26PM| POST[500]: /api/course-service/v1/schedule/new - 1.759ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:41:26PM| ValidationError: "semesterAlias" is not allowed to be empty
+ValidationError: "semesterAlias" is not allowed to be empty
+>>>> 25/04/2023|09:41:48PM| ValidationError: "periods" must be an array
+ValidationError: "periods" must be an array
+>>>> 25/04/2023|09:41:48PM| POST[500]: /api/course-service/v1/schedule/new - 1.525ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:45:27PM| GET[200]: /api/course-service/v1/course/get-all - 3.241ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:46:51PM| POST[200]: /api/course-service/v1/schedule/new - 18.960ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:47:26PM| GET[200]: /api/course-service/v1/semester/get-all - 2.824ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:47:26PM| GET[200]: /api/course-service/v1/semester/get-all - 2.515ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:47:27PM| GET[200]: /api/course-service/v1/semester/get-all - 1.832ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:47:29PM| GET[200]: /api/course-service/v1/course/get-all - 3.848ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:48:26PM| GET[200]: /api/course-service/v1/semester/get-all - 2.838ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:48:27PM| GET[200]: /api/course-service/v1/semester/get-all - 1.878ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:48:28PM| GET[200]: /api/course-service/v1/course/get-all - 3.579ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:49:40PM| GET[200]: /api/course-service/v1/semester/get-all - 1.885ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:49:41PM| GET[200]: /api/course-service/v1/course/get-all - 2.168ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:49:46PM| GET[200]: /api/course-service/v1/course/get-all - 3.541ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:50:34PM| GET[200]: /api/course-service/v1/semester/get-all - 3.411ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:50:37PM| GET[200]: /api/course-service/v1/course/get-all - 3.294ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:51:31PM| GET[200]: /api/course-service/v1/semester/get-all - 2.931ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:51:32PM| GET[200]: /api/course-service/v1/semester/get-all - 2.443ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:51:34PM| GET[200]: /api/course-service/v1/course/get-all - 2.215ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:52:45PM| GET[200]: /api/course-service/v1/semester/get-all - 2.454ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:52:46PM| GET[200]: /api/course-service/v1/semester/get-all - 1.795ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:52:47PM| GET[200]: /api/course-service/v1/course/get-all - 3.144ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:53:06PM| GET[200]: /api/course-service/v1/semester/get-all - 1.843ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:53:10PM| GET[200]: /api/course-service/v1/course/get-all - 4.401ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:53:47PM| GET[200]: /api/course-service/v1/semester/get-all - 3.456ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:53:55PM| GET[200]: /api/course-service/v1/course/get-all - 2.699ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:53:59PM| GET[200]: /api/course-service/v1/course/get-all - 3.128ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|09:57:07PM| POST[200]: /api/course-service/v1/schedule/enroll - 10.816ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|09:58:03PM| POST[200]: /api/course-service/v1/academic/new - 10.103ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|10:02:36PM| Local address: http://localhost:2023
+>>>> 25/04/2023|10:02:36PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|10:02:36PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|10:02:54PM| Local address: http://localhost:2023
+>>>> 25/04/2023|10:02:54PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|10:02:54PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|10:03:23PM| POST[200]: /api/course-service/v1/schedule/enroll - 41.227ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|10:05:18PM| Local address: http://localhost:2023
+>>>> 25/04/2023|10:05:18PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|10:05:18PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|10:08:02PM| Local address: http://localhost:2023
+>>>> 25/04/2023|10:08:02PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|10:08:02PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|10:08:23PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|10:08:23PM| Local address: http://localhost:2023
+>>>> 25/04/2023|10:08:23PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|10:12:27PM| Local address: http://localhost:2023
+>>>> 25/04/2023|10:12:27PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|10:12:27PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|10:13:16PM| GET[200]: /api/course-service/v1/course/get-all - 18.624ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:13:45PM| POST[200]: /api/course-service/v1/schedule/enroll - 240.715ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|10:13:52PM| POST[200]: /api/course-service/v1/schedule/enroll - 20.863ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|10:14:37PM| GET[200]: /api/course-service/v1/semester/get-all - 4.898ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:14:46PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 25/04/2023|10:14:46PM| DELETE[500]: /api/course-service/v1/schedule/delete-enroll - 4.596ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|10:15:06PM| GET[200]: /api/course-service/v1/course/get-all - 6.027ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:15:08PM| GET[200]: /api/course-service/v1/semester/get-all - 2.906ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:15:09PM| GET[200]: /api/course-service/v1/course/get-all - 3.781ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:15:43PM| DELETE[200]: /api/course-service/v1/schedule/delete-enroll - 97.447ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|10:16:00PM| POST[200]: /api/course-service/v1/schedule/enroll - 137.545ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|10:16:05PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|10:16:05PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK2-2023-2024 - 42.263ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:16:07PM| GET[200]: /api/course-service/v1/course/get-all - 3.504ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:16:29PM| GET[200]: /api/course-service/v1/semester/get-all - 3.352ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:16:31PM| GET[200]: /api/course-service/v1/course/get-all - 3.789ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:17:27PM| GET[200]: /api/course-service/v1/semester/get-all - 2.537ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:17:54PM| POST[200]: /api/course-service/v1/schedule/enrollment/all - 6.768ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|10:18:05PM| GET[200]: /api/course-service/v1/course/get-all - 4.002ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:18:32PM| POST[200]: /api/course-service/v1/schedule/enrollment/semester - 4.777ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|10:21:27PM| GET[200]: /api/course-service/v1/semester/get-all - 3.846ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:21:40PM| GET[200]: /api/course-service/v1/semester/get-all - 3.151ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:21:44PM| GET[200]: /api/course-service/v1/course/get-all - 3.839ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:29:51PM| GET[200]: /api/course-service/v1/semester/get-all - 2.291ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:29:53PM| GET[200]: /api/course-service/v1/course/get-all - 2.202ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:30:04PM| ValidationError: "semesterAlias" is not allowed to be empty
+ValidationError: "semesterAlias" is not allowed to be empty
+>>>> 25/04/2023|10:30:04PM| GET[500]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias= - 1.257ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:30:07PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|10:30:07PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 4.893ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:30:11PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|10:30:11PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK2-2023-2024 - 8.326ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:30:17PM| GET[200]: /api/course-service/v1/course/get-all - 5.275ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:30:30PM| POST[200]: /api/course-service/v1/academic/new - 8.188ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:31:52PM| GET[200]: /api/course-service/v1/semester/get-all - 3.384ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:32:05PM| GET[200]: /api/course-service/v1/course/get-all - 3.344ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:33:26PM| POST[200]: /api/course-service/v1/academic/new - 11.616ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:33:59PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 5.210ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:34:05PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 25/04/2023|10:34:05PM| DELETE[500]: /api/course-service/v1/academic/remove - 2.063ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:34:13PM| GET[200]: /api/course-service/v1/semester/get-all - 3.974ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:34:14PM| GET[200]: /api/course-service/v1/semester/get-all - 2.438ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:34:17PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 4.881ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:34:55PM| ValidationError: "studentId" is required
+ValidationError: "studentId" is required
+>>>> 25/04/2023|10:34:55PM| DELETE[500]: /api/course-service/v1/academic/remove - 1.004ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:34:57PM| GET[200]: /api/course-service/v1/semester/get-all - 3.260ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:34:58PM| GET[200]: /api/course-service/v1/semester/get-all - 2.715ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:35:01PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 3.366ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:35:05PM| DELETE[200]: /api/course-service/v1/academic/remove - 10.104ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:35:15PM| GET[200]: /api/course-service/v1/semester/get-all - 3.051ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:35:25PM| GET[200]: /api/course-service/v1/course/get-all - 2.303ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:38:05PM| GET[200]: /api/course-service/v1/course/get-all - 2.439ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:39:42PM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|10:39:42PM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 7.145ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:39:45PM| GET[200]: /api/course-service/v1/course/get-all - 3.490ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:39:59PM| POST[200]: /api/course-service/v1/academic/new - 7.025ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:40:03PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 4.627ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:44:16PM| DELETE[200]: /api/course-service/v1/course/delete/3219891092397321 - 6.025ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:47:50PM| GET[200]: /api/course-service/v1/semester/get-all - 2.289ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:48:47PM| GET[200]: /api/course-service/v1/semester/get-all - 2.067ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:49:34PM| GET[200]: /api/course-service/v1/semester/get-all - 2.215ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:51:43PM| GET[200]: /api/course-service/v1/semester/get-all - 3.253ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:54:05PM| GET[200]: /api/course-service/v1/semester/get-all - 2.862ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:54:05PM| GET[200]: /api/course-service/v1/semester/get-all - 3.090ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:54:26PM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 3.170ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:55:08PM| GET[200]: /api/course-service/v1/schedule/ - 0.594ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:55:35PM| POST[200]: /api/course-service/v1/schedule/all - 0.699ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:58:32PM| GET[200]: /api/course-service/v1/semester/get-all - 2.747ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:58:50PM| GET[200]: /api/course-service/v1/semester/get-all - 2.915ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|10:58:54PM| POST[200]: /api/course-service/v1/schedule/all/ - 2.180ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:06:13PM| POST[200]: /api/course-service/v1/schedule/new - 15.556ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:06:23PM| POST[200]: /api/course-service/v1/schedule/all/ - 3.137ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:08:15PM| Local address: http://localhost:2023
+>>>> 25/04/2023|11:08:15PM| Network address: http://172.17.12.250:2023
+>>>> 25/04/2023|11:08:15PM| Connect to mongoDB successfully!
+>>>> 25/04/2023|11:08:36PM| GET[200]: /api/course-service/v1/semester/get-all - 20.604ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:09:06PM| POST[200]: /api/course-service/v1/course/new - 36.372ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:09:27PM| GET[200]: /api/course-service/v1/course/get-all - 5.902ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:09:29PM| GET[200]: /api/course-service/v1/semester/get-all - 3.190ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:09:55PM| GET[200]: /api/course-service/v1/semester/get-all - 3.918ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:10:30PM| GET[200]: /api/course-service/v1/semester/get-all - 3.827ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:10:32PM| POST[200]: /api/course-service/v1/schedule/all/ - 7.517ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:11:00PM| GET[200]: /api/course-service/v1/semester/get-all - 2.557ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:11:01PM| GET[200]: /api/course-service/v1/semester/get-all - 2.876ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:11:07PM| POST[200]: /api/course-service/v1/schedule/all/ - 2.442ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:11:10PM| GET[200]: /api/course-service/v1/course/get/504070 - 4.851ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:11:21PM| POST[200]: /api/course-service/v1/schedule/all/ - 3.382ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:12:22PM| DELETE[200]: /api/course-service/v1/course/delete/504070 - 9.976ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:12:27PM| GET[200]: /api/course-service/v1/semester/get-all - 2.240ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:12:30PM| POST[200]: /api/course-service/v1/schedule/all/ - 3.394ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:12:32PM| PUT[200]: /api/course-service/v1/course/restore/504070 - 6.703ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:15:37PM| ValidationError: "prerequisite" must be an array
+ValidationError: "prerequisite" must be an array
+>>>> 25/04/2023|11:15:37PM| POST[500]: /api/course-service/v1/course/new - 3.605ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:15:50PM| POST[500]: /api/course-service/v1/course/new - 1.594ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:15:50PM| ValidationError: "timeAllocation" must be of type object
+ValidationError: "timeAllocation" must be of type object
+>>>> 25/04/2023|11:16:45PM| POST[200]: /api/course-service/v1/course/new - 9.842ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:17:53PM| POST[200]: /api/course-service/v1/course/new - 41.661ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:17:53PM| DatabaseError: Nhập môn Học máy course with course code 503044 is already existed.
+DatabaseError: Nhập môn Học máy course with course code 503044 is already existed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at call (E:\Workspace\SOA-Project\Final\course-service\src\models\/course.js:175:35)
+    at tryCatch (E:\Workspace\SOA-Project\Final\course-service\src\models\/course.js:2:1)
+    at Generator._invoke (E:\Workspace\SOA-Project\Final\course-service\src\models\/course.js:2:1)
+    at Generator.next (E:\Workspace\SOA-Project\Final\course-service\src\models\/course.js:2:1)
+    at asyncGeneratorStep (E:\Workspace\SOA-Project\Final\course-service\src\models\/course.js:2:1)
+    at _next (E:\Workspace\SOA-Project\Final\course-service\src\models\/course.js:2:1)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/course.js:2:1
+    at new Promise (<anonymous>)
+    at apply (E:\Workspace\SOA-Project\Final\course-service\src\models\/course.js:2:1)
+    at callback (E:\Workspace\SOA-Project\Final\course-service\src\models\/course.js:197:14)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/course.js:34:32
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|11:18:30PM| GET[200]: /api/course-service/v1/schedule/ - 0.936ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:18:42PM| GET[200]: /api/course-service/v1/course/get-all - 6.835ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:19:01PM| POST[200]: /api/course-service/v1/schedule/all - 3.890ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:23:33PM| POST[200]: /api/course-service/v1/course/new - 10.166ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:23:51PM| GET[200]: /api/course-service/v1/course/get-all - 5.351ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:23:55PM| NotFound: Academic for student 19188755 cannot be found or has been removed.
+NotFound: Academic for student 19188755 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|11:23:55PM| GET[404]: /api/course-service/v1/academic/get?studentId=19188755&semesterAlias=HK1-2023-2024 - 22.718ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:24:13PM| GET[404]: /api/course-service/v1/academic/get?studentId=19188755&semesterAlias=HK1-2022-2023 - 15.231ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:24:13PM| NotFound: Semester with alias HK1-2022-2023 cannot be found or has been removed.
+NotFound: Semester with alias HK1-2022-2023 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/semester.js:29:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|11:24:26PM| GET[200]: /api/course-service/v1/academic/get?studentId=19188755&semesterAlias=HK2-2023-2024 - 3.412ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:26:38PM| POST[200]: /api/course-service/v1/course/new - 8.528ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:28:04PM| GET[200]: /api/course-service/v1/semester/get-all - 3.082ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:28:22PM| POST[200]: /api/course-service/v1/schedule/all/ - 2.678ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:29:20PM| POST[500]: /api/course-service/v1/course/new - 1.768ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:29:20PM| ValidationError: "description" is not allowed to be empty
+ValidationError: "description" is not allowed to be empty
+>>>> 25/04/2023|11:30:02PM| POST[200]: /api/course-service/v1/course/new - 9.538ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:32:33PM| POST[200]: /api/course-service/v1/course/new - 7.562ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:33:07PM| POST[200]: /api/course-service/v1/course/new - 7.399ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:39:15PM| POST[200]: /api/course-service/v1/course/new - 7.872ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:40:20PM| POST[200]: /api/course-service/v1/course/new - 7.005ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:41:32PM| POST[200]: /api/course-service/v1/course/new - 8.247ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:41:55PM| GET[200]: /api/course-service/v1/course/get-all - 7.668ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:43:22PM| GET[404]: /api/course-service/v1/academic/get?studentId=19188755&semesterAlias=HK1-2023-2024 - 11.717ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:43:22PM| NotFound: Academic for student 19188755 cannot be found or has been removed.
+NotFound: Academic for student 19188755 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|11:43:49PM| NotFound: Academic for student 19188755 cannot be found or has been removed.
+NotFound: Academic for student 19188755 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 25/04/2023|11:43:49PM| GET[404]: /api/course-service/v1/academic/get?studentId=19188755&semesterAlias=HK1-2024-2025 - 10.242ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:44:28PM| POST[200]: /api/course-service/v1/academic/new - 94.547ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 25/04/2023|11:58:16PM| GET[200]: /api/course-service/v1/semester/get-all - 4.748ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:58:19PM| POST[200]: /api/course-service/v1/schedule/all/ - 2.556ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:58:35PM| GET[200]: /api/course-service/v1/semester/get-all - 2.689ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:58:48PM| GET[200]: /api/course-service/v1/semester/get-all - 2.656ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:58:49PM| POST[200]: /api/course-service/v1/schedule/all/ - 0.649ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 25/04/2023|11:58:52PM| POST[200]: /api/course-service/v1/schedule/all/ - 3.010ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:00:46AM| GET[200]: /api/course-service/v1/semester/get-all - 2.864ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:01:07AM| GET[200]: /api/course-service/v1/semester/get-all - 2.005ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:05:29AM| GET[200]: /api/course-service/v1/semester/get-all - 1.990ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:05:43AM| GET[200]: /api/course-service/v1/course/get-all - 7.211ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:05:43AM| GET[200]: /api/course-service/v1/semester/get-all - 4.922ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:07:01AM| GET[200]: /api/course-service/v1/course/get-all - 6.746ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:07:01AM| GET[200]: /api/course-service/v1/semester/get-all - 7.100ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:07:37AM| GET[200]: /api/course-service/v1/semester/get-all - 3.397ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:07:37AM| GET[200]: /api/course-service/v1/course/get-all - 4.769ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:08:32AM| GET[200]: /api/course-service/v1/semester/get-all - 2.438ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:08:32AM| GET[200]: /api/course-service/v1/course/get-all - 5.834ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:17:39AM| GET[200]: /api/course-service/v1/semester/get-all - 3.204ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:17:39AM| GET[200]: /api/course-service/v1/course/get-all - 4.280ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:17:40AM| GET[200]: /api/course-service/v1/semester/get-all - 2.325ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:17:40AM| GET[200]: /api/course-service/v1/course/get-all - 3.965ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:17:40AM| GET[200]: /api/course-service/v1/semester/get-all - 1.838ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:17:40AM| GET[200]: /api/course-service/v1/course/get-all - 3.732ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:17:41AM| GET[200]: /api/course-service/v1/semester/get-all - 1.863ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:17:41AM| GET[200]: /api/course-service/v1/course/get-all - 3.458ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:18:11AM| POST[200]: /api/course-service/v1/schedule/all/ - 3.366ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:20:08AM| GET[200]: /api/course-service/v1/course/get-all - 4.961ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:20:08AM| GET[200]: /api/course-service/v1/semester/get-all - 5.331ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:25:47AM| GET[200]: /api/course-service/v1/course/get-all - 7.041ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:25:47AM| GET[200]: /api/course-service/v1/semester/get-all - 4.305ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:25:47AM| GET[200]: /api/course-service/v1/course/get-all - 4.410ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:25:47AM| GET[200]: /api/course-service/v1/semester/get-all - 2.841ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:25:55AM| POST[200]: /api/course-service/v1/schedule/all/ - 2.126ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:26:55AM| GET[200]: /api/course-service/v1/course/get-all - 4.083ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:26:55AM| GET[200]: /api/course-service/v1/semester/get-all - 2.091ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:27:04AM| POST[200]: /api/course-service/v1/schedule/all/ - 2.903ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:28:53AM| GET[200]: /api/course-service/v1/course/get-all - 4.654ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:28:53AM| GET[200]: /api/course-service/v1/semester/get-all - 1.892ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:28:57AM| POST[200]: /api/course-service/v1/schedule/all/ - 2.978ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:29:45AM| GET[200]: /api/course-service/v1/course/get-all - 4.799ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:29:45AM| GET[200]: /api/course-service/v1/semester/get-all - 2.615ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:29:53AM| POST[200]: /api/course-service/v1/schedule/all/ - 2.837ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:32:32AM| GET[200]: /api/course-service/v1/course/get-all - 6.121ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:32:32AM| GET[200]: /api/course-service/v1/semester/get-all - 1.886ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:32:37AM| POST[200]: /api/course-service/v1/schedule/all/ - 2.862ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:39:28AM| GET[200]: /api/course-service/v1/course/get-all - 6.031ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:39:28AM| GET[200]: /api/course-service/v1/semester/get-all - 6.255ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:39:29AM| GET[200]: /api/course-service/v1/semester/get-all - 6.472ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:39:29AM| GET[200]: /api/course-service/v1/course/get-all - 4.220ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:39:35AM| POST[200]: /api/course-service/v1/schedule/all/ - 1.952ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:40:51AM| GET[200]: /api/course-service/v1/course/get-all - 5.900ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:40:51AM| GET[200]: /api/course-service/v1/semester/get-all - 2.619ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:40:57AM| POST[200]: /api/course-service/v1/schedule/all/ - 2.660ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:42:22AM| GET[200]: /api/course-service/v1/course/get-all - 5.672ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:42:22AM| GET[200]: /api/course-service/v1/semester/get-all - 5.545ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:42:22AM| GET[200]: /api/course-service/v1/course/get-all - 5.228ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:42:22AM| GET[200]: /api/course-service/v1/semester/get-all - 1.859ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:42:29AM| POST[200]: /api/course-service/v1/schedule/all/ - 1.948ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:43:16AM| GET[200]: /api/course-service/v1/course/get-all - 6.604ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:43:16AM| GET[200]: /api/course-service/v1/semester/get-all - 6.714ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:43:24AM| POST[200]: /api/course-service/v1/schedule/all/ - 1.960ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:44:26AM| GET[200]: /api/course-service/v1/course/get-all - 8.460ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:44:26AM| GET[200]: /api/course-service/v1/semester/get-all - 8.768ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:44:30AM| POST[200]: /api/course-service/v1/schedule/all/ - 3.075ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:44:57AM| GET[200]: /api/course-service/v1/course/get-all - 7.647ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:44:57AM| GET[200]: /api/course-service/v1/semester/get-all - 9.110ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:45:02AM| POST[200]: /api/course-service/v1/schedule/all/ - 2.814ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:45:19AM| GET[200]: /api/course-service/v1/course/get-all - 6.137ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:45:19AM| GET[200]: /api/course-service/v1/semester/get-all - 6.412ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:45:23AM| POST[200]: /api/course-service/v1/schedule/all/ - 2.997ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:49:59AM| GET[200]: /api/course-service/v1/course/get-all - 6.175ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:49:59AM| GET[200]: /api/course-service/v1/semester/get-all - 6.490ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:50:50AM| GET[200]: /api/course-service/v1/semester/get-all - 8.632ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:50:50AM| GET[200]: /api/course-service/v1/course/get-all - 7.282ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:50:54AM| POST[200]: /api/course-service/v1/schedule/all/ - 2.793ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:52:31AM| GET[200]: /api/course-service/v1/course/get-all - 8.234ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:52:31AM| GET[200]: /api/course-service/v1/semester/get-all - 8.587ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:52:38AM| GET[200]: /api/course-service/v1/course/get-all - 5.251ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:52:38AM| GET[200]: /api/course-service/v1/semester/get-all - 3.652ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:53:12AM| GET[200]: /api/course-service/v1/course/get-all - 4.240ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:53:12AM| GET[200]: /api/course-service/v1/semester/get-all - 2.061ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:56:32AM| GET[200]: /api/course-service/v1/course/get-all - 5.582ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:56:32AM| GET[200]: /api/course-service/v1/semester/get-all - 2.895ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:56:38AM| POST[200]: /api/course-service/v1/schedule/all/ - 2.969ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:56:53AM| POST[500]: /api/course-service/v1/schedule/enroll - 8.591ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:56:53AM| ValidationError: "semesterAlias" must be a string
+ValidationError: "semesterAlias" must be a string
+>>>> 26/04/2023|12:57:38AM| GET[200]: /api/course-service/v1/semester/get-all - 10.169ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:57:38AM| GET[200]: /api/course-service/v1/course/get-all - 9.061ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:57:40AM| POST[200]: /api/course-service/v1/schedule/all/ - 3.013ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:57:45AM| POST[200]: /api/course-service/v1/schedule/enroll - 1246.129ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|12:59:04AM| DELETE[200]: /api/course-service/v1/course/delete/503044 - 8.844ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:00:38AM| DELETE[404]: /api/course-service/v1/course/delete/501042/force - 5.302ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:00:38AM| NotFound: Course record with course code 501042 cannot be found.
+NotFound: Course record with course code 501042 cannot be found.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/course.js:84:31
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 26/04/2023|01:00:45AM| GET[200]: /api/course-service/v1/course/get-all - 6.630ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:00:45AM| GET[200]: /api/course-service/v1/semester/get-all - 2.774ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:00:46AM| DELETE[200]: /api/course-service/v1/course/delete/501042 - 4.270ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:00:54AM| DELETE[200]: /api/course-service/v1/course/delete/501042/force - 8.888ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:02:46AM| GET[200]: /api/course-service/v1/course/get-all - 5.549ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:02:46AM| GET[200]: /api/course-service/v1/semester/get-all - 2.862ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:03:52AM| GET[200]: /api/course-service/v1/semester/get-all - 1.863ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:03:55AM| GET[200]: /api/course-service/v1/semester/get-all - 2.934ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:03:57AM| GET[200]: /api/course-service/v1/course/get-all - 3.843ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:04:13AM| GET[200]: /api/course-service/v1/course/get-all - 5.729ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:04:16AM| GET[200]: /api/course-service/v1/course/get-all - 6.575ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:05:37AM| GET[200]: /api/course-service/v1/course/get-all - 3.349ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:05:59AM| GET[200]: /api/course-service/v1/course/get-all - 4.245ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:06:02AM| GET[200]: /api/course-service/v1/semester/get-all - 2.797ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:06:31AM| GET[200]: /api/course-service/v1/semester/get-all - 1.813ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:06:34AM| ValidationError: "courseCode" must be a number
+ValidationError: "courseCode" must be a number
+>>>> 26/04/2023|01:06:34AM| POST[500]: /api/course-service/v1/schedule/new - 2.642ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:06:39AM| GET[200]: /api/course-service/v1/course/get-all - 6.568ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:06:50AM| GET[200]: /api/course-service/v1/semester/get-all - 2.726ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:07:45AM| GET[200]: /api/course-service/v1/semester/get-all - 3.079ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:07:53AM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024 - 12.068ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:08:20AM| GET[200]: /api/course-service/v1/academic/statistics/HK2-2023-2024 - 8.117ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:08:28AM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2024-2025 - 9.296ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:08:37AM| GET[200]: /api/course-service/v1/semester/get-all - 2.941ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:08:47AM| GET[200]: /api/course-service/v1/semester/get-all - 2.757ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:08:50AM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024 - 9.783ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:09:26AM| GET[200]: /api/course-service/v1/semester/get-all - 2.782ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:11:14AM| GET[200]: /api/course-service/v1/semester/get-all - 2.353ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:11:49AM| GET[200]: /api/course-service/v1/academic/get/?studentId=20850706&semesterAlias=HK1-2023-2024 - 7.202ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:11:57AM| NotFound: Semester with alias HK2-2024-2025 cannot be found or has been removed.
+NotFound: Semester with alias HK2-2024-2025 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/semester.js:29:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 26/04/2023|01:11:57AM| GET[404]: /api/course-service/v1/academic/get?studentId=19860799&semesterAlias=HK2-2024-2025 - 4.186ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:12:14AM| GET[200]: /api/course-service/v1/course/get-all - 3.711ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:12:24AM| GET[200]: /api/course-service/v1/course/get-all - 4.346ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:12:34AM| GET[200]: /api/course-service/v1/semester/get-all - 2.037ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:14:31AM| GET[200]: /api/course-service/v1/semester/get-all - 1.947ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:14:38AM| POST[200]: /api/course-service/v1/schedule/enrollment/all - 6.715ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:18:23AM| Local address: http://localhost:2023
+>>>> 26/04/2023|01:18:23AM| Network address: http://172.17.12.250:2023
+>>>> 26/04/2023|01:18:23AM| Connect to mongoDB successfully!
+>>>> 26/04/2023|01:18:31AM| GET[200]: /api/course-service/v1/semester/get-all - 20.842ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:18:36AM| POST[200]: /api/course-service/v1/schedule/enrollment/all - 107.260ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:20:04AM| POST[200]: /api/course-service/v1/schedule/enrollment/all - 8.555ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:20:28AM| GET[200]: /api/course-service/v1/semester/get-all - 5.607ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:20:36AM| ValidationError: "courseCode" must be a number
+ValidationError: "courseCode" must be a number
+>>>> 26/04/2023|01:20:36AM| POST[500]: /api/course-service/v1/schedule/new - 5.651ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:20:45AM| ValidationError: "semesterAlias" is not allowed to be empty
+ValidationError: "semesterAlias" is not allowed to be empty
+>>>> 26/04/2023|01:20:45AM| POST[500]: /api/course-service/v1/schedule/new - 1.962ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:21:48AM| POST[200]: /api/course-service/v1/schedule/new - 7.492ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:21:54AM| GET[200]: /api/course-service/v1/course/get-all - 11.057ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:22:05AM| GET[200]: /api/course-service/v1/semester/get-all - 4.657ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:22:14AM| GET[200]: /api/course-service/v1/semester/get-all - 3.681ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:22:16AM| NotFound: Semester with alias HK2-2024-2025 cannot be found or has been removed.
+NotFound: Semester with alias HK2-2024-2025 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/semester.js:29:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 26/04/2023|01:22:16AM| GET[404]: /api/course-service/v1/academic/get?studentId=19860799&semesterAlias=HK2-2024-2025 - 41.780ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:23:36AM| NotFound: Academic for student 19860799 cannot be found or has been removed.
+NotFound: Academic for student 19860799 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 26/04/2023|01:23:36AM| GET[404]: /api/course-service/v1/academic/get?studentId=19860799&semesterAlias=HK1-2024-2025 - 16.995ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:23:44AM| GET[404]: /api/course-service/v1/academic/get?studentId=19860799&semesterAlias=HK1-2023-2024 - 6.149ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:23:44AM| NotFound: Academic for student 19860799 cannot be found or has been removed.
+NotFound: Academic for student 19860799 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 26/04/2023|01:24:04AM| NotFound: Academic for student 19860799 cannot be found or has been removed.
+NotFound: Academic for student 19860799 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 26/04/2023|01:24:04AM| GET[404]: /api/course-service/v1/academic/get?studentId=19860799&semesterAlias=HK2-2023-2024 - 5.960ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:24:23AM| GET[200]: /api/course-service/v1/academic/get?studentId=19188755&semesterAlias=HK2-2023-2024 - 4.428ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:24:34AM| NotFound: Academic for student 19188755 cannot be found or has been removed.
+NotFound: Academic for student 19188755 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 26/04/2023|01:24:34AM| GET[404]: /api/course-service/v1/academic/get?studentId=19188755&semesterAlias=HK1-2023-2024 - 5.633ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:24:40AM| GET[200]: /api/course-service/v1/academic/get?studentId=19188755&semesterAlias=HK2-2023-2024 - 4.162ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:25:57AM| POST[200]: /api/course-service/v1/schedule/new - 11.301ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:26:14AM| POST[200]: /api/course-service/v1/schedule/new - 21.008ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:27:38AM| GET[200]: /api/course-service/v1/academic/statistics/HK1-2023-2024 - 14.212ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:28:40AM| GET[200]: /api/course-service/v1/semester/get-all - 2.619ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:30:25AM| GET[200]: /api/course-service/v1/semester/get-all - 2.435ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:30:26AM| GET[200]: /api/course-service/v1/course/get-all - 7.865ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:30:26AM| GET[200]: /api/course-service/v1/semester/get-all - 3.971ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:32:15AM| GET[200]: /api/course-service/v1/course/get-all - 5.513ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:32:15AM| GET[200]: /api/course-service/v1/semester/get-all - 5.772ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:33:34AM| GET[200]: /api/course-service/v1/semester/get-all - 2.401ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:33:37AM| GET[200]: /api/course-service/v1/semester/get-all - 2.731ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:33:44AM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 5.501ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:33:56AM| GET[200]: /api/course-service/v1/course/get-all - 6.615ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:35:10AM| GET[200]: /api/course-service/v1/semester/get-all - 1.972ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:35:27AM| GET[200]: /api/course-service/v1/semester/get-all - 3.714ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:35:29AM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 4.661ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:35:35AM| GET[200]: /api/course-service/v1/course/get-all - 3.612ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:36:07AM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 5.192ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:36:11AM| DELETE[200]: /api/course-service/v1/academic/remove - 9.747ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:36:13AM| GET[200]: /api/course-service/v1/course/get-all - 5.206ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:36:24AM| POST[200]: /api/course-service/v1/academic/new - 711.185ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:36:30AM| POST[200]: /api/course-service/v1/academic/new - 9.818ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:36:33AM| POST[200]: /api/course-service/v1/academic/new - 247.474ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:36:39AM| GET[200]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK1-2023-2024 - 5.363ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:36:46AM| GET[200]: /api/course-service/v1/semester/get-all - 3.822ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:36:46AM| GET[200]: /api/course-service/v1/course/get-all - 5.130ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:36:49AM| POST[200]: /api/course-service/v1/schedule/all/ - 3.125ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:37:00AM| POST[200]: /api/course-service/v1/schedule/all/ - 3.745ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:37:06AM| POST[200]: /api/course-service/v1/schedule/enroll - 12.259ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:37:13AM| POST[200]: /api/course-service/v1/schedule/enroll - 12.684ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:37:19AM| GET[200]: /api/course-service/v1/semester/get-all - 1.873ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:37:22AM| NotFound: Academic for student 20850706 cannot be found or has been removed.
+NotFound: Academic for student 20850706 cannot be found or has been removed.
+    at throwError (E:\Workspace\SOA-Project\Final\course-service\src\utils\/helper.js:3:17)
+    at E:\Workspace\SOA-Project\Final\course-service\src\models\/academic.js:38:27
+    at E:\Workspace\SOA-Project\Final\course-service\node_modules\mongoose\lib\model.js:5353:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+>>>> 26/04/2023|01:37:22AM| GET[404]: /api/course-service/v1/academic/get?studentId=20850706&semesterAlias=HK2-2023-2024 - 3.917ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:37:24AM| GET[200]: /api/course-service/v1/course/get-all - 6.117ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:37:28AM| POST[200]: /api/course-service/v1/academic/new - 11.353ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:37:32AM| GET[200]: /api/course-service/v1/course/get-all - 5.219ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:37:32AM| GET[200]: /api/course-service/v1/semester/get-all - 5.571ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:37:35AM| POST[200]: /api/course-service/v1/schedule/all/ - 2.657ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:37:46AM| POST[200]: /api/course-service/v1/schedule/enroll - 1233.035ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:38:12AM| GET[200]: /api/course-service/v1/course/get-all - 5.082ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:38:12AM| GET[200]: /api/course-service/v1/semester/get-all - 2.120ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:38:20AM| GET[200]: /api/course-service/v1/semester/get-all - 2.634ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:38:24AM| GET[200]: /api/course-service/v1/course/get-all - 11.654ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:38:24AM| GET[200]: /api/course-service/v1/semester/get-all - 12.979ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:38:43AM| POST[200]: /api/course-service/v1/schedule/all/ - 2.444ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:43:13AM| GET[200]: /api/course-service/v1/course/get-all - 6.470ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:43:13AM| GET[200]: /api/course-service/v1/semester/get-all - 6.986ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:43:35AM| GET[200]: /api/course-service/v1/course/get-all - 3.253ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:43:35AM| GET[200]: /api/course-service/v1/semester/get-all - 3.576ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:43:43AM| POST[200]: /api/course-service/v1/schedule/enrollment/semester - 0.771ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:44:00AM| POST[200]: /api/course-service/v1/schedule/enrollment/semester - 0.420ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:45:12AM| POST[200]: /api/course-service/v1/schedule/all/ - 4.580ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:45:14AM| GET[200]: /api/course-service/v1/course/get-all - 7.893ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:45:14AM| GET[200]: /api/course-service/v1/semester/get-all - 8.665ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:45:17AM| POST[200]: /api/course-service/v1/schedule/all/ - 2.352ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:45:45AM| GET[200]: /api/course-service/v1/schedule/ - 0.824ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:46:24AM| POST[200]: /api/course-service/v1/schedule/all - 3.732ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:46:26AM| GET[200]: /api/course-service/v1/course/get-all - 6.793ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:46:26AM| GET[200]: /api/course-service/v1/semester/get-all - 7.363ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:47:14AM| GET[200]: /api/course-service/v1/course/get-all - 4.729ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:47:14AM| GET[200]: /api/course-service/v1/semester/get-all - 5.693ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:47:21AM| POST[200]: /api/course-service/v1/schedule/enrollment/semester - 0.644ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:47:33AM| POST[200]: /api/course-service/v1/schedule/enrollment/semester - 6.017ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:49:19AM| POST[200]: /api/course-service/v1/schedule/enrollment/all - 4.363ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+>>>> 26/04/2023|01:50:30AM| GET[200]: /api/course-service/v1/course/get-all - 8.063ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:50:30AM| GET[200]: /api/course-service/v1/semester/get-all - 3.944ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:50:33AM| POST[200]: /api/course-service/v1/schedule/enrollment/semester - 0.744ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:51:24AM| GET[200]: /api/course-service/v1/course/get-all - 4.658ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:51:24AM| GET[200]: /api/course-service/v1/semester/get-all - 5.580ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:51:28AM| POST[200]: /api/course-service/v1/schedule/enrollment/semester - 0.661ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:51:31AM| POST[200]: /api/course-service/v1/schedule/enrollment/semester - 4.982ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:54:04AM| GET[200]: /api/course-service/v1/course/get-all - 9.040ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:54:04AM| GET[200]: /api/course-service/v1/semester/get-all - 9.424ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:54:07AM| POST[200]: /api/course-service/v1/schedule/all/ - 0.618ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:54:12AM| POST[200]: /api/course-service/v1/schedule/all/ - 3.161ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:54:14AM| POST[200]: /api/course-service/v1/schedule/enrollment/semester - 3.256ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:55:20AM| GET[200]: /api/course-service/v1/course/get-all - 3.330ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:55:20AM| GET[200]: /api/course-service/v1/semester/get-all - 2.660ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:55:21AM| GET[200]: /api/course-service/v1/course/get-all - 8.242ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:55:21AM| GET[200]: /api/course-service/v1/semester/get-all - 12.554ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:55:39AM| GET[200]: /api/course-service/v1/course/get-all - 5.264ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:55:39AM| GET[200]: /api/course-service/v1/semester/get-all - 2.393ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:55:44AM| POST[200]: /api/course-service/v1/schedule/enrollment/semester - 3.616ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:55:48AM| POST[200]: /api/course-service/v1/schedule/all/ - 2.837ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:55:53AM| POST[200]: /api/course-service/v1/schedule/enrollment/semester - 4.682ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:56:43AM| GET[200]: /api/course-service/v1/semester/get-all - 2.797ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:56:49AM| GET[200]: /api/course-service/v1/course/get-all - 7.148ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:56:49AM| GET[200]: /api/course-service/v1/semester/get-all - 2.690ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:57:40AM| POST[200]: /api/course-service/v1/schedule/enrollment/semester - 3.628ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:59:20AM| GET[200]: /api/course-service/v1/course/get-all - 5.928ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:59:20AM| GET[200]: /api/course-service/v1/semester/get-all - 2.085ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:59:24AM| POST[200]: /api/course-service/v1/schedule/enrollment/semester - 3.612ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:59:49AM| GET[200]: /api/course-service/v1/course/get-all - 3.263ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|01:59:49AM| GET[200]: /api/course-service/v1/semester/get-all - 2.664ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|02:01:19AM| POST[200]: /api/course-service/v1/schedule/enrollment/semester - 5.904ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|02:02:04AM| GET[200]: /api/course-service/v1/course/get-all - 6.296ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|02:02:04AM| GET[200]: /api/course-service/v1/semester/get-all - 3.510ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|02:02:33AM| GET[200]: /api/course-service/v1/semester/get-all - 3.087ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 26/04/2023|02:02:36AM| GET[200]: /api/course-service/v1/semester/get-all - 2.919ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0

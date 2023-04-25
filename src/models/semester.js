@@ -1,10 +1,11 @@
 import mongoose from "mongoose";
 import mongooseDelete from "mongoose-delete";
 import { throwError } from "@/utils/helper";
+import { boolean } from "joi";
 
 const model = mongoose.model(
     "Semester",
-    new mongoose.Schema({ alias: { type: String, required: true, unique: true } }, { timestamps: true }).plugin(
+    new mongoose.Schema({ alias: { type: String, required: true, unique: true }, status: { type: Boolean, default: false } }, { timestamps: true }).plugin(
         mongooseDelete,
         { deletedAt: true, overrideMethods: "all" }
     )
@@ -143,7 +144,7 @@ class Semester {
                 throwError({ name: "MissedContent", message: "Semester alias must be provided.", status: 200 }),
                 null
             );
-        this.findOne({ alias }, async (err, semester) => {
+        this.model.findOne({ alias }, async (err, semester) => {
             if (err) return callback(err);
             semester.status = !semester.status;
             await semester.save();
