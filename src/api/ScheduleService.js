@@ -12,9 +12,9 @@ import axios from "axios";
 const Router = express.Router();
 
 /* * * GET * * */
-Router.get("/", function (req, res, next) {
-    return jsonResponse({ req, res }).failed({ statusCode: 200, message: "Course code has been removed." });
-});
+// Router.get("/", function (req, res, next) {
+//     return jsonResponse({ req, res }).failed({ statusCode: 200, message: "Course code has been removed." });
+// });
 
 Router.post("/all", async function (req, res, next) {
     const { semesterAlias } = req.body;
