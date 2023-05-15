@@ -4358,3 +4358,9 @@ NotFound: Academic for student 20850706 cannot be found or has been removed.
 >>>> 26/04/2023|10:47:52AM| GET[200]: /api/course-service/v1/semester/get-all - 6.614ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
 >>>> 26/04/2023|10:47:58AM| GET[200]: /api/course-service/v1/academic/statistics/HK2-2023-2024 - 22.774ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
 >>>> 26/04/2023|10:48:10AM| GET[200]: /api/course-service/v1/semester/get-all - 6.657ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.0.0
+>>>> 15/05/2023|03:58:09PM| Local address: http://localhost:3003
+>>>> 15/05/2023|03:58:10PM| Network address: http://172.17.13.54:3003
+>>>> 15/05/2023|03:58:10PM| Connect to mongoDB successfully!
+>>>> 15/05/2023|04:06:25PM| Local address: http://localhost:3003
+>>>> 15/05/2023|04:06:25PM| Network address: http://172.17.13.54:3003
+>>>> 15/05/2023|04:06:25PM| Connect to mongoDB successfully!

@@ -80,7 +80,9 @@ Router.post("/new", async (req, res, next) => {
         let isCorrect = null;
         const prerequisite = course.prerequisite;
         if (prerequisite.length > 0) {
-            const allPoints = await axios.get(`${process.env.ClIENT_SERVICE}/api/client-service/v1/score/get/${studentId}`);
+            const allPoints = await axios.get(
+                `${process.env.ClIENT_SERVICE}/api/user-service/v1/score/get/${studentId}`
+            );
             if (allPoints.data.status) {
                 prerequisite.forEach((element) => {
                     allPoints.data.data.forEach((item) => {
